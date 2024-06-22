@@ -50,7 +50,7 @@ const Card = ({ card }) => {
 
   return (
     <div className="card-container">
-      <div className="card-image" style={{ backgroundImage: `url(${cardImagePath})` }}>
+      <div className="card-image solid-frame" style={{ backgroundImage: `url(${cardImagePath})` }}>
         <div className="card-frame" style={{ backgroundImage: `url(${cardFramePath})` }}>
           <div className="card-name">
             <h1 className="name">{card.Nombre}</h1>

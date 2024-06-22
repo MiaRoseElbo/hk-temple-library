@@ -77,14 +77,17 @@
       font-family: sans-serif;
   }
    .card-image {
-      height: 440px;
-      /* background-image: url(img/carta-img.jpg); */
+    height: 440px;
       background-repeat: no-repeat;
       background-size: cover;
   }
+  .card-image.solid-frame {
+    background-size: 254px;
+    background-position-y: top;
+    background-position-x: right
+}
    .card-frame {
       height: 440px;
-      /* background-image: url(img/carta-bg.png); */
       background-repeat: no-repeat;
       background-size: cover;
   }

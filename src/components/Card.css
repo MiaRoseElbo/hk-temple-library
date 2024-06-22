@@ -113,7 +113,7 @@
   .card-type{
       position: relative;
       left: 87px;
-      top: 135px;
+      top: -13px;
       color: #fff;
   }
   
@@ -276,3 +276,23 @@
   .hidden{
     visibility: hidden;
   }
+
+  .card-container svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+  }
+
+  .card-icon{
+    position: relative;
+    left: 54.5px;
+    top: -4px;
+  }
+
+  .card-icon svg{
+    width: 1.6em;
+    height: 1.6em;
+  }
+
+  

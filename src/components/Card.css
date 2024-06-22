@@ -1,0 +1,275 @@
+/* Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* @font-face {
+    font-family: distro;
+    src: url(DISTRO__.ttf);
+  } */
+  
+  body {
+      font-family: sans-serif;
+    /* background-image: url(img/bg-01.jpg); */
+  }
+  
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+  body {
+    line-height: 1;
+  }
+  ol, ul {
+    list-style: none;
+  }
+  blockquote, q {
+    quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  /* End of reset */
+  body* > {
+    box-sizing: border-box;
+  }
+
+
+  /* ////// CARD STYLE ////// */
+  
+  .card-container {
+      width: 315px;
+      height: 440px;
+      border-radius: 10px;
+      box-sizing: border-box;
+      box-shadow: -8px 9px 16px -3px black;
+      background: #000;
+      overflow: hidden;
+      font-size: 10px;
+      font-family: sans-serif;
+  }
+   .card-image {
+      height: 440px;
+      /* background-image: url(img/carta-img.jpg); */
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+   .card-frame {
+      height: 440px;
+      /* background-image: url(img/carta-bg.png); */
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  
+  .card-name{
+      padding-top: 50%;
+  }
+  
+  .name{
+      font-family: distro;
+      color: #fff;
+      font-size: 22px;
+  }
+  
+  .card-name .name{
+      width:300px;
+      -webkit-transform-origin:90px 70px;
+      display:inline-block;
+      -webkit-transform:rotate(-90deg);
+      text-align:center;
+  }
+  
+  .card-type{
+      position: relative;
+      left: 87px;
+      top: 135px;
+      color: #fff;
+  }
+  
+  .card-text{
+    color:black;
+      position: relative;
+      left: 20px;
+      top: 0px;
+      width: 240px;
+      height: 88px;
+  }
+  
+  .card-illus{
+      position: absolute;
+      left: 10px;
+      bottom: 0px;
+  }
+  
+  .card-rarity{
+      text-align: right;
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+  }
+
+  .sphere-value{
+    position: relative;
+    top: 4px;
+  }
+
+  .card-button{
+    /* Text-Style */
+    font-family: distro;
+    font-weight: 900;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    text-shadow:
+        0px 0px 0 #000,
+      -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+
+    /* Button-Style */
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    background: -moz-linear-gradient(top, #f6e6b4 0%, #ed9017 100%); /* firefox */
+    padding:3px;
+    box-shadow:
+      inset 0 -1px 1px rgba(0,0,0,0.5),
+      inset 0 1px 1px rgba(255,255,255,0.8);
+    background-image: url(../assets/details/ridge.png);
+    background-size: cover;
+    
+  }
+
+  /* SPHERE STYLES */
+  .coste{
+    position: relative;
+    right: -274px;
+    top: -158px;
+  }
+
+  .coste-sphere{
+    background-image: url(../assets/details/yellow.png);
+    background-size: cover;
+    width: 26px;
+    height: 26px;
+    position: relative;
+    top: -4px;
+    left: -4px;
+  }
+
+
+  .fuerza{
+    position: relative;
+    right: -274px;
+    top: -148px;
+  }
+
+  .fuerza-sphere{
+    background-image: url(../assets/details/green.png);
+    background-size: cover;
+    width: 26px;
+    height: 26px;
+    position: relative;
+    top: -4px;
+    left: -4px;
+  }
+
+
+  .reanim{
+    position: relative;
+    right: -274px;
+    top: 78px;
+  }
+
+  .reanim-sphere{
+    background-image: url(../assets/details/purple.png);
+    background-size: cover;
+    width: 26px;
+    height: 26px;
+    position: relative;
+    top: -4px;
+    left: -4px;
+  }
+
+
+  .adita{
+    position: relative;
+    right: -274px;
+    top: 88px;
+  }
+
+  .adita-sphere{
+    background-image: url(../assets/details/gray.png);
+    background-size: cover;
+    width: 26px;
+    height: 26px;
+    position: relative;
+    top: -4px;
+    left: -4px;
+  }
+
+
+  .estructura{
+    position: relative;
+    right: -274px;
+    top: 98px;
+  }
+
+  .estructura-sphere{
+    background-image: url(../assets/details/red.png);
+    background-size: cover;
+    width: 26px;
+    height: 26px;
+    position: relative;
+    top: -4px;
+    left: -4px;
+  }
+
+  .voluntad{
+    position: relative;
+    right: -274px;
+    top: 108px;
+  }
+
+  .voluntad-sphere{
+    background-image: url(../assets/details/blue.png);
+    background-size: cover;
+    width: 26px;
+    height: 26px;
+    position: relative;
+    top: -4px;
+    left: -4px;
+  }
+
+  .hidden{
+    visibility: hidden;
+  }

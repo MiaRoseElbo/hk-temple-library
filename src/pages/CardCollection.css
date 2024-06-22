@@ -1,0 +1,61 @@
+/* src/pages/CardCollection.css */
+.card-collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .size-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+  }
+  
+  .size-buttons button {
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .size-buttons button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .size-buttons button:active {
+    background-color: #ccc;
+  }
+
+  .card-wrapper.small{
+    width: 142px;
+    padding: 1em;
+    height:204px;
+  }
+
+  .card-wrapper.medium{
+    width: 315px;
+    padding: 1em;
+  }
+  
+  .card-wrapper.large{
+    width: 460px;
+    height: 645px;
+    padding: 1em;
+  }
+  
+  .card-wrapper.small .card-container {
+    transform-origin: 0% 0%;
+    transform: scale(0.5);
+  }
+  
+  .card-wrapper.medium .card-container {
+    transform-origin: 0% 0%;
+    transform: scale(1);
+  }
+  
+  .card-wrapper.large .card-container {
+    transform-origin: 0% 0%;
+    transform: scale(1.5);
+  }
+  

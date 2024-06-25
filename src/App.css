@@ -5,6 +5,11 @@
   src: url('../public/fonts/DISTRO__.ttf');
 }
 
+@font-face {
+  font-family: Verdana;
+  src: url('../public/fonts/verdana.ttf');
+}
+
 
 .App {
   text-align: center;

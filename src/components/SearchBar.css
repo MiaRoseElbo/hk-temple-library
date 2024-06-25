@@ -80,6 +80,7 @@
     text-transform: uppercase;
     background: #3d3c50;
     border-radius: 0.6em;
+    cursor: pointer;
   }
   
   .btn:hover {

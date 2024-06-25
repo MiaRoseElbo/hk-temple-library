@@ -4,10 +4,7 @@
    License: none (public domain)
 */
 
-/* @font-face {
-    font-family: distro;
-    src: url(DISTRO__.ttf);
-  } */
+                
   
   body {
       font-family: sans-serif;
@@ -111,6 +108,7 @@
   }
   
   .card-type{
+    font-family: distro;
       position: relative;
       left: 87px;
       top: -13px;
@@ -118,12 +116,22 @@
   }
   
   .card-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:black;
       position: relative;
       left: 20px;
       top: 0px;
       width: 240px;
-      height: 88px;
+      height: 84px;
+      line-height: 1.2em;
+      font-size: 0.9em;
+  }
+
+  .epigrafe{
+    position: absolute;
+    font-style: italic;
+    bottom: 1.6em;
+    color:darkslategray;
   }
   
   .card-illus{
@@ -295,4 +303,12 @@
     height: 1.6em;
   }
 
-  
+  .card-faccion{
+    position: relative;
+    top: -416px;
+    left:14px;
+  }
+
+  .card-faccion img{
+    width: 3em;
+  }

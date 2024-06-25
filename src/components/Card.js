@@ -5,12 +5,38 @@ import tipoMapping from '../utils/cardJsonMapping'; // Import the mapping object
 import getImagePath from '../utils/getImagePath';
 
 const iconMapping = {
+  //Tipo Carta
   'Personaje': (<Icons type="per" />),
   'Santuario': (<Icons type="san" />),
   'Tecnología': (<Icons type="tec" />),
   'Manipulación': (<Icons type="man" />),
   'Coloso': (<Icons type="col" />),
-  'Aditamento': (<Icons type="adi" />),
+  'Personajes': (<Icons type="per" />),
+  'Aditamentos': (<Icons type="adi" />),
+  'Santuarios': (<Icons type="san" />),
+  'Tecnologías': (<Icons type="tec" />),
+  'Manipulacións': (<Icons type="man" />),
+  'Colosos': (<Icons type="col" />),
+
+  //Don
+  'Agilidad': (<Icons type="agi" />),
+  'Bibración Molecular': (<Icons type="vib" />),
+  'Macrófago': (<Icons type="mac" />),
+  'Célula': (<Icons type="cel" />),
+  'Neutrófilo': (<Icons type="neu" />),
+  'Empatía': (<Icons type="emp" />),
+  'Predictor': (<Icons type="pre" />),
+  'Entropía': (<Icons type="emp" />),
+  'Reacción': (<Icons type="rea" />),
+
+  //Facción
+  'Quimera': (<Icons type="qui" fill="#34adf3" />),
+  'Abismal': (<Icons type="abi" fill="#54df08" />),
+  'Corporación': (<Icons type="cor" fill="#e73a1d" />),
+  'Acracia': (<Icons type="acr" fill="#fbca35" />),
+
+  //Virtud
+  'Virtud': (<Icons type="vir" fill="red" />),
 };
 
 const Card = ({ card }) => {
@@ -57,6 +83,7 @@ const Card = ({ card }) => {
     ? getImagePath('cards', `${card.Imagen}.jpg`)
     : getImagePath('cards', `${card.Edicion}${card.Numero}.jpg`);
   const cardFramePath = getImagePath('frames', `${card.Marco}.png`);
+  const cardFaccionPath = getImagePath('facciones', `${card.Faccion}.png`);
 
   return (
     <div className="card-container">
@@ -77,6 +104,9 @@ const Card = ({ card }) => {
             <p className="epigrafe">{card.Epigrafe}</p>
             <div className="card-illus">{`Ilustrador: ${card.Ilustrador}`}</div>
             <div className="card-rarity">{(card.Frecuencia ? card.Frecuencia : '') + ' ' + card.Edicion + card.Numero}</div>
+          </div>
+          <div className='card-faccion'>
+            <img src={cardFaccionPath} />
           </div>
         </div>
       </div>

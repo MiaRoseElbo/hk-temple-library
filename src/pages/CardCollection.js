@@ -14,6 +14,8 @@ const CardCollection = () => {
     Faccion: [],
     Frecuencia: [],
   });
+  const [currentPage, setCurrentPage] = useState(1);
+  const cardsPerPage = 25;
 
   const handleSearch = (query, habilidad, epigrafe, ilustrador, filters) => {
     const filteredCards = cardsData.filter(card => 
@@ -26,6 +28,7 @@ const CardCollection = () => {
       )
     );
     setCards(filteredCards);
+    setCurrentPage(1); // Reset to the first page whenever a new search is performed
   };
 
   const handleFilterChange = (category, value) => {
@@ -48,24 +51,43 @@ const CardCollection = () => {
     setCardSize(prevSize => (prevSize === 'large' ? 'medium' : 'small'));
   };
 
+  const totalPages = Math.ceil(cards.length / cardsPerPage);
+  const paginatedCards = cards.slice((currentPage - 1) * cardsPerPage, currentPage * cardsPerPage);
+
+  const goToPreviousPage = () => {
+    setCurrentPage(prevPage => Math.max(prevPage - 1, 1));
+  };
+
+  const goToNextPage = () => {
+    setCurrentPage(prevPage => Math.min(prevPage + 1, totalPages));
+  };
+
   return (
     <div>
       <SearchBar onSearch={handleSearch} onFilterChange={handleFilterChange} />
       <div className="size-buttons">
-        <button onClick={decreaseCardSize}>Smaller</button>
-        <button onClick={increaseCardSize}>Larger</button>
+        <button onClick={decreaseCardSize}>-</button>
+        <button onClick={increaseCardSize}>+</button>
       </div>
       <div className={`card-collection ${cardSize}`}>
-        {cards.length === 0 ? (
+        {paginatedCards.length === 0 ? (
           <p>{"No hay cartas en tu búsqueda :("}</p>
         ) : (
-          cards.map((card, index) => (
-            <div className={`card-wrapper ${cardSize}`}>
-                <Card key={index} card={card} />
+          paginatedCards.map((card, index) => (
+            <div key={index} className={`card-wrapper ${cardSize}`}>
+                <Card card={card} />
             </div>
           ))
         )}
       </div>
+      {cards.length > cardsPerPage && (
+        <div className="pagination">
+          {console.log(currentPage)}
+          <button onClick={goToPreviousPage} disabled={currentPage === 1}>Atrás</button>
+          <span>Página {currentPage} de {totalPages}</span>
+          <button onClick={goToNextPage} disabled={currentPage === totalPages}>Siguiente</button>
+        </div>
+      )}
     </div>
   );
 }

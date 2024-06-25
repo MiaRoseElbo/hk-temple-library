@@ -1,0 +1,25 @@
+.sub-title{
+    font-family: distro;
+    font-family: 300;
+    font-size: 2em;
+}
+
+.text{
+    font-family: poppins;
+    font-size: 1em;
+}
+
+.lista-cambios{
+    width: 20em;
+    padding: 1em;
+    background-color: transparent;
+    list-style: disc;
+    overflow: visible;
+    text-align: left;
+    margin: auto;
+    color: darkgrey;
+}
+
+.lista-cambios li::marker {
+    color: red;
+  }

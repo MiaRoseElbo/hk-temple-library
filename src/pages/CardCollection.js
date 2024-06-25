@@ -1,5 +1,6 @@
 // src/pages/CardCollection.js
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Card from '../components/Card';
 import SearchBar from '../components/SearchBar';
 import cardsData from '../data/cards.json';
@@ -14,6 +15,7 @@ const CardCollection = () => {
     Faccion: [],
     Frecuencia: [],
   });
+  const navigate = useNavigate();
   const [currentPage, setCurrentPage] = useState(1);
   const cardsPerPage = 25;
 
@@ -62,6 +64,10 @@ const CardCollection = () => {
     setCurrentPage(prevPage => Math.min(prevPage + 1, totalPages));
   };
 
+  const handleCardClick = (cardId) => {
+    navigate(`/cards/${cardId}`);
+  };
+
   return (
     <div>
       <SearchBar onSearch={handleSearch} onFilterChange={handleFilterChange} />
@@ -74,7 +80,11 @@ const CardCollection = () => {
           <p>{"No hay cartas en tu búsqueda :("}</p>
         ) : (
           paginatedCards.map((card, index) => (
-            <div key={index} className={`card-wrapper ${cardSize}`}>
+            <div 
+              key={index}
+              className={`card-wrapper ${cardSize}`}
+              onClick={() => handleCardClick(card.Numero)}
+            >
                 <Card card={card} />
             </div>
           ))

@@ -11,6 +11,7 @@ const Navbar = () => {
         <li><Link className='active' to="/">Inicio</Link></li>
         <li><Link to="/deck-builder">Creador de Mazos</Link></li>
         <li><Link to="/deck-list">Lista de Mazos</Link></li>
+        <li><Link to="/card-creator">Creador de Cartas</Link></li>
         <li><Link to="/cards">Colección Cartas</Link></li>
       </ul>
     </nav>

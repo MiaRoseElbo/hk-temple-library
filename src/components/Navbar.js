@@ -9,6 +9,8 @@ const Navbar = () => {
       <ul>
         <li><img src='./logo.webp' className='navbar-logo'/></li> 
         <li><Link className='active' to="/">Inicio</Link></li>
+        <li><Link to="/deck-builder">Creador de Mazos</Link></li>
+        <li><Link to="/deck-list">Lista de Mazos</Link></li>
         <li><Link to="/cards">Colección Cartas</Link></li>
       </ul>
     </nav>

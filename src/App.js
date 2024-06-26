@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import CardCollection from './pages/CardCollection';
+import DeckBuilder from './pages/DeckBuilder';
+import DeckList from './pages/DeckList';
 import './App.css';
 
 const App = () => {
@@ -12,6 +14,8 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/deck-builder" element={<DeckBuilder />} />
+        <Route path="/deck-list" element={<DeckList />} />
         <Route path="/cards" element={<CardCollection />} />
       </Routes>
     </Router>

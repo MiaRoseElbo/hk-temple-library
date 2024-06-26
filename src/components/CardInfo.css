@@ -1,0 +1,57 @@
+.card-info {
+    text-align: left;
+    position: relative;
+    background: black;
+    border: 1px solid #777;
+    border-radius: 1em;
+    max-width: 20em;
+    padding: 1em;
+    z-index: 1;
+  }
+
+  .sin{
+    border-left:0.2em solid #777;
+    padding-left: 0.4em;
+  }
+
+  .qui{
+    border-left:0.2em solid skyblue;
+    padding-left: 0.4em;
+  }
+
+  .abi{
+    border-left:0.2em solid green;
+    padding-left: 0.4em;
+  }
+
+  .cor{
+    border-left:0.2em solid red;
+    padding-left: 0.4em;
+  }
+
+  .acr{
+    border-left:0.2em solid yellow;
+    padding-left: 0.4em;
+  }
+
+  .title{
+    font-size: 1.4em;
+  }
+
+  .type{
+    font-size: 0.8em;
+    opacity: 0.5;
+    font-style: italic;
+  }
+
+  .stats ul{
+    background-color: transparent;
+    display: list-item;
+    font-size: 0.8em;
+    margin: 0.4em;
+  }
+
+  .text{
+    font-size: 0.8em;
+
+  }

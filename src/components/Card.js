@@ -97,7 +97,7 @@ const Card = ({ card }) => {
             <Icons type={card.Tipo} fill="white" />
           </div>
           <div className="card-type">
-            <h1 className="type">{(tipoMapping[card.Tipo] || card.Tipo) + (card.Subtipo ? " - " + card.Subtipo : "")}</h1>
+            <h1>{(tipoMapping[card.Tipo] || card.Tipo) + (card.Subtipo ? " - " + card.Subtipo : "")}</h1>
           </div>
           <div className="card-text">
             <p className="habilidad">{renderHabilidad(Habilidad)}</p>

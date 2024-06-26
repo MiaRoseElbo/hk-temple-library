@@ -1,0 +1,208 @@
+.deck-builder {
+  padding: 20px;
+  text-align: center;
+}
+
+.deck-builder h1{
+  font-family: distro;
+  font-size: 2em;
+}
+
+.card-list, .selected-cards {
+  margin-top: 20px;
+}
+
+button {
+  margin-left: 10px;
+}
+
+.navigation-buttons {
+  margin-top: 20px;
+}
+
+.navigation-buttons button {
+  margin-right: 10px;
+}
+
+.hovered-card-info{
+  position: absolute;
+}
+
+.san-list{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:1em;
+}
+
+.san-item{
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 1em;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.san-item:hover{
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.san-img{
+  width: 5em;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1em;
+}
+
+.title{
+  display: inline-flex;
+}
+
+.title div{
+  margin: 0.4em;
+}
+
+.card-faccion{
+  position: static;
+}
+
+.card-faccion img{
+  width: 1em;
+}
+
+.card-nombre{
+  text-align: left;
+  font-size: 1em;
+}
+
+.card-stats{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+  padding-left: 3em;
+}
+
+.card-stats ul{
+  display: flex;
+
+}
+
+.card-data{
+  text-align: left;
+}
+
+/* Selección de Cartas */
+
+.card-list{
+  height: 80vh;
+  overflow: auto;
+}
+
+.step-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+}
+
+.card-group{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+}
+
+.card-group h3{
+  font-family: distro;
+  font-size: 2em;
+  width: 100%;
+}
+
+.card-item {
+  /* border:1px solid white; */
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.selected-card-item{
+  font-size: 0.8em;
+  margin:0.5em;
+}
+
+.selected-cards{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+}
+
+.selected-cards h3{
+  grid-column: span 2;
+}
+
+.item-san{
+  grid-column: span 2;
+}
+
+.item:nth-child(-n + 4) { grid-column: span 3; }
+.item:nth-child(n + 5) { grid-column: span 2; }
+
+
+/* collapse arrow styles */
+.arrow {
+  transition: transform 0.2s;
+}
+
+.arrow.expanded {
+  transform: rotate(180deg);
+}
+
+/* Part 2 table */
+.card-table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+}
+
+.card-table td{
+  padding: 1em;
+}
+
+.button-group{
+display: inline-flex;
+}
+
+.button-group div{
+  text-align: center;
+  width: 2em;
+}
+
+/* STEP 3 */
+
+.mazo{
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+    width: fit-content;
+    background-color: black;
+    border-radius: 1em;
+    border: 1px solid #777;
+    margin:1em auto;
+}
+.mazo div{
+  padding: 0.1em 0.4em;
+}
+
+.mazo-group{
+  margin-bottom: 0.6em;
+}
+
+.mazo-group h4{
+  font-family: distro;
+  color:#777
+}
+
+.highlighted{
+  grid-column: span 2;
+  text-align: center;
+}

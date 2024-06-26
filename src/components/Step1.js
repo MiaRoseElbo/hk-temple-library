@@ -15,7 +15,7 @@ const Step1 = ({ cardsData, setSantuario, addCardToDeck, nextStep, handleMouseEn
         >
           <div className="card-data">
             <div className="title">
-              <div className='card-faccion'>
+              <div className='faccion-card'>
                 <img src={getImagePath('facciones', `${card.Faccion}.png`)} />
               </div>
               <div className="card-nombre">{card.Nombre}</div>

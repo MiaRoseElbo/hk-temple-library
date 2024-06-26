@@ -63,11 +63,11 @@ button {
   margin: 0.4em;
 }
 
-.card-faccion{
+.faccion-card{
   position: static;
 }
 
-.card-faccion img{
+.faccion-card img{
   width: 1em;
 }
 

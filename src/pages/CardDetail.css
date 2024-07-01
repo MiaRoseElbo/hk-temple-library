@@ -1,0 +1,32 @@
+.card-detail-container{
+  margin: 3em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card-detail {
+    padding: 2em;
+  }
+  
+  .card-detail h1 {
+    margin-bottom: 0.5em;
+  }
+  
+  .card-detail img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+  }
+  
+  .card-detail h2 {
+    margin-top: 1.5em;
+  }
+  
+  .card-detail ul {
+    list-style-type: disc;
+    padding-left: 2em;
+  }
+  
+  .card-detail li {
+    margin-bottom: 0.5em;
+  }

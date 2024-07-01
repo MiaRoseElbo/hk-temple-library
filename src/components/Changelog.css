@@ -18,6 +18,8 @@
     text-align: left;
     margin: auto;
     color: darkgrey;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .lista-cambios li::marker {

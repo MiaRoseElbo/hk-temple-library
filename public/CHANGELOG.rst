@@ -2,6 +2,13 @@
 Version History
 ===============
 
+v0.0.4
+------
+
+* Creación de Decks
+* Ver Detalle de Cartas
+* Creación de Cartas
+
 v0.0.2
 ------
 

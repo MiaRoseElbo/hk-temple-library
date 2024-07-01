@@ -82,11 +82,14 @@ const Card = ({ card }) => {
   const cardImagePath = card.Imagen
     ? getImagePath('cards', `${card.Imagen}.jpg`)
     : getImagePath('cards', `${card.Edicion}${card.Numero}.jpg`);
-  const cardFramePath = getImagePath('frames', `${card.Marco}.png`);
-  const cardFaccionPath = getImagePath('facciones', `${card.Faccion}.png`);
+  const cardFramePath = getImagePath('frames', `${card.Marco}/${card.Faccion}.png`);
+  // const cardFaccionPath = getImagePath('facciones', `${card.Faccion}.png`);
+
+
+  const frameClass = `marco-${card.Marco}`;
 
   return (
-    <div className="card-container">
+    <div className={`card-container ${frameClass}`}>
       <div className="card-image" style={{ backgroundImage: `url(${cardImagePath})` }}>
         <div className="card-frame" style={{ backgroundImage: `url(${cardFramePath})` }}>
           <div className="card-name">
@@ -105,9 +108,9 @@ const Card = ({ card }) => {
             <div className="card-illus">{`Ilustrador: ${card.Ilustrador}`}</div>
             <div className="card-rarity">{(card.Frecuencia ? card.Frecuencia : '') + ' ' + card.Edicion + card.Numero}</div>
           </div>
-          <div className='card-faccion'>
+          {/* <div className='card-faccion'>
             <img src={cardFaccionPath} />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -1,3 +1,9 @@
+.card-detail-container{
+  margin: 3em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .card-detail {
     padding: 2em;
   }

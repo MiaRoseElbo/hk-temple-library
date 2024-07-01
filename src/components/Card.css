@@ -312,3 +312,68 @@
   .card-faccion img{
     width: 3em;
   }
+
+
+  /* FRAME ADJUSTMENTS */
+
+  /* Tradicional */
+.marco-tra .card-image {
+  height: 440px;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-size: 248px;
+}
+
+  /* Sólido */
+  .marco-sol .card-image {
+    height: 440px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-size: 248px;
+  }
+  
+  /* Styles for Marco type 'rad' */
+.marco-rad .card-icon {
+  left: 55px;
+  top: -8px;
+}
+
+.marco-rad .card-type {
+  left: 88px;
+  top: -17px;
+}
+
+.marco-rad .card-image {
+  height: 440px;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-size: 248px;
+}
+
+  /* Styles for Marco type 'avl' */
+
+  .marco-avl .name {
+    position: relative;
+    left: -6px;
+  }
+
+  .marco-avl .card-icon {
+    left: 41px;
+    top: 8px;
+  }
+  
+  .marco-avl .card-type {
+    left: 75px;
+    top: 0px;
+  }
+  
+  .marco-avl .card-text {
+    left: 22px;
+    top: 5px;
+    width: 268px;
+
+  }
+  

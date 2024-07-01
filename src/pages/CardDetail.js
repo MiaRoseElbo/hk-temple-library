@@ -7,7 +7,7 @@ import Card from '../components/Card';
 
 const CardDetail = () => {
   const { id } = useParams(); // Get the card ID from the URL parameters
-  const card = cardsData.find((card) => card.Numero === id); // Find the card based on the ID
+  const card = cardsData.find((card) => card.id == id); // Find the card based on the ID
 
   if (!card) {
     return <div>Card not found</div>;
@@ -16,7 +16,8 @@ const CardDetail = () => {
   return (
     <div className="card-detail-container">
       <Card card={card} />
-      <h1>{card.Nombre}</h1>
+      <div>
+        <h1>{card.Nombre}</h1>
       <div className="card-detail-info">
         <p><strong>Habilidad:</strong> {card.Habilidad}</p>
         <p><strong>Epigrafe:</strong> {card.Epigrafe}</p>
@@ -33,13 +34,11 @@ const CardDetail = () => {
         <p><strong>Voluntad:</strong> {card.Voluntad}</p>
         {/* Add any additional information you want to display */}
       </div>
+      </div>
+      
       <div className="card-strategies">
         <h2>Suggested Strategies</h2>
         {/* Add strategy information here */}
-      </div>
-      <div className="card-versions">
-        <h2>Previous Versions</h2>
-        {/* Add previous versions information here */}
       </div>
     </div>
   );

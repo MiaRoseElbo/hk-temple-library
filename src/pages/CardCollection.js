@@ -83,7 +83,7 @@ const CardCollection = () => {
             <div 
               key={index}
               className={`card-wrapper ${cardSize}`}
-              onClick={() => handleCardClick(card.Numero)}
+              // onClick={() => handleCardClick(card.id)}
             >
                 <Card card={card} />
             </div>

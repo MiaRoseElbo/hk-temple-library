@@ -1,0 +1,66 @@
+.create-card h2{
+
+    margin:1em;
+    margin-bottom: 2em;
+    font-family: distro;
+    font-size: 2em;
+    text-align: center;
+}
+
+.create-card-group{
+    margin:1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.card-container{
+   border: 1px solid white; 
+}
+
+/*  FORM  */
+
+.cardCreatorForm{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 20em;
+}
+.cardCreatorForm div{
+    grid-column: span 2;
+}
+.cardCreatorForm .section-title{
+    margin: 0.5em;
+}
+
+.cardCreatorForm input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    border: 1px solid white;
+    padding: 1em;
+    border-radius: 2em;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0.5em;
+}
+
+.cardCreatorForm textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    border: 1px solid white;
+    padding: 1em;
+    border-radius: 0.8em;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0.5em;
+    width: calc(100% - 4em);
+    height: 6em;
+}
+
+.cardCreatorForm select{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    border: 1px solid white;
+    padding: 1em;
+    border-radius: 2em;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0.5em;
+}

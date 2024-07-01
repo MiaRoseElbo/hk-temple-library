@@ -5,21 +5,22 @@ import Card from '../components/Card';
 
 const CardCreator = ({ addNewCard }) => {
   const [newCard, setNewCard] = useState({
-    Edicion: "Sitio",
-    Numero: "",
-    Faccion: "",
-    Nombre: "",
-    Tipo: "",
+    Edicion: "web",
+    Numero: "###",
+    Faccion: "acr",
+    Nombre: "M14",
+    Tipo: "per",
     Subtipo: "",
-    Habilidad: "",
-    Epigrafe: "",
-    Ilustrador: "",
-    Frecuencia: "",
-    Imagen: "",
-    Marco: ""
+    Coste: '3',
+    Fuerza: '1',
+    Habilidad: "Agilidad.\nSi porta una Tecnología Acracia, obtiene +1 a la Fuerza.",
+    Epigrafe: "Todas las balas se van a devolver.",
+    Ilustrador: "Mia Rose Elbo",
+    Frecuencia: "P",
+    Imagen: "mia001",
+    Marco: "rad"
   });
 
-  console.log(newCard);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -49,81 +50,130 @@ const CardCreator = ({ addNewCard }) => {
 
   return (
     <div className="create-card">
-      <h2>Create a New Card</h2>
-      <div>
+      <h2>Crea una carta nueva</h2>
+      <div className='create-card-group'>
         <Card card={newCard} />
-      </div>
-      <form onSubmit={handleSubmit}>
+      <form className='cardCreatorForm' onSubmit={handleSubmit}>
+        <div>
+            <p className='section-title'>
+                Nombre de Carta
+            </p>
+        </div>
         <input
-          type="text"
-          name="Nombre"
-          placeholder="Card Name"
-          value={newCard.Nombre}
-          onChange={handleChange}
+            type="text"
+            name="Nombre"
+            placeholder="Nombre"
+            value={newCard.Nombre}
+            onChange={handleChange}
         />
-        <input
-          type="text"
-          name="Tipo"
-          placeholder="Card Type"
-          value={newCard.Tipo}
-          onChange={handleChange}
-        />
-        <select id="Faccion" name="Faccion" onChange={handleChange}>
+       
+        <div>
+            <p className='section-title'>
+                Facción y Tipo de carta
+            </p>
+        </div>
+        <select id="Tipo" name="Tipo de Carta" defaultValue="per" onChange={handleChange}>
+            <option value="san">Santuario</option>
+            <option value="per" >Personaje</option>
+            <option value="adi">Aditamento</option>
+            <option value="tec">Tecnología</option>
+            <option value="man">Manipulación</option>
+            <option value="col">Coloso</option>
+        </select>
+        <select id="Faccion" name="Faccion" defaultValue="acr" onChange={handleChange}>
             <option value="qui">Quimera</option>
             <option value="abi">Abismales</option>
             <option value="cor">Corporación</option>
-            <option value="acr">Acracia</option>
+            <option value="acr" >Acracia</option>
+            <option value="sin">Sin Facción</option>
         </select>
+        <div>
+            <p className='section-title'>
+                Valores Esferas
+            </p>
+        </div>
         <input
           type="text"
           name="Coste"
-          placeholder="Cost"
+          placeholder="Coste de Voluntad"
           value={newCard.Coste}
           onChange={handleChange}
         />
         <input
           type="text"
           name="Fuerza"
-          placeholder="Strength"
+          placeholder="Fuerza"
           value={newCard.Fuerza}
           onChange={handleChange}
         />
         <input
           type="text"
           name="Reanim"
-          placeholder="Reanimation"
+          placeholder="Coste de Reanimación"
           value={newCard.Reanim}
           onChange={handleChange}
         />
         <input
           type="text"
           name="Adita"
-          placeholder="Adits"
+          placeholder="Límite de Aditamentos"
           value={newCard.Adita}
           onChange={handleChange}
         />
         <input
           type="text"
           name="Estructura"
-          placeholder="Structure"
+          placeholder="Puntos de Estructura"
           value={newCard.Estructura}
           onChange={handleChange}
         />
         <input
           type="text"
           name="Voluntad"
-          placeholder="Will"
+          placeholder="Puntos de Voluntad"
           value={newCard.Voluntad}
           onChange={handleChange}
         />
-        <select id="Marco" name="Marco" onChange={handleChange}>
-            <option value="qui">Quimera</option>
-            <option value="abi">Abismales</option>
-            <option value="cor">Corporación</option>
-            <option value="acr">Acracia</option>
+        <div>
+            <p className='section-title'>
+                Marco
+            </p>
+        </div>
+        <select id="Marco" name="Marco" defaultValue="rad" onChange={handleChange}>
+            <option value="tra">Tradicional</option>
+            <option value="avl">Contemporáneo</option>
+            <option value="sol">Solid</option>
+            <option value="rad">Radix</option>
         </select>
-        <button type="submit">Add Card</button>
+        <div>
+            <p className='section-title'>
+                Habilidad
+            </p>
+        <textarea
+          type='textarea'
+          name="Habilidad"
+          placeholder="Habilidad"
+          value={newCard.Habilidad}
+          onChange={handleChange}
+        />
+        </div>
+        <div>
+            <p className='section-title'>
+                Epígrafe
+            </p>
+        </div>
+        <input
+            type="text"
+            name="Epigrafe"
+            placeholder="Epigrafe"
+            value={newCard.Epigrafe}
+            onChange={handleChange}
+        />        
+        {/* <div>
+            <button type="submit">Agregar Carta</button>
+        </div> */}
       </form>
+      </div>
     </div>
   );
 };

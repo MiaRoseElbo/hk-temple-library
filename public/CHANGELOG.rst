@@ -2,6 +2,11 @@
 Version History
 ===============
 
+v0.0.5
+------
+
+* Actualización del README.md
+
 v0.0.4
 ------
 

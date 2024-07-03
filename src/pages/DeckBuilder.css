@@ -5,7 +5,7 @@
 
 .deck-builder h1{
   font-family: distro;
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 .card-list, .selected-cards {
@@ -31,17 +31,17 @@ button {
 .san-list{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap:1em;
+  gap:1rem;
 }
 
 .san-item{
   cursor: pointer;
   border: 1px solid white;
-  border-radius: 1em;
+  border-radius: 1rem;
   text-align: center;
   display: flex;
   justify-content: space-between;
-  padding: 1em;
+  padding: 1rem;
 }
 
 .san-item:hover{
@@ -49,10 +49,10 @@ button {
 }
 
 .san-img{
-  width: 5em;
+  width: 5rem;
   background-size: cover;
   background-position: center;
-  border-radius: 1em;
+  border-radius: 1rem;
 }
 
 .title{
@@ -60,7 +60,7 @@ button {
 }
 
 .title div{
-  margin: 0.4em;
+  margin: 0.4rem;
 }
 
 .faccion-card{
@@ -68,12 +68,12 @@ button {
 }
 
 .faccion-card img{
-  width: 1em;
+  width: 1rem;
 }
 
 .card-nombre{
   text-align: left;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .card-stats{
@@ -81,7 +81,7 @@ button {
   display: grid;
   grid-template-columns: 1fr 1fr;
   text-align: left;
-  padding-left: 3em;
+  padding-left: 3rem;
 }
 
 .card-stats ul{
@@ -97,7 +97,6 @@ button {
 
 .card-list{
   height: 80vh;
-  overflow: auto;
 }
 
 .step-2{
@@ -106,13 +105,13 @@ button {
   align-items: start;
 }
 
-.card-group{
+/* .card-group{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 2em;
   justify-content: center;
-}
+} */
 
 .card-group h3{
   font-family: distro;
@@ -122,13 +121,13 @@ button {
 
 .card-item {
   /* border:1px solid white; */
-  padding: 1em;
-  border-radius: 1em;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 .selected-card-item{
-  font-size: 0.8em;
-  margin:0.5em;
+  font-size: 0.8rem;
+  margin:0.5rem;
 }
 
 .selected-cards{
@@ -157,15 +156,60 @@ grid-template-columns: repeat(2, 1fr);
   transform: rotate(180deg);
 }
 
-/* Part 2 table */
+/* ////// */
+/* STEP 2 */
+/* ////// */
+
+/* TABLE */
+
+.card-list .tabs{
+  text-align: left;
+} 
+
+.card-list .tabs .tab{
+  font-family:distro;
+  font-size: 1.2em;
+  padding: 0.3rem 1rem;
+  position: relative;
+  bottom:-1px;
+  background-color: black;
+  color:#777;
+  border: solid 1px #777;
+  border-bottom: 1px solid white;
+  border-radius: 0.25rem 0.6rem 0 0;
+}
+
+.tab.active {
+  border: solid 1px white !important;
+  border-bottom: 1px solid black !important;
+  color: white !important;
+}
+
+.card-list .card-tables{
+  border: solid 1px white;
+  padding: 1rem;
+  height: 70vh;
+  overflow: auto;
+}
+
 .card-table{
   border-collapse: collapse;
   border-spacing: 0;
   text-align: left;
+  background-color: black;
+  width: 100%;
+}
+
+.card-table tr:nth-child(even) {
+  background-color: #222;
 }
 
 .card-table td{
-  padding: 1em;
+  padding: 1rem;
+}
+
+.card-group.hidden{
+  display: none;
 }
 
 .button-group{
@@ -174,7 +218,7 @@ display: inline-flex;
 
 .button-group div{
   text-align: center;
-  width: 2em;
+  width: 2rem;
 }
 
 /* STEP 3 */
@@ -185,16 +229,16 @@ display: inline-flex;
     text-align: left;
     width: fit-content;
     background-color: black;
-    border-radius: 1em;
+    border-radius: 1rem;
     border: 1px solid #777;
-    margin:1em auto;
+    margin:1rem auto;
 }
 .mazo div{
-  padding: 0.1em 0.4em;
+  padding: 0.1rem 0.4rem;
 }
 
 .mazo-group{
-  margin-bottom: 0.6em;
+  margin-bottom: 0.6rem;
 }
 
 .mazo-group h4{

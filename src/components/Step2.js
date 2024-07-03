@@ -3,14 +3,8 @@ import getImagePath from '../utils/getImagePath';
 import tipoMapping from '../utils/cardJsonMapping';
 
 const Step2 = ({ cardsData, selectedCards, santuario, addCardToDeck, removeCardFromDeck, handleMouseEnter, handleMouseLeave, groupedSelectedCards }) => {
-  const [collapsedGroups, setCollapsedGroups] = useState({});
-
-  const toggleGroupCollapse = (type) => {
-    setCollapsedGroups(prevState => ({
-      ...prevState,
-      [type]: !prevState[type]
-    }));
-  };
+  const [sortConfig, setSortConfig] = useState({ key: null, direction: 'asc' });
+  const [activeTab, setActiveTab] = useState('per'); // Set default active tab
 
   const filteredCards = cardsData.filter(card => card.Tipo !== 'san' && (card.Faccion === 'sin' || card.Faccion === santuario.Faccion));
   const groupedCards = filteredCards.reduce((groups, card) => {
@@ -61,6 +55,249 @@ const Step2 = ({ cardsData, selectedCards, santuario, addCardToDeck, removeCardF
     return a.Tipo.localeCompare(b.Tipo);
   });
 
+  const sortCards = (cards, config) => {
+    if (!config.key) return cards;
+    const sortedCards = [...cards].sort((a, b) => {
+      if (a[config.key] < b[config.key]) return config.direction === 'asc' ? -1 : 1;
+      if (a[config.key] > b[config.key]) return config.direction === 'asc' ? 1 : -1;
+      return 0;
+    });
+    return sortedCards;
+  };
+
+  const handleSort = (key) => {
+    let direction = 'asc';
+    if (sortConfig.key === key && sortConfig.direction === 'asc') {
+      direction = 'desc';
+    }
+    setSortConfig({ key, direction });
+  };
+
+  const renderTableHeaders = (type) => {
+    switch (type) {
+      case 'per':
+        return (
+          <>
+            <th onClick={() => handleSort('Nombre')}>Nombre {sortConfig.key === 'Nombre' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
+            <th onClick={() => handleSort('Coste')}>Coste {sortConfig.key === 'Coste' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
+            <th onClick={() => handleSort('Fuerza')}>Fuerza {sortConfig.key === 'Fuerza' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
+          </>
+        );
+      case 'man':
+        return (
+          <>
+            <th onClick={() => handleSort('Nombre')}>Nombre {sortConfig.key === 'Nombre' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
+            <th onClick={() => handleSort('Coste')}>Coste {sortConfig.key === 'Coste' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
+          </>
+        );
+        case 'adi':
+          return (
+            <>
+              <th onClick={() => handleSort('Nombre')}>Nombre {sortConfig.key === 'Nombre' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
+              <th onClick={() => handleSort('Estructura')}>Estructura {sortConfig.key === 'Estructura' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
+              <th onClick={() => handleSort('Voluntad')}>Voluntad {sortConfig.key === 'Voluntad' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
+            </>
+          );
+          case 'tec':
+        return (
+          <>
+            <th onClick={() => handleSort('Nombre')}>Nombre {sortConfig.key === 'Nombre' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
+            <th onClick={() => handleSort('Coste')}>Coste {sortConfig.key === 'Coste' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
+          </>
+        );
+        case 'col':
+        return (
+          <>
+            <th onClick={() => handleSort('Nombre')}>Nombre {sortConfig.key === 'Nombre' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
+            <th onClick={() => handleSort('Fuerza')}>Fuerza {sortConfig.key === 'Fuerza' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
+            <th onClick={() => handleSort('Reanim')}>Reanimación {sortConfig.key === 'Reanim' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
+          </>
+        );
+      // Add more cases for other types as needed
+      default:
+        return (
+          <>
+            <th onClick={() => handleSort('Nombre')}>Nombre {sortConfig.key === 'Nombre' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
+          </>
+        );
+    }
+  };
+
+  const renderTableRows = (cards, type) => {
+    return sortCards(cards, sortConfig).map((card, cardIndex) => {
+      const cardCount = selectedCards.filter(c => c.Numero === card.Numero).length;
+      const isDisabled = (cardCount >= 4) || (card.Tipo === 'col' && selectedCards.some(c => c.Tipo === 'col' && c.Numero !== card.Numero));
+
+      switch (type) {
+        case 'per':
+          return (
+            <tr
+              key={cardIndex}
+              className={`card-item ${isDisabled ? 'disabled' : ''}`}
+              onMouseEnter={() => handleMouseEnter(card)}
+              onMouseLeave={handleMouseLeave}
+            >
+              <td>{card.Nombre+' ('+card.Edicion+')'}</td>
+              <td>{card.Coste}</td>
+              <td>{card.Fuerza}</td>
+              <td className="button-group">
+                <button
+                  onClick={() => removeCardFromDeck(card.Numero)}
+                  disabled={cardCount === 0}
+                >
+                  -
+                </button>
+                <div>{cardCount}</div>
+                <button
+                  onClick={() => addCardToDeck(card, cardCount + 1)}
+                  disabled={isDisabled}
+                >
+                  +
+                </button>
+              </td>
+            </tr>
+          );
+        case 'man':
+          return (
+            <tr
+              key={cardIndex}
+              className={`card-item ${isDisabled ? 'disabled' : ''}`}
+              onMouseEnter={() => handleMouseEnter(card)}
+              onMouseLeave={handleMouseLeave}
+            >
+              <td>{card.Nombre}</td>
+              <td>{card.Coste}</td>
+              <td className="button-group">
+                <button
+                  onClick={() => removeCardFromDeck(card.Numero)}
+                  disabled={cardCount === 0}
+                >
+                  -
+                </button>
+                <div>{cardCount}</div>
+                <button
+                  onClick={() => addCardToDeck(card, cardCount + 1)}
+                  disabled={isDisabled}
+                >
+                  +
+                </button>
+              </td>
+            </tr>
+          );
+          case 'adi':
+          return (
+            <tr
+              key={cardIndex}
+              className={`card-item ${isDisabled ? 'disabled' : ''}`}
+              onMouseEnter={() => handleMouseEnter(card)}
+              onMouseLeave={handleMouseLeave}
+            >
+              <td>{card.Nombre}</td>
+              <td>{card.Estructura}</td>
+              <td>{card.Voluntad}</td>
+              <td className="button-group">
+                <button
+                  onClick={() => removeCardFromDeck(card.Numero)}
+                  disabled={cardCount === 0}
+                >
+                  -
+                </button>
+                <div>{cardCount}</div>
+                <button
+                  onClick={() => addCardToDeck(card, cardCount + 1)}
+                  disabled={isDisabled}
+                >
+                  +
+                </button>
+              </td>
+            </tr>
+          );
+          case 'tec':
+          return (
+            <tr
+              key={cardIndex}
+              className={`card-item ${isDisabled ? 'disabled' : ''}`}
+              onMouseEnter={() => handleMouseEnter(card)}
+              onMouseLeave={handleMouseLeave}
+            >
+              <td>{card.Nombre}</td>
+              <td>{card.Coste}</td>
+              <td className="button-group">
+                <button
+                  onClick={() => removeCardFromDeck(card.Numero)}
+                  disabled={cardCount === 0}
+                >
+                  -
+                </button>
+                <div>{cardCount}</div>
+                <button
+                  onClick={() => addCardToDeck(card, cardCount + 1)}
+                  disabled={isDisabled}
+                >
+                  +
+                </button>
+              </td>
+            </tr>
+          );
+          case 'col':
+          return (
+            <tr
+              key={cardIndex}
+              className={`card-item ${isDisabled ? 'disabled' : ''}`}
+              onMouseEnter={() => handleMouseEnter(card)}
+              onMouseLeave={handleMouseLeave}
+            >
+              <td>{card.Nombre}</td>
+              <td>{card.Fuerza}</td>
+              <td>{card.Reanim}</td>
+              <td className="button-group">
+                <button
+                  onClick={() => removeCardFromDeck(card.Numero)}
+                  disabled={cardCount === 0}
+                >
+                  -
+                </button>
+                <div>{cardCount}</div>
+                <button
+                  onClick={() => addCardToDeck(card, cardCount + 1)}
+                  disabled={isDisabled}
+                >
+                  +
+                </button>
+              </td>
+            </tr>
+          );
+        // Add more cases for other types as needed
+        default:
+          return (
+            <tr
+              key={cardIndex}
+              className={`card-item ${isDisabled ? 'disabled' : ''}`}
+              onMouseEnter={() => handleMouseEnter(card)}
+              onMouseLeave={handleMouseLeave}
+            >
+              <td>{card.Nombre}</td>
+              <td className="button-group">
+                <button
+                  onClick={() => removeCardFromDeck(card.Numero)}
+                  disabled={cardCount === 0}
+                >
+                  -
+                </button>
+                <div>{cardCount}</div>
+                <button
+                  onClick={() => addCardToDeck(card, cardCount + 1)}
+                  disabled={isDisabled}
+                >
+                  +
+                </button>
+              </td>
+            </tr>
+          );
+      }
+    });
+  };
+
   return (
     <div>
       <h2>Agrega Cartas</h2>
@@ -74,45 +311,30 @@ const Step2 = ({ cardsData, selectedCards, santuario, addCardToDeck, removeCardF
           ))}
         </div>
         <div className="card-list">
-          {Object.keys(groupedCards).map((type, index) => (
-            <div key={index} className="card-group">
-              <h3 onClick={() => toggleGroupCollapse(type)} className="group-title">
-                {(tipoMapping[type] || type)} <span className={`arrow ${!collapsedGroups[type] ? 'expanded' : ''}`}>&#9662;</span>
-              </h3>
-              <table className='card-table'>
-                {!collapsedGroups[type] && groupedCards[type].map((card, cardIndex) => {
-                  const cardCount = selectedCards.filter(c => c.Numero === card.Numero).length;
-                  const isDisabled = (cardCount >= 4) || (card.Tipo === 'col' && selectedCards.some(c => c.Tipo === 'col' && c.Numero !== card.Numero));
-
-                  return (
-                    <tr
-                      key={cardIndex}
-                      className={`card-item ${isDisabled ? 'disabled' : ''}`}
-                      onMouseEnter={() => handleMouseEnter(card)}
-                      onMouseLeave={handleMouseLeave}
-                    >
-                      <td>{card.Nombre}</td>
-                      <td className="button-group">
-                        <button
-                          onClick={() => removeCardFromDeck(card.Numero)}
-                          disabled={cardCount === 0}
-                        >
-                          -
-                        </button>
-                        <div>{cardCount}</div>
-                        <button
-                          onClick={() => addCardToDeck(card, cardCount + 1)}
-                          disabled={isDisabled}
-                        >
-                          +
-                        </button>
-                      </td>
+          <div className="tabs">
+            {Object.keys(groupedCards).map(type => (
+              <button key={type} className={`tab ${activeTab === type ? 'active' : ''}`} onClick={() => setActiveTab(type)}>
+                {tipoMapping[type] || type}
+              </button>
+            ))}
+          </div>
+          <div className='card-tables'>
+            {Object.keys(groupedCards).map((type, index) => (
+              <div key={index} className={`card-group ${activeTab === type ? 'active' : 'hidden'}`}>
+                <table className='card-table'>
+                  <thead>
+                    <tr>
+                      {renderTableHeaders(type)}
+                      <th>Acciones</th>
                     </tr>
-                  );
-                })}
-              </table>
-            </div>
-          ))}
+                  </thead>
+                  <tbody>
+                    {renderTableRows(groupedCards[type], type)}
+                  </tbody>
+                </table>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

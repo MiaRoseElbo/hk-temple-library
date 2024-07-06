@@ -7,10 +7,10 @@ v0.0.7
 
 * Creación de archivos para Firebase
 * Creación de Login
-    * Secciones exclusivas para usuarios
-    * Los mazos se guardan en la base de datos
+* Secciones exclusivas para usuarios
+* Los mazos se guardan en la base de datos
 * La lista de mazos ahora se carga de la base de datos
-
+* Actualización de login/registrarse
 
 v0.0.6
 ------

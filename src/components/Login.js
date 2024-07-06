@@ -5,6 +5,8 @@ import { signInWithEmailAndPassword, createUserWithEmailAndPassword, updateProfi
 import { auth, database } from '../firebase';
 import { ref, set } from 'firebase/database';
 
+import './Login.css';
+
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -38,36 +40,43 @@ const Login = () => {
   };
 
   return (
-    <div>
-      <h2>{isSigningUp ? 'Sign Up' : 'Login'}</h2>
-      {isSigningUp && (
+    <div className="login">
+      <img src='./logo.webp' className='login-logo'/>
+      <h2>{isSigningUp ? 'Registrarse' : 'Iniciar Sesión'}</h2>
+      <div className='login-form'>
+        {isSigningUp && (
+            <>
+            <div>Nombre de usuario</div>
+            <input
+            type="text"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+            placeholder="usuario"
+            /></>
+        )}
+        <div>Correo</div>
         <input
-          type="text"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
-          placeholder="Username"
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder="Correo"
         />
-      )}
-      <input
-        type="email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-        placeholder="Email"
-      />
-      <input
-        type="password"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-        placeholder="Password"
-      />
-      {isSigningUp ? (
-        <button onClick={handleSignup}>Sign Up</button>
-      ) : (
-        <button onClick={handleLogin}>Login</button>
-      )}
-      <button onClick={() => setIsSigningUp(!isSigningUp)}>
-        {isSigningUp ? 'Switch to Login' : 'Switch to Sign Up'}
-      </button>
+        <div>Clave</div>
+        <input
+            type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            placeholder="Clave"
+        />
+        {isSigningUp ? (
+            <button onClick={handleSignup}>Registrarse</button>
+        ) : (
+            <button onClick={handleLogin}>Iniciar Sesión</button>
+        )}
+        <span className='login-switch' onClick={() => setIsSigningUp(!isSigningUp)}>
+            {isSigningUp ? 'Iniciar Sesión' : 'Registrarse'}
+        </span>
+      </div>
     </div>
   );
 };

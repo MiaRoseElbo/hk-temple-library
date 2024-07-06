@@ -2,10 +2,30 @@
 Version History
 ===============
 
+v0.0.7
+------
+
+* Creación de archivos para Firebase
+* Creación de Login
+    * Secciones exclusivas para usuarios
+    * Los mazos se guardan en la base de datos
+* La lista de mazos ahora se carga de la base de datos
+
+
+v0.0.6
+------
+
+* Mejor visualización de cartas en el creador de mazos
+    * Vista en tablas en tabs
+    * Vista de stats más importantes por tipo de carta
+    * Identificador de edición para Personajes
+
+
 v0.0.5
 ------
 
 * Actualización del README.md
+
 
 v0.0.4
 ------

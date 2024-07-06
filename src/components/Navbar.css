@@ -1,4 +1,4 @@
-ul {
+.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@ ul {
   align-items: center;
 }
 
-li a {
+.navbar li a {
   display: block;
   color: white;
   text-align: center;
@@ -18,10 +18,33 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.navbar li a:hover {
   background-color: #111;
 }
 
-.navbar-logo{
+.navbar .navbar-logo{
     height: 1.5em;
+}
+
+.navbar li:last-of-type {
+  margin-left: auto;
+  padding-right: 1em;
+}
+
+.navbar .navbar-username{
+  font-weight: 600;
+}
+
+.navbar-logout{
+  text-decoration: underline;
+  color:#777;
+  margin-left: 1em;
+  cursor: pointer;
+}
+
+.navbar-logout:hover{
+  text-decoration: underline;
+  color:white;
+  margin-left: 1em;
+  cursor: pointer;
 }

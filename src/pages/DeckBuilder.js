@@ -1,5 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import cardsData from '../data/cards.json';
+import React, { useState, useEffect, useContext } from 'react';
+import { database, auth } from '../firebase';
+import { AuthContext } from '../components/AuthContext';
+import { ref, push } from 'firebase/database'; // Import necessary functions for database
+import cardsData from '../data/cards.json'; 
 import CardInfo from '../components/CardInfo';
 import Step1 from '../components/Step1';
 import Step2 from '../components/Step2';
@@ -9,10 +12,13 @@ import './DeckBuilder.css';
 const DeckBuilder = () => {
   const [deckName, setDeckName] = useState('');
   const [selectedCards, setSelectedCards] = useState([]);
+  const [cardList, setCardList] = useState([]);
   const [santuario, setSantuario] = useState(null);
   const [step, setStep] = useState(1);
   const [hoveredCard, setHoveredCard] = useState(null);
   const [hoveredPosition, setHoveredPosition] = useState({ x: 0, y: 0 });
+
+  const { currentUser } = useContext(AuthContext);
 
   useEffect(() => {
     const handleMouseMove = (event) => {
@@ -43,7 +49,9 @@ const DeckBuilder = () => {
   
     if (cardCount < 4 && (card.Tipo !== 'col' || !selectedCards.some(c => c.Tipo === 'col'))) {
       const newSelectedCards = selectedCards.filter(c => c.Numero !== card.Numero);
+      const newCardList = cardList.filter(c => c !== card.id);
       setSelectedCards([...newSelectedCards, ...Array(count).fill(card)]);
+      setCardList([...newCardList, ...Array(count).fill(card.id)]);
     }
   };
   
@@ -51,31 +59,35 @@ const DeckBuilder = () => {
     const cardIndex = selectedCards.findIndex(c => c.Numero === cardNumero);
     if (cardIndex !== -1) {
       const newSelectedCards = selectedCards.slice();
+      const newCardList = cardList.slice();
+      newCardList.splice(cardIndex,1);
       newSelectedCards.splice(cardIndex, 1);
       setSelectedCards(newSelectedCards);
+      setCardList(newCardList);
     }
   };
 
-  const handleSaveDeck = () => {
+  const handleSaveDeck = async () => {
+    const userId = currentUser.uid;
+    const deck = { user: userId, name: deckName, cards: cardList };
 
-    const deck = { name: deckName, cards: selectedCards };
-    let decks = JSON.parse(localStorage.getItem('decks')) || [];
-    decks.push(deck);
-    localStorage.setItem('decks', JSON.stringify(decks));
-    alert('Mazo guardado con éxito!');
-    setDeckName('');
-    setSelectedCards([]);
-    setSantuario(null);
-    setStep(1);
+    try {
+      await push(ref(database, 'decks/'), deck);
+      alert('Mazo guardado con éxito!');
+      setDeckName('');
+      setSelectedCards([]);
+      setSantuario(null);
+      setStep(1);
+    } catch (error) {
+      console.error('Error saving deck: ', error);
+    }
   };
 
   const nextStep = () => {
-    console.log('step +1',step +1)
     setStep(step + 1);
   };
 
   const prevStep = () => {
-    console.log('step -1',step -1)
     setStep(step - 1);
   };
 

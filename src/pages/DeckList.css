@@ -1,7 +1,55 @@
 .deck-list {
-    padding: 20px;
+  width: 100%;
   }
   
   .deck-item {
-    margin-bottom: 20px;
+    margin:1em;
+    display: flex;
+  }
+
+  .deck-list h1{
+    text-align: center;
+    font-family: distro;
+    font-weight: 900;
+    font-size: 1.8em;
+    margin: 1em auto;
+  }
+
+  .deck-list-table {
+    width: 50rem;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+  }
+
+  .deck-item .decklist-san-img {
+    width: 4em;
+  }
+
+  .deck-item .decklist-san-img img{
+    width: 100%;
+  }
+
+  .deck-list-deck-info{
+    width: 100%;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #222;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .deck-list-deck-info .deck-list-name{
+    font-weight: bold;
+  }
+
+  .deck-list-deck-info .deck-list-user{
+    color:#777;
+    font-size: 0.8em;
+  }
+
+  .deck-list-deck-info .deck-list-counter{
+    font-size: 0.8em;
+    text-align: right
   }

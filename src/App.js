@@ -3,11 +3,12 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import CardCollection from './pages/CardCollection';
-import CardCreator from './pages/CardCreator';
 import DeckBuilder from './pages/DeckBuilder';
 import DeckList from './pages/DeckList';
+import CardCreator from './pages/CardCreator';
+import CardCollection from './pages/CardCollection';
 import CardDetail from './pages/CardDetail.js';
+import Login from './components/Login'; 
 import './App.css';
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/cards" element={<CardCollection />} />
         <Route path="/card-creator" element={<CardCreator />} />
         <Route path="/cards/:id"  element={<CardDetail />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </Router>
   );

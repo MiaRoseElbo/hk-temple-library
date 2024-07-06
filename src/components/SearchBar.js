@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './SearchBar.css';
 
 const categories = {
-  Edicion: { evo: 'Evolución', dev: 'Desviantes', sub: 'Suburbia', rad: 'Radix', shk: 'Selección HK', col: 'Colosos', avl: 'Alto Voltaje', cal: 'Calixto' },
+  Edicion: { evo: 'Evolución', dev: 'Desviantes', sub: 'Suburbia', rad: 'Radix', col: 'Colosos', avl: 'Alto Voltaje', cal: 'Calixto' },
   Tipo: { san: 'Santuario', tec: 'Tecnología', per: 'Personaje', man: 'Manipulación', col: 'Coloso', adi: 'Aditamento' },
   Faccion: { qui: 'Quimera', abi: 'Abismales', cor: 'Corporación', acr: 'Acracia', sin: 'Sin Facción' },
   Frecuencia: { P: 'Promo', R: 'Rara', I: 'Infrecuente', C: 'Común' },

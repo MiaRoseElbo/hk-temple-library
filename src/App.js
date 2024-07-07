@@ -8,6 +8,7 @@ import DeckList from './pages/DeckList';
 import CardCreator from './pages/CardCreator';
 import CardCollection from './pages/CardCollection';
 import CardDetail from './pages/CardDetail.js';
+import DeckDetails from './pages/DeckDetails.js';
 import Login from './components/Login'; 
 import './App.css';
 
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/deck-builder" element={<DeckBuilder />} />
         <Route path="/deck-list" element={<DeckList />} />
+        <Route path="/deck/:deckId"  element={<DeckDetails />} />
         <Route path="/cards" element={<CardCollection />} />
         <Route path="/card-creator" element={<CardCreator />} />
         <Route path="/cards/:id"  element={<CardDetail />} />

@@ -1,14 +1,16 @@
+// src/components/DeckList.js
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import { database } from '../firebase';
 import { ref, get } from 'firebase/database';
 import getImagePath from '../utils/getImagePath';
-import cardsData from '../data/cards.json'; 
-
+import cardsData from '../data/cards.json';
 import './DeckList.css';
 
 const DeckList = () => {
   const [decks, setDecks] = useState([]);
   const [usernames, setUsernames] = useState({});
+  const navigate = useNavigate(); // Initialize useNavigate
 
   useEffect(() => {
     const fetchDecks = async () => {
@@ -22,7 +24,7 @@ const DeckList = () => {
 
           snapshot.forEach((deckSnapshot) => {
             const deckData = deckSnapshot.val();
-            fetchedDecks.push(deckData);
+            fetchedDecks.push({ ...deckData, id: deckSnapshot.key }); // Store the deck ID
 
             const usernamePromise = fetchUser(deckData.user);
             usernamePromises.push(usernamePromise);
@@ -67,27 +69,25 @@ const DeckList = () => {
 
     return (
       <div className="decklist-san-img">
-                <img src={`${card.Imagen
-              ? getImagePath('cards', `${card.Imagen}.jpg`)
-              : getImagePath('cards', `${card.Edicion}${card.Numero}.jpg`)}`} />
+        <img src={`${card.Imagen ? getImagePath('cards', `${card.Imagen}.jpg`) : getImagePath('cards', `${card.Edicion}${card.Numero}.jpg`)}`} />
       </div>
-    )
-  }
+    );
+  };
 
   return (
     <div className="deck-list">
       <h1>Mazos</h1>
       <div className='deck-list-table'>
-          {decks.map((deck, index) => (
-            <div index={index} className="deck-item">
-              {getCardImg(deck.cards[0])}
-              <div className='deck-list-deck-info'>
-                <div className='deck-list-name'>{deck.name}</div>
-                <div className='deck-list-counter'>{deck.cards.length}/41</div>
-                <div className='deck-list-user' >creado por {usernames[deck.user] || 'Loading...'}</div>    
-              </div>
+        {decks.map((deck, index) => (
+          <div key={index} className="deck-item" onClick={() => navigate(`/deck/${deck.id}`)}> {/* Add onClick to navigate */}
+            {getCardImg(deck.cards[0])}
+            <div className='deck-list-deck-info'>
+              <div className='deck-list-name'>{deck.name}</div>
+              <div className='deck-list-counter'>{deck.cards.length}/41</div>
+              <div className='deck-list-user'>creado por {usernames[deck.user] || 'Loading...'}</div>
             </div>
-          ))}
+          </div>
+        ))}
       </div>
     </div>
   );

@@ -2,6 +2,14 @@
 Version History
 ===============
 
+v0.0.8
+------
+
+* Mejor estilo en lista de mazos
+* Se agregó los marcos de Coloso y ColosoRadix
+* Se agregó un par de ilustraciones
+* Se le agregaron unos gráficos a los detalles de los mazos, específicamente uno de distribución de tipos de cartas, y uno de coste de cartas.
+
 v0.0.7
 ------
 

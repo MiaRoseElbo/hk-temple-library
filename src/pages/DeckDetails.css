@@ -77,6 +77,10 @@
     font-size: 3rem;
     margin-left: 1rem;
   }
+
+  .san-cards .deck-card-collection{
+    justify-content: center;
+  }
 /* 
   .deck-card-wrapper{
     width: 142px;
@@ -88,3 +92,16 @@
     transform-origin: 0% 0%;
     transform: scale(0.5);
   } */
+
+
+  /*  CHARTS  */
+  .deck-detail-charts {
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .deck-detail-chart {
+    flex: 1;
+  }
+  

@@ -22,6 +22,14 @@
     text-align: center;
   }
 
+  .deck-item{
+    cursor: pointer;
+  }
+
+  .deck-item:hover{
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5);
+  }
+
   .deck-item .decklist-san-img {
     width: 4em;
   }

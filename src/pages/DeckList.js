@@ -24,10 +24,10 @@ const DeckList = () => {
 
           snapshot.forEach((deckSnapshot) => {
             const deckData = deckSnapshot.val();
-            fetchedDecks.push({ ...deckData, id: deckSnapshot.key }); // Store the deck ID
+            fetchedDecks.unshift({ ...deckData, id: deckSnapshot.key }); // Store the deck ID
 
             const usernamePromise = fetchUser(deckData.user);
-            usernamePromises.push(usernamePromise);
+            usernamePromises.unshift(usernamePromise);
           });
 
           const fetchedUsernames = await Promise.all(usernamePromises);

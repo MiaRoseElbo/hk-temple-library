@@ -176,6 +176,15 @@ const DeckDetails = () => {
       <div className="san-cards">
         {renderCardGroup(groupedCards['san'])}
         <div className="deck-detail-charts">
+        <div>
+            Subtipos:
+          </div>
+          <div>
+            Dones:
+          </div>
+          <div>
+            Cartas con Virtud:
+          </div>
           <div className="deck-detail-chart">
             <Bar data={cardTypeData} options={{ responsive: true }} />
           </div>

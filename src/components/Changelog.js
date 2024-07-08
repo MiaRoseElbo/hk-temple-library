@@ -46,17 +46,29 @@ const Changelog = () => {
   }, []);
 
   const latestVersion = changelogData[0];
+  const previousVersions = changelogData.slice(1, 4); // Get the last 3 versions
 
   return (
     <div className="changelog">
-      <p className='sub-title'>Últimos cambios (Versión {latestVersion?.version})</p>
-      <p className='text'>
-        <ul className='lista-cambios'>
+      <p className='sub-title'>Últimos cambios ({latestVersion?.version})</p>
+      <ul className='lista-cambios'>
         {latestVersion?.changes.map((change, index) => (
           <li key={index}>{change}</li>
         ))}
       </ul>
-      </p>
+
+      <div className="previous-versions">
+        {previousVersions.map((version, index) => (
+          <div key={index} className="previous-version">
+            <p className='sub-title'>{version.version}</p>
+            <ul className='lista-cambios'>
+              {version.changes.map((change, idx) => (
+                <li key={idx}>{change}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

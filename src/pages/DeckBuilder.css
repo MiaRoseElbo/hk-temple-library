@@ -157,6 +157,32 @@ grid-template-columns: repeat(2, 1fr);
 }
 
 /* ////// */
+/* STEP 1 */
+/* ////// */
+
+.step-uno-filtros{
+  margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.step-uno-filtro-faccion{
+  margin: 1rem;
+}
+
+.step-uno-filtros select{
+  padding: 0.4rem 1rem;
+  border-radius: 1rem;
+  margin-left:1rem;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+}
+
+
+/* ////// */
 /* STEP 2 */
 /* ////// */
 

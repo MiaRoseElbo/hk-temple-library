@@ -2,6 +2,12 @@
 Version History
 ===============
 
+v0.0.9
+------
+* Ahora se pueden filtrar los santuarios en el creador de decks
+* Los santuarios se pueden ordenar también por Adita, Estructura, o Voluntad
+
+
 v0.0.8
 ------
 
@@ -24,9 +30,9 @@ v0.0.6
 ------
 
 * Mejor visualización de cartas en el creador de mazos
-    * Vista en tablas en tabs
-    * Vista de stats más importantes por tipo de carta
-    * Identificador de edición para Personajes
+* Vista en tablas en tabs
+* Vista de stats más importantes por tipo de carta
+* Identificador de edición para Personajes
 
 
 v0.0.5
@@ -46,7 +52,7 @@ v0.0.2
 ------
 
 * Updated card icons
-    * Include icons for all factions and gifts
+* Include icons for all factions and gifts
 * Fix some frame render issues
 
 v0.0.1

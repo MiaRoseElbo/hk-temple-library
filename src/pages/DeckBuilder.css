@@ -16,12 +16,8 @@ button {
   margin-left: 10px;
 }
 
-.navigation-buttons {
-  margin-top: 20px;
-}
-
-.navigation-buttons button {
-  margin-right: 10px;
+.banned{
+  background-color: rgb(77, 32, 32);
 }
 
 .hovered-card-info{
@@ -156,6 +152,31 @@ grid-template-columns: repeat(2, 1fr);
   transform: rotate(180deg);
 }
 
+.deck-builder-navigation-buttons {
+    margin-top: 2rem;
+    background-color: black;
+    border-top:1px solid #444;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: -0.5rem;
+}
+
+.deck-builder-navigation-buttons button{
+    margin: 0 1rem;
+    background-color: black;
+    border: 1px solid white;
+    color:white;
+    padding: 0.4rem 1.2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.deck-builder-navigation-buttons button:hover{
+  background-color: #777;
+}
+
 /* ////// */
 /* STEP 1 */
 /* ////// */
@@ -247,7 +268,45 @@ display: inline-flex;
   width: 2rem;
 }
 
+.deck-creator-card-faccion img{
+  width: 2rem;
+}
+
 /* STEP 3 */
+
+.deck-creator-summary-img{
+  width: 1rem !important;
+  text-align: center;
+}
+
+.step-3-save-deck{
+  background-color: rgb(116, 36, 36);
+  color:rgb(217, 126, 126);
+  border: 1px solid  rgb(116, 36, 36);
+  font-size: 1.4em;
+  font-family: distro;
+  font-weight: bold;
+  padding: 0.4em 1em;
+  border-radius: 2em;
+  cursor:pointer;
+}
+
+.step-3-save-deck:hover{
+  background-color: red;
+  color:white;
+  border: 1px solid red;
+}
+
+.deck-creator-step-3 input{
+  background-color: black;
+  color:white;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 1em;
+  padding: 0.4rem 1rem;
+  margin: 1rem;
+  margin-top: 2rem;
+}
 
 .mazo{
   display: grid;

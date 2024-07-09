@@ -6,6 +6,8 @@ v0.0.9
 ------
 * Ahora se pueden filtrar los santuarios en el creador de decks
 * Los santuarios se pueden ordenar también por Adita, Estructura, o Voluntad
+* Se implementó las reglas de restricción de cartas
+* Algunas mejoras de diseño
 
 
 v0.0.8

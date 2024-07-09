@@ -21,7 +21,7 @@ const Step3 = ({ deckName, setDeckName, selectedCards, handleMouseEnter, handleM
   });
 
   return (
-    <div>
+    <div className="deck-creator-step-3">
       <h2>Nombra tu Mazo</h2>
       <input
         type="text"
@@ -38,18 +38,18 @@ const Step3 = ({ deckName, setDeckName, selectedCards, handleMouseEnter, handleM
             {Object.values(finalGroupedSelectedCards[tipo]).map((card, cardIndex) => (
               <div key={cardIndex} className="mazo-item">
                 <div
-                  className='card-faccion'
+                  className='deck-creator-card-faccion'
                   onMouseEnter={() => handleMouseEnter(card)}
                   onMouseLeave={handleMouseLeave}
                 >
-                  <img src={getImagePath('facciones', `${card.Faccion}.png`)} /> {card.Nombre} x{card.count}
+                  {card.Nombre} x{card.count}
                 </div>
               </div>
             ))}
           </div>
         ))}
       </div>
-      <button onClick={handleSaveDeck}>Guardar Mazo</button>
+      <button className='step-3-save-deck' onClick={handleSaveDeck}>Guardar Mazo</button>
     </div>
   );
 };

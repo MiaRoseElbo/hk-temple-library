@@ -18,14 +18,14 @@ const Step2 = ({ cardsData, selectedCards, santuario, addCardToDeck, removeCardF
   const renderDeckCard = (card) => {
     return (
       <div
-        key={card.Numero}
+        key={card.id}
         className="san-item"
         onMouseEnter={() => handleMouseEnter(card)}
         onMouseLeave={handleMouseLeave}
       >
         <div className="card-data">
           <div className="title">
-            <div className='card-faccion'>
+            <div className='deck-creator-card-faccion'>
               <img src={getImagePath('facciones', `${card.Faccion}.png`)} />
             </div>
             <div className="card-nombre">{card.Nombre} {(card.Tipo === 'san') ? '' : ('x' + (card.count))}</div>
@@ -81,6 +81,7 @@ const Step2 = ({ cardsData, selectedCards, santuario, addCardToDeck, removeCardF
             <th onClick={() => handleSort('Nombre')}>Nombre {sortConfig.key === 'Nombre' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
             <th onClick={() => handleSort('Coste')}>Coste {sortConfig.key === 'Coste' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
             <th onClick={() => handleSort('Fuerza')}>Fuerza {sortConfig.key === 'Fuerza' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
+            <th onClick={() => handleSort('Restriccion')}>R {sortConfig.key === 'Restriccion' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
           </>
         );
       case 'man':
@@ -88,24 +89,27 @@ const Step2 = ({ cardsData, selectedCards, santuario, addCardToDeck, removeCardF
           <>
             <th onClick={() => handleSort('Nombre')}>Nombre {sortConfig.key === 'Nombre' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
             <th onClick={() => handleSort('Coste')}>Coste {sortConfig.key === 'Coste' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
+            <th onClick={() => handleSort('Restriccion')}>R {sortConfig.key === 'Restriccion' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
           </>
         );
-        case 'adi':
-          return (
-            <>
-              <th onClick={() => handleSort('Nombre')}>Nombre {sortConfig.key === 'Nombre' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
-              <th onClick={() => handleSort('Estructura')}>Estructura {sortConfig.key === 'Estructura' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
-              <th onClick={() => handleSort('Voluntad')}>Voluntad {sortConfig.key === 'Voluntad' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
-            </>
-          );
-          case 'tec':
+      case 'adi':
+        return (
+          <>
+            <th onClick={() => handleSort('Nombre')}>Nombre {sortConfig.key === 'Nombre' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
+            <th onClick={() => handleSort('Estructura')}>Estructura {sortConfig.key === 'Estructura' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
+            <th onClick={() => handleSort('Voluntad')}>Voluntad {sortConfig.key === 'Voluntad' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
+            <th onClick={() => handleSort('Restriccion')}>R {sortConfig.key === 'Restriccion' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
+          </>
+        );
+      case 'tec':
         return (
           <>
             <th onClick={() => handleSort('Nombre')}>Nombre {sortConfig.key === 'Nombre' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
             <th onClick={() => handleSort('Coste')}>Coste {sortConfig.key === 'Coste' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
+            <th onClick={() => handleSort('Restriccion')}>R {sortConfig.key === 'Restriccion' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
           </>
         );
-        case 'col':
+      case 'col':
         return (
           <>
             <th onClick={() => handleSort('Nombre')}>Nombre {sortConfig.key === 'Nombre' ? (sortConfig.direction === 'asc' ? '↑' : '↓') : ''}</th>
@@ -125,24 +129,28 @@ const Step2 = ({ cardsData, selectedCards, santuario, addCardToDeck, removeCardF
 
   const renderTableRows = (cards, type) => {
     return sortCards(cards, sortConfig).map((card, cardIndex) => {
-      const cardCount = selectedCards.filter(c => c.Numero === card.Numero).length;
-      const isDisabled = (cardCount >= 4) || (card.Tipo === 'col' && selectedCards.some(c => c.Tipo === 'col' && c.Numero !== card.Numero));
+      const isBanned = card.Estado==='B';
+      const cardCount = selectedCards.filter(c => c.id === card.id).length;
+      const totalCount = selectedCards.filter(c => c.Nombre === card.Nombre).length;
+      const minRestriction = Math.min(...selectedCards.filter(c => c.Nombre === card.Nombre).map(c => c.Restriccion));
+      const isDisabled = (totalCount >= minRestriction) || (card.Tipo === 'col' && selectedCards.some(c => c.Tipo === 'col' && c.id !== card.id));
 
       switch (type) {
         case 'per':
           return (
             <tr
               key={cardIndex}
-              className={`card-item ${isDisabled ? 'disabled' : ''}`}
+              className={`card-item ${isDisabled ? 'disabled' : ''} ${isBanned?'banned':''}`}
               onMouseEnter={() => handleMouseEnter(card)}
               onMouseLeave={handleMouseLeave}
             >
               <td>{card.Nombre+' ('+card.Edicion+')'}</td>
               <td>{card.Coste}</td>
               <td>{card.Fuerza}</td>
+              <td>{card.Restriccion}</td>
               <td className="button-group">
                 <button
-                  onClick={() => removeCardFromDeck(card.Numero)}
+                  onClick={() => removeCardFromDeck(card.id)}
                   disabled={cardCount === 0}
                 >
                   -
@@ -161,15 +169,16 @@ const Step2 = ({ cardsData, selectedCards, santuario, addCardToDeck, removeCardF
           return (
             <tr
               key={cardIndex}
-              className={`card-item ${isDisabled ? 'disabled' : ''}`}
+              className={`card-item ${isDisabled ? 'disabled' : ''} ${isBanned?'banned':''}`}
               onMouseEnter={() => handleMouseEnter(card)}
               onMouseLeave={handleMouseLeave}
             >
               <td>{card.Nombre}</td>
               <td>{card.Coste}</td>
+              <td>{card.Restriccion}</td>
               <td className="button-group">
                 <button
-                  onClick={() => removeCardFromDeck(card.Numero)}
+                  onClick={() => removeCardFromDeck(card.id)}
                   disabled={cardCount === 0}
                 >
                   -
@@ -184,20 +193,21 @@ const Step2 = ({ cardsData, selectedCards, santuario, addCardToDeck, removeCardF
               </td>
             </tr>
           );
-          case 'adi':
+        case 'adi':
           return (
             <tr
               key={cardIndex}
-              className={`card-item ${isDisabled ? 'disabled' : ''}`}
+              className={`card-item ${isDisabled ? 'disabled' : ''} ${isBanned?'banned':''}`}
               onMouseEnter={() => handleMouseEnter(card)}
               onMouseLeave={handleMouseLeave}
             >
               <td>{card.Nombre}</td>
               <td>{card.Estructura}</td>
               <td>{card.Voluntad}</td>
+              <td>{card.Restriccion}</td>
               <td className="button-group">
                 <button
-                  onClick={() => removeCardFromDeck(card.Numero)}
+                  onClick={() => removeCardFromDeck(card.id)}
                   disabled={cardCount === 0}
                 >
                   -
@@ -212,19 +222,20 @@ const Step2 = ({ cardsData, selectedCards, santuario, addCardToDeck, removeCardF
               </td>
             </tr>
           );
-          case 'tec':
+        case 'tec':
           return (
             <tr
               key={cardIndex}
-              className={`card-item ${isDisabled ? 'disabled' : ''}`}
+              className={`card-item ${isDisabled ? 'disabled' : ''} ${isBanned?'banned':''}`}
               onMouseEnter={() => handleMouseEnter(card)}
               onMouseLeave={handleMouseLeave}
             >
               <td>{card.Nombre}</td>
               <td>{card.Coste}</td>
+              <td>{card.Restriccion}</td>
               <td className="button-group">
                 <button
-                  onClick={() => removeCardFromDeck(card.Numero)}
+                  onClick={() => removeCardFromDeck(card.id)}
                   disabled={cardCount === 0}
                 >
                   -
@@ -239,11 +250,11 @@ const Step2 = ({ cardsData, selectedCards, santuario, addCardToDeck, removeCardF
               </td>
             </tr>
           );
-          case 'col':
+        case 'col':
           return (
             <tr
               key={cardIndex}
-              className={`card-item ${isDisabled ? 'disabled' : ''}`}
+              className={`card-item ${isDisabled ? 'disabled' : ''} ${isBanned?'banned':''}`}
               onMouseEnter={() => handleMouseEnter(card)}
               onMouseLeave={handleMouseLeave}
             >
@@ -252,7 +263,7 @@ const Step2 = ({ cardsData, selectedCards, santuario, addCardToDeck, removeCardF
               <td>{card.Reanim}</td>
               <td className="button-group">
                 <button
-                  onClick={() => removeCardFromDeck(card.Numero)}
+                  onClick={() => removeCardFromDeck(card.id)}
                   disabled={cardCount === 0}
                 >
                   -
@@ -272,14 +283,14 @@ const Step2 = ({ cardsData, selectedCards, santuario, addCardToDeck, removeCardF
           return (
             <tr
               key={cardIndex}
-              className={`card-item ${isDisabled ? 'disabled' : ''}`}
+              className={`card-item ${isDisabled ? 'disabled' : ''} ${isBanned?'banned':''}`}
               onMouseEnter={() => handleMouseEnter(card)}
               onMouseLeave={handleMouseLeave}
             >
               <td>{card.Nombre}</td>
               <td className="button-group">
                 <button
-                  onClick={() => removeCardFromDeck(card.Numero)}
+                  onClick={() => removeCardFromDeck(card.id)}
                   disabled={cardCount === 0}
                 >
                   -

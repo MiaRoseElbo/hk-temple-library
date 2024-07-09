@@ -45,10 +45,10 @@ const DeckBuilder = () => {
   };
 
   const addCardToDeck = (card, count) => {
-    const cardCount = selectedCards.filter(c => c.Numero === card.Numero).length;
+    const cardCount = selectedCards.filter(c => c.id === card.id).length;
   
     if (cardCount < 4 && (card.Tipo !== 'col' || !selectedCards.some(c => c.Tipo === 'col'))) {
-      const newSelectedCards = selectedCards.filter(c => c.Numero !== card.Numero);
+      const newSelectedCards = selectedCards.filter(c => c.id !== card.id);
       const newCardList = cardList.filter(c => c !== card.id);
       setSelectedCards([...newSelectedCards, ...Array(count).fill(card)]);
       setCardList([...newCardList, ...Array(count).fill(card.id)]);
@@ -56,7 +56,7 @@ const DeckBuilder = () => {
   };
   
   const removeCardFromDeck = (cardNumero) => {
-    const cardIndex = selectedCards.findIndex(c => c.Numero === cardNumero);
+    const cardIndex = selectedCards.findIndex(c => c.id === cardNumero);
     if (cardIndex !== -1) {
       const newSelectedCards = selectedCards.slice();
       const newCardList = cardList.slice();
@@ -146,9 +146,9 @@ const DeckBuilder = () => {
     <div className="deck-builder">
       <h1>Creador de Mazos</h1>
       {renderStepContent()}
-      <div className="navigation-buttons">
-        {step > 1 && <button onClick={prevStep}>Back</button>}
-        {step < 3 && <button onClick={nextStep}>Next</button>}
+      <div className="deck-builder-navigation-buttons">
+        {step > 1 && <button onClick={prevStep}>Retroceder</button>}
+        {step < 3 && <button onClick={nextStep}>Avanzar</button>}
       </div>
       {hoveredCard && (
         <div

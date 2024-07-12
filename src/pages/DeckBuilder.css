@@ -160,7 +160,7 @@ grid-template-columns: repeat(2, 1fr);
     position: fixed;
     width: 100%;
     bottom: 0;
-    left: -0.5rem;
+    left: 0;
 }
 
 .deck-builder-navigation-buttons button{

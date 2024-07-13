@@ -30,6 +30,7 @@ const Navbar = () => {
           </>
         )}
         <li><Link to="/cards">Colección Cartas</Link></li>
+        <li><Link to="/rules">Reglas</Link></li>
         <li className='navbar-user'>
           {currentUser ? (
             <>

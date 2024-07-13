@@ -9,6 +9,7 @@ import CardCreator from './pages/CardCreator';
 import CardCollection from './pages/CardCollection';
 import CardDetail from './pages/CardDetail.js';
 import DeckDetails from './pages/DeckDetails.js';
+import Rules from './pages/Rules.js';
 import Login from './components/Login'; 
 import './App.css';
 
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/cards" element={<CardCollection />} />
         <Route path="/card-creator" element={<CardCreator />} />
         <Route path="/cards/:id"  element={<CardDetail />} />
+        <Route path="/rules" element={<Rules />} />
         <Route path="/login" element={<Login />} />
       </Routes>
     </Router>

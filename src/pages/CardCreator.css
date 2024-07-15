@@ -13,6 +13,9 @@
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
+    gap:1em;
+    width: fit-content;
+    margin:auto;
 }
 
 .card-container{
@@ -24,7 +27,10 @@
 .cardCreatorForm{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 20em;
+    justify-content: center;
+    width: fit-content;
+    overflow: auto;
+    height: 80vh;
 }
 .cardCreatorForm div{
     grid-column: span 2;
@@ -64,3 +70,28 @@
     background-color: rgba(0, 0, 0, 0.7);
     margin: 0.5em;
 }
+
+.card-creator-btn-wrapper{
+    width: 100%;
+    text-align: center;
+}
+
+.card-creator-download-btn{
+    background-color: rgb(116, 36, 36);
+    color:rgb(217, 126, 126);
+    border: 1px solid  rgb(116, 36, 36);
+    font-size: 1.4em;
+    font-family: distro;
+    font-weight: bold;
+    padding: 0.4em 1em;
+    border-radius: 2em;
+    cursor:pointer;
+    margin: 1em;
+  }
+  
+  .card-creator-download-btn:hover{
+    background-color: red;
+    color:white;
+    border: 1px solid red;
+  }
+  

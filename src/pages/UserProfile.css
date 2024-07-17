@@ -1,0 +1,9 @@
+/* src/components/UserProfile.css */
+.user-profile {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #000000;
+  }

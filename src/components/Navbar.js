@@ -31,9 +31,12 @@ const Navbar = () => {
         )}
         <li><Link to="/cards">Colección Cartas</Link></li>
         <li><Link to="/rules">Reglas</Link></li>
+        <li><Link to="/profile">Perfil</Link></li>
         <li className='navbar-user'>
           {currentUser ? (
             <>
+
+              <Link to={`/users/${currentUser.uid}`}>{currentUser.username}</Link>
               <span>Bienvenide, <b className='navbar-username'>{currentUser.username}</b></span>
               <span className='navbar-logout' onClick={handleLogout}>cerrar sesión</span>
             </>

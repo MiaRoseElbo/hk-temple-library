@@ -1,6 +1,5 @@
 // src/components/DeckList.js
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import { database } from '../firebase';
 import { ref, get } from 'firebase/database';
@@ -85,7 +84,7 @@ const DeckList = () => {
             <div className='deck-list-deck-info'>
               <div className='deck-list-name'>{deck.name}</div>
               <div className='deck-list-counter'>{deck.cards.length}/41</div>
-              <div className='deck-list-user'>creado por {<Link to={`/users/${usernames[deck.user]}`}>{usernames[deck.user]}</Link> || 'Loading...'}</div>
+              <div className='deck-list-user'>creado por {usernames[deck.user] || 'Loading...'}</div>
             </div>
           </div>
         ))}

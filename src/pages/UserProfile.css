@@ -1,9 +1,24 @@
-/* src/components/UserProfile.css */
+/* src/pages/UserProfile.css */
 .user-profile {
-    max-width: 600px;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    background-color: #000000;
-  }
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #000000;
+}
+
+.user-profile-avatar-display {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+}
+
+.user-profile-avatar-display img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}

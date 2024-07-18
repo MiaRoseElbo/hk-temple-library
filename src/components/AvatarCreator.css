@@ -1,0 +1,59 @@
+/* src/components/AvatarCreator.css */
+.avatar-creator {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .avatar-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .category {
+    margin: 10px;
+  }
+  
+  .options img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+  }
+  
+  .options img.selected {
+    border-color: blue;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  
+  /* src/components/UserProfile.css */
+  .user-profile {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .user-profile h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-profile-avatar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .avatar-display img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+  }
+  

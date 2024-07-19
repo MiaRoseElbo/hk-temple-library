@@ -2,6 +2,12 @@
 Version History
 ===============
 
+v0.0.10
+------
+* Nuevo feature de creación de avatar para usuarios
+* También se pueden revisar los perfiles de otros usuarios
+
+
 v0.0.9
 ------
 * Ahora se pueden filtrar los santuarios en el creador de decks

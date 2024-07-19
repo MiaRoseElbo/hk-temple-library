@@ -99,7 +99,7 @@ const UserProfile = () => {
               <div className='user-profile-button'><PrimaryButton onClick={() => saveAvatar(avatar)}>Guardar Avatar</PrimaryButton></div>
             </>
           ) : (
-            <PrimaryButton onClick={() => setIsEditing(true)}>Edit Avatar</PrimaryButton>
+            <PrimaryButton onClick={() => setIsEditing(true)}>Editar Avatar</PrimaryButton>
           )}
         </>
       ) : (

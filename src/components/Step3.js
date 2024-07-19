@@ -1,6 +1,7 @@
 import React from 'react';
 import getImagePath from '../utils/getImagePath';
 import tipoMapping from '../utils/cardJsonMapping';
+import PrimaryButton from './PrimaryButton';
 
 const Step3 = ({ deckName, setDeckName, selectedCards, handleMouseEnter, handleMouseLeave, handleSaveDeck }) => {
   const finalGroupedSelectedCards = selectedCards.reduce((groups, card) => {
@@ -49,7 +50,7 @@ const Step3 = ({ deckName, setDeckName, selectedCards, handleMouseEnter, handleM
           </div>
         ))}
       </div>
-      <button className='step-3-save-deck' onClick={handleSaveDeck}>Guardar Mazo</button>
+      <PrimaryButton onClick={handleSaveDeck}>Guardar Mazo</PrimaryButton>
     </div>
   );
 };

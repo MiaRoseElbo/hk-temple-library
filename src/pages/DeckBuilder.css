@@ -17,7 +17,10 @@
 }
 
 .banned{
-  background-color: rgb(77, 32, 32);
+  background-color: rgb(77, 32, 32) !important;
+  border:1px black solid;
+  text-decoration: line-through !important;
+  color:#777;
 }
 
 .hovered-card-info{

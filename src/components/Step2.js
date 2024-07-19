@@ -314,7 +314,7 @@ const Step2 = ({ cardsData, selectedCards, santuario, addCardToDeck, removeCardF
       <h2>Agrega Cartas</h2>
       <div className="step-2">
         <div className="selected-cards">
-          <h3>Cartas en Mazo ({selectedCards.length}/41)</h3>
+          <h3>Cartas en Mazo ({selectedCards.length}/61)</h3>
           {sortedGroupedSelectedCards.map((card, index) => (
             <div key={index} className={`selected-card-item ${card.Tipo === 'san' ? 'item-san' : ''}`}>
               {renderDeckCard(card)}

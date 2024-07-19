@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { database, auth } from '../firebase';
 import { AuthContext } from '../components/AuthContext';
 import { ref, push } from 'firebase/database'; // Import necessary functions for database
@@ -19,6 +20,7 @@ const DeckBuilder = () => {
   const [hoveredPosition, setHoveredPosition] = useState({ x: 0, y: 0 });
 
   const { currentUser } = useContext(AuthContext);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleMouseMove = (event) => {
@@ -78,6 +80,7 @@ const DeckBuilder = () => {
       setSelectedCards([]);
       setSantuario(null);
       setStep(1);
+      navigate('/deck-list');
     } catch (error) {
       console.error('Error saving deck: ', error);
     }

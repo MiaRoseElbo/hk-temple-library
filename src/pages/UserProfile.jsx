@@ -103,7 +103,7 @@ const UserProfile = () => {
           )}
         </>
       ) : (
-        'chao'
+        ''
       )}
     </div>
   );

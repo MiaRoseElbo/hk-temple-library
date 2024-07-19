@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import { database } from '../firebase';
 import { ref, get } from 'firebase/database';
@@ -12,6 +13,7 @@ const DeckDetails = () => {
   const { deckId } = useParams();
   const [deck, setDeck] = useState(null);
   const [username, setUsername] = useState('');
+  const [userId, setUserId] = useState('');
   const [activeTab, setActiveTab] = useState('col'); // Default active tab
 
   useEffect(() => {
@@ -25,6 +27,7 @@ const DeckDetails = () => {
           setDeck(deckData);
           const username = await fetchUser(deckData.user);
           setUsername(username);
+          setUserId(deckData.user);
         }
       } catch (error) {
         console.error('Error fetching deck:', error);
@@ -171,7 +174,7 @@ const DeckDetails = () => {
     <div className="deck-details">
       <div className="deck-info">
         <h1>{deck.name}</h1>
-        <p>{username}</p>
+        <p>{<Link to={`/users/${userId}`}>{username}</Link>}</p>
       </div>
       <div className="san-cards">
         {renderCardGroup(groupedCards['san'])}

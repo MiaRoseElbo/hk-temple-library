@@ -31,7 +31,17 @@ const Login = () => {
       await updateProfile(userCredential.user, { displayName: username });
       await set(ref(database, 'users/' + userId), {
         username: username,
-        email: email
+        email: email,
+        avatar:{
+          a:'a01.png',
+          b:'',
+          c:'',
+          d:'',
+          e:'',
+          f:'',
+          g:[],
+          h:[],
+        }
       });
       navigate('/'); // Navigate to home after signup
     } catch (error) {

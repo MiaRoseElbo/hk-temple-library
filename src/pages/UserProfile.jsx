@@ -1,4 +1,3 @@
-// src/pages/UserProfile.jsx
 import React, { useState, useEffect, useContext } from 'react';
 import { useParams } from 'react-router-dom';
 import { database } from '../firebase';
@@ -6,17 +5,21 @@ import { ref, get, update } from 'firebase/database';
 import { AuthContext } from '../components/AuthContext';
 import AvatarCreator from '../components/AvatarCreator';
 import { images } from '../utils/importAllImages';
+import PrimaryButton from '../components/PrimaryButton';
 import './UserProfile.css';
 
 const UserProfile = () => {
   const { currentUser } = useContext(AuthContext);
   const { id } = useParams();
   const [user, setUser] = useState({
-    uid:'',
+    uid: '',
     username: '',
-    avatar: { a: '', b: '', c: '', d: '', e: '', f: '', g: [], h: [] }
+    avatar: { a: '', b: '', c: '', d: '', e: '', f: '', g: [], h: [] },
+    faccion: '',
+    agrupacion: ''
   });
-  const [avatar, setAvatar] = useState({a: '', b: '', c: '', d: '', e: '', f: '', g: [], h: []});
+  const [avatar, setAvatar] = useState({ a: '', b: '', c: '', d: '', e: '', f: '', g: [], h: [] });
+  const [isEditing, setIsEditing] = useState(false);
 
   useEffect(() => {
     const fetchUser = async (userId) => {
@@ -27,12 +30,14 @@ const UserProfile = () => {
         if (snapshot.exists()) {
           const userData = snapshot.val();
           console.log(userData);
-          setAvatar(userData.avatar)
+          setAvatar(userData.avatar);
           setUser({
             username: userData.username,
             avatar: userData.avatar,
+            faccion: userData.faccion,
+            agrupacion: userData.agrupacion
           });
-          console.log ('caught user', user);
+          console.log('caught user', user);
         }
       } catch (error) {
         console.error('Error fetching user:', error);
@@ -43,11 +48,12 @@ const UserProfile = () => {
   }, [id]);
 
   const saveAvatar = async (avatar) => {
-    console.log('saving avatar:',avatar)
+    console.log('saving avatar:', avatar);
     try {
       const userRef = ref(database, `users/${id}`);
       await update(userRef, { avatar });
       setUser((prevUser) => ({ ...prevUser, avatar }));
+      setIsEditing(false); // Exit editing mode after saving
     } catch (error) {
       console.error('Error saving avatar:', error);
     }
@@ -55,9 +61,9 @@ const UserProfile = () => {
 
   const handleAvatarChange = (avatar) => {
     console.log(avatar);
-    console.log('currentUser',currentUser);
-    console.log('id',id);
-    setAvatar(avatar)
+    console.log('currentUser', currentUser);
+    console.log('id', id);
+    setAvatar(avatar);
   };
 
   const renderAvatar = (avatar) => {
@@ -76,14 +82,29 @@ const UserProfile = () => {
 
   return (
     <div className="user-profile">
-      <h2>Perfil de Usuario</h2>
-      <div>{user.username ? user.username : 'Cargando...'}</div>
       <div className="user-profile-avatar">
         {renderAvatar(avatar)}
       </div>
-      {currentUser.uid==id?<><AvatarCreator onAvatarChange={handleAvatarChange} initialAvatar={user.avatar} /><button onClick={() => { saveAvatar(avatar)}}>Guardar Avatar</button></>:'chao'}
+      <div className="user-profile-info">
+        <h2>{user.username ? user.username : ''}</h2>
+        <p>{user.faccion ? user.faccion : 'Sin Facción'}</p>
+        <p className="user-profile-info-agrupacion">{user.agrupacion ? user.agrupacion : 'Sin Afiliación'}</p>
+      </div>
       
-      
+      {currentUser.uid === id ? (
+        <>
+          {isEditing ? (
+            <>
+              <AvatarCreator onAvatarChange={handleAvatarChange} initialAvatar={user.avatar} />
+              <div className='user-profile-button'><PrimaryButton onClick={() => saveAvatar(avatar)}>Guardar Avatar</PrimaryButton></div>
+            </>
+          ) : (
+            <PrimaryButton onClick={() => setIsEditing(true)}>Edit Avatar</PrimaryButton>
+          )}
+        </>
+      ) : (
+        'chao'
+      )}
     </div>
   );
 };

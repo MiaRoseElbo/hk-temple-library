@@ -95,12 +95,6 @@ const AvatarCreator = ({ onAvatarChange, initialAvatar }) => {
       return (
         <div className="option-container">
           <button onClick={() => handlePrev(category, count)}>&lt;</button>
-          {/* <img
-            key={image}
-            src={imagePath}
-            alt={image}
-            className={selectedImages[category] === image ? 'selected' : ''}
-          /> */}
           <button onClick={() => handleNext(category, count)}>&gt;</button>
         </div>
       );
@@ -109,7 +103,6 @@ const AvatarCreator = ({ onAvatarChange, initialAvatar }) => {
 
   return (
     <div className="avatar-creator">
-      <h3>Crea tu Avatar</h3>
       <div className="avatar-options">
         <div className="category">
           <h4>Cuerpo</h4>

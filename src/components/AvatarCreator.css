@@ -1,7 +1,8 @@
 /* src/components/AvatarCreator.css */
 .avatar-creator {
+    grid-column: span 2;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1rem;
   }
   
   .avatar-options {
@@ -11,49 +12,32 @@
   }
   
   .category {
-    margin: 10px;
+    margin: 0.8rem;
+    text-align: center;
+  }
+
+  .category .options .option-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .options input {
+    display: contents;
   }
   
   .options img {
-    width: 100px;
-    height: 100px;
-    margin: 5px;
+    width: 5em;
+    height: 5em;
     cursor: pointer;
     border: 2px solid transparent;
+    opacity: 0.25;
+    border: 1px solid #777;
+    border-radius: 5em;
+    margin: 0.2rem;
   }
   
   .options img.selected {
-    border-color: blue;
-  }
-  
-  button {
-    margin-top: 20px;
-  }
-  
-  /* src/components/UserProfile.css */
-  .user-profile {
-    max-width: 600px;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    background-color: #f9f9f9;
-  }
-  
-  .user-profile h2 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .user-profile-avatar {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-  
-  .avatar-display img {
-    position: absolute;
-    width: 100px;
-    height: 100px;
+    opacity: 1;
   }
   

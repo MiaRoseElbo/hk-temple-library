@@ -2,17 +2,29 @@
 .user-profile {
   max-width: 600px;
   margin: auto;
+  margin-top: 2rem;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 4px;
   background-color: #000000;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.user-profile-avatar{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .user-profile-avatar-display {
   position: relative;
   width: 200px;
   height: 200px;
-  background-color: white;
+  background-color: black;
+  border-radius: 1rem;
+  background-image: url('../assets/profile/bg00.png');
+  background-size: cover;
 }
 
 .user-profile-avatar-display img {
@@ -21,4 +33,29 @@
   height: 100%;
   top: 0;
   left: 0;
+}
+
+.user-profile-info h2 {
+  font-size: 1.4em;
+  font-family: distro;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.user-profile-info p {
+  font-size: 1em;
+  text-align: left;
+}
+
+.user-profile-info-agrupacion{
+  margin-top: 0.4rem;
+  font-size:0.8em !important;
+  color:#777;
+  font-style: italic;
+}
+
+.user-profile-button{
+  width: 100%;
+    grid-column: span 2;
+    text-align: center;
 }

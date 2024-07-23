@@ -6,6 +6,7 @@ v0.0.10
 ------
 * Nuevo feature de creación de avatar para usuarios
 * También se pueden revisar los perfiles de otros usuarios
+* Se peude elegir una facción y afiliación
 
 
 v0.0.9

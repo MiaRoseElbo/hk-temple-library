@@ -59,3 +59,23 @@
     grid-column: span 2;
     text-align: center;
 }
+
+
+.user-profile-info-select {
+  background-color: black;
+  color:white;
+  font-size: 1em;
+  text-align: left;
+  border: none;
+  width: 12rem;
+}
+
+.user-profile-info-agrupacion-select{
+  background-color: black;
+  margin-top: 0.4rem;
+  font-size:0.8em !important;
+  color:#777;
+  font-style: italic;
+  border: none;
+  width: 12rem;
+}

@@ -34,13 +34,13 @@ const Login = () => {
         email: email,
         avatar:{
           a:'a01.png',
-          b:'',
-          c:'',
-          d:'',
-          e:'',
-          f:'',
-          g:[],
-          h:[],
+          b:'b01.png',
+          c:'c01.png',
+          d:'d01.png',
+          e:'e01.png',
+          f:'f01.png',
+          g:['g01.png'],
+          h:['h01.png'],
         }
       });
       navigate('/'); // Navigate to home after signup

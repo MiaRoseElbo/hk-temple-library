@@ -106,6 +106,10 @@ const UserProfile = () => {
     );
   };
 
+  if (!currentUser) {
+    return <div>Loading...</div>; // Show a loading message while the user is being fetched
+  }
+
   return (
     <div className="user-profile">
       <div className="user-profile-avatar">
@@ -113,27 +117,27 @@ const UserProfile = () => {
       </div>
       <div className="user-profile-info">
         <h2>{user.username ? user.username : ''}</h2>
-        {isEditingFaction?(
+        {isEditingFaction ? (
           <>
             <select className='user-profile-info-select' value={faction} onChange={(e) => setFaction(e.target.value)}>
-                {Object.keys(factions).map((faction) => (
-                  <option key={faction} value={faction}>{faction}</option>
-                ))}
+              {Object.keys(factions).map((faction) => (
+                <option key={faction} value={faction}>{faction}</option>
+              ))}
             </select>
             <select className="user-profile-info-agrupacion-select" value={affiliation} onChange={(e) => setAffiliation(e.target.value)}>
-                {affiliationOptions.map((option) => (
-                  <option key={option} value={option}>{option}</option>
-                ))}
+              {affiliationOptions.map((option) => (
+                <option key={option} value={option}>{option}</option>
+              ))}
             </select>
           </>
-        ):(
+        ) : (
           <>
-          <p>{user.faccion ? user.faccion : 'Sin Facción'}</p>
-          <p className="user-profile-info-agrupacion">{user.agrupacion ? user.agrupacion : 'Sin Afiliación'}</p>
+            <p>{user.faccion ? user.faccion : 'Sin Facción'}</p>
+            <p className="user-profile-info-agrupacion">{user.agrupacion ? user.agrupacion : 'Sin Afiliación'}</p>
           </>
         )}
       </div>
-      
+
       {currentUser.uid === id ? (
         <>
           {isEditing ? (

@@ -1,4 +1,3 @@
-// src/components/AvatarCreator.jsx
 import React, { useState, useEffect } from 'react';
 import { images } from '../utils/importAllImages';
 import './AvatarCreator.css';
@@ -32,12 +31,15 @@ const AvatarCreator = ({ onAvatarChange, initialAvatar }) => {
 
   const handleChange = (category, image) => {
     if (category === 'g' || category === 'h') {
-      setSelectedImages((prevState) => ({
-        ...prevState,
-        [category]: prevState[category].includes(image)
-          ? prevState[category].filter((img) => img !== image)
-          : [...prevState[category], image]
-      }));
+      setSelectedImages((prevState) => {
+        const newArray = prevState[category] || [];
+        return {
+          ...prevState,
+          [category]: newArray.includes(image)
+            ? newArray.filter((img) => img !== image)
+            : [...newArray, image]
+        };
+      });
     } else {
       setSelectedImages((prevState) => ({
         ...prevState,

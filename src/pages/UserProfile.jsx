@@ -15,11 +15,11 @@ const UserProfile = () => {
   const [user, setUser] = useState({
     uid: '',
     username: '',
-    avatar: { a: '', b: '', c: '', d: '', e: '', f: '', g: [], h: [] },
+    avatar: { a: '', b: '', c: '', d: '', e: '', f: '', g: [], h: [], i: [], j: '', k: [] },
     faccion: '',
     agrupacion: ''
   });
-  const [avatar, setAvatar] = useState({ a: '', b: '', c: '', d: '', e: '', f: '', g: [], h: [] });
+  const [avatar, setAvatar] = useState({ a: '', b: '', c: '', d: '', e: '', f: '', g: [], h: [], i: [], j: '', k: [] });
   const [isEditing, setIsEditing] = useState(false);
   const [isEditingFaction, setIsEditingFaction] = useState(false);
   const [faction, setFaction] = useState('');
@@ -93,7 +93,7 @@ const UserProfile = () => {
   };
 
   const renderAvatar = (avatar) => {
-    const imageSources = ['g', 'a', 'b', 'c', 'd', 'e', 'f', 'h']
+    const imageSources = ['g', 'a', 'i', 'j', 'k', 'b', 'c', 'd', 'e', 'f', 'h']
       .flatMap((category) => avatar[category] || [])
       .map((image) => images[image]);
 

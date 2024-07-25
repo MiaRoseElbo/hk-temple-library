@@ -3,6 +3,10 @@
     grid-column: span 2;
     text-align: center;
     margin-top: 1rem;
+    overflow: auto;
+    height: 40vh;
+    border: 1px solid #252525;
+    border-radius: 0.2rem;
   }
   
   .avatar-options {
@@ -32,12 +36,64 @@
     cursor: pointer;
     border: 2px solid transparent;
     opacity: 0.25;
-    border: 1px solid #777;
     border-radius: 5em;
     margin: 0.2rem;
+    background-color: #555;
   }
   
   .options img.selected {
     opacity: 1;
   }
+
+  .options img:hover {
+    opacity: 1;
+  }
+
+  .option-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .option-container button{
+    border:none;
+    background-color: black;
+    color: white;
+  }
+
+  .option-container button img{
+    overflow: hidden;
+    width: 1.2rem;
+  }
+
+  .option-container p {
+    user-select: none;
+  }
   
+  .avatar-options  .category h4 {
+    font-family: distro;
+    font-weight: bold;
+    margin-bottom: 0.4em;
+  }
+
+  /* SCROLLBAR */
+
+  /* width */
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #777;
+  border-radius: 0.6rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

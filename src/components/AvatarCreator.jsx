@@ -23,14 +23,21 @@ const AvatarCreator = ({ onAvatarChange, initialAvatar }) => {
     setImageCounts(counts);
 
     const initialIndices = {};
-    Object.keys(counts).forEach(category => {
-      initialIndices[category] = 0;
-    });
+
+    for (let key in selectedImages) {
+      if (typeof selectedImages[key] === 'string') {
+          // Extract the number from the string and convert to number
+          initialIndices[key] = parseInt(selectedImages[key].match(/\d+/)[0], 10)-1;
+      } else if (Array.isArray(selectedImages[key])) {
+          // Iterate through the array and convert each string
+          initialIndices[key] = selectedImages[key].map(item => parseInt(item.match(/\d+/)[0], 10));
+      }
+    }
     setCurrentIndices(initialIndices);
   }, []);
 
   const handleChange = (category, image) => {
-    if (category === 'g' || category === 'h') {
+    if (category === 'g' || category === 'h' || category === 'i' || category === 'k') {
       setSelectedImages((prevState) => {
         const newArray = prevState[category] || [];
         return {
@@ -49,6 +56,7 @@ const AvatarCreator = ({ onAvatarChange, initialAvatar }) => {
   };
 
   const handleNext = (category, count) => {
+    
     setCurrentIndices((prevIndices) => {
       const newIndex = (prevIndices[category] + 1) % count;
       const newImage = `${category}${String(newIndex + 1).padStart(2, '0')}.png`;
@@ -61,6 +69,7 @@ const AvatarCreator = ({ onAvatarChange, initialAvatar }) => {
     setCurrentIndices((prevIndices) => {
       const newIndex = (prevIndices[category] - 1 + count) % count;
       const newImage = `${category}${String(newIndex + 1).padStart(2, '0')}.png`;
+      
       handleChange(category, newImage);
       return { ...prevIndices, [category]: newIndex };
     });
@@ -70,9 +79,9 @@ const AvatarCreator = ({ onAvatarChange, initialAvatar }) => {
     const count = imageCounts[category] || 0;
     const currentIndex = currentIndices[category] || 0;
     const image = `${category}${String(currentIndex + 1).padStart(2, '0')}.png`;
-    const imagePath = images[image];
+    // const imagePath = images[image];
     
-    if (category === 'g' || category === 'h') {
+    if (category === 'g' || category === 'h' || category === 'i' || category === 'k') {
       return (
         <div className="option-container">
           {Object.keys(images)
@@ -96,8 +105,9 @@ const AvatarCreator = ({ onAvatarChange, initialAvatar }) => {
     } else {
       return (
         <div className="option-container">
-          <button onClick={() => handlePrev(category, count)}>&lt;</button>
-          <button onClick={() => handleNext(category, count)}>&gt;</button>
+          <button onClick={() => handlePrev(category, count)}><img className='left-arrow' src={require('../assets/details/left-arrow.png')} /></button>
+          <p>{String(currentIndices[category]+1).padStart(2, '0')}</p>
+          <button onClick={() => handleNext(category, count)}><img className='right-arrow' src={require('../assets/details/left-arrow.png')} /></button>
         </div>
       );
     }
@@ -108,34 +118,44 @@ const AvatarCreator = ({ onAvatarChange, initialAvatar }) => {
       <div className="avatar-options">
         <div className="category">
           <h4>Cuerpo</h4>
-          <div className="options">{renderOptions('a')}</div>
+          <div>{renderOptions('a')}</div>
         </div>
         <div className="category">
           <h4>Ojos</h4>
-          <div className="options">{renderOptions('b')}</div>
+          <div >{renderOptions('b')}</div>
         </div>
         <div className="category">
           <h4>Cejas</h4>
-          <div className="options">{renderOptions('c')}</div>
+          <div>{renderOptions('c')}</div>
         </div>
         <div className="category">
           <h4>Nariz</h4>
-          <div className="options">{renderOptions('d')}</div>
+          <div>{renderOptions('d')}</div>
         </div>
         <div className="category">
           <h4>Boca</h4>
-          <div className="options">{renderOptions('e')}</div>
-        </div>
-        <div className="category">
-          <h4>Cabello</h4>
-          <div className="options">{renderOptions('f')}</div>
+          <div>{renderOptions('e')}</div>
         </div>
         <div className="category">
           <h4>Peinado</h4>
+          <div>{renderOptions('f')}</div>
+        </div>
+        <div className="category">
+          <h4>Vestimenta</h4>
+          <div>{renderOptions('j')}</div>
+        </div>
+        <div className="category">
+          <h4>Peinado 2</h4>
           <div className="options">{renderOptions('g')}</div>
         </div>
         <div className="category">
-          <h4>Accesorios</h4>
+          <h4>Extras</h4>
+          <div className="options">{renderOptions('k')}</div>
+        </div>
+        <div className="category">
+          <div className="options">{renderOptions('i')}</div>
+        </div>
+        <div className="category">
           <div className="options">{renderOptions('h')}</div>
         </div>
       </div>

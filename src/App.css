@@ -60,3 +60,22 @@ body {
   background-attachment: fixed;
   color:white;
 }
+
+.left-arrow{
+  transform: scale(1,1);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.left-arrow:hover{
+  transform: scale(1.4,1.4);
+}
+
+.right-arrow{
+  transform: scale(-1,1);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.right-arrow:hover{
+  transform: scale(-1.4,1.4);
+}

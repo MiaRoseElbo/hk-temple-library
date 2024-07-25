@@ -148,15 +148,17 @@ const AvatarCreator = ({ onAvatarChange, initialAvatar }) => {
           <h4>Peinado 2</h4>
           <div className="options">{renderOptions('g')}</div>
         </div>
-        <div className="category">
-          <h4>Extras</h4>
-          <div className="options">{renderOptions('k')}</div>
-        </div>
-        <div className="category">
-          <div className="options">{renderOptions('i')}</div>
-        </div>
-        <div className="category">
-          <div className="options">{renderOptions('h')}</div>
+        <h4>Extras</h4>
+        <div className="avatar-creator-extras">
+          <div className="category">
+            <div className="options">{renderOptions('k')}</div>
+          </div>
+          <div className="category">
+            <div className="options">{renderOptions('i')}</div>
+          </div>
+          <div className="category">
+            <div className="options">{renderOptions('h')}</div>
+          </div>
         </div>
       </div>
     </div>

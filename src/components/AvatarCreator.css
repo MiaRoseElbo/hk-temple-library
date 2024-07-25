@@ -3,6 +3,10 @@
     grid-column: span 2;
     text-align: center;
     margin-top: 1rem;
+    overflow: auto;
+    height: 40vh;
+    border: 1px solid #252525;
+    border-radius: 0.2rem;
   }
   
   .avatar-options {
@@ -70,3 +74,26 @@
     font-weight: bold;
     margin-bottom: 0.4em;
   }
+
+  /* SCROLLBAR */
+
+  /* width */
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #777;
+  border-radius: 0.6rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

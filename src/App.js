@@ -12,6 +12,7 @@ import DeckDetails from './pages/DeckDetails.js';
 import Rules from './pages/Rules.js';
 import Login from './components/Login';
 import Profile from './pages/UserProfile'; 
+import CardTest from './pages/CardTest'; 
 import './App.css';
 
 const App = () => {
@@ -29,6 +30,7 @@ const App = () => {
         <Route path="/rules" element={<Rules />} />
         <Route path="/users/:id" element={<Profile />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/card-test" element={<CardTest />} />
       </Routes>
     </Router>
   );

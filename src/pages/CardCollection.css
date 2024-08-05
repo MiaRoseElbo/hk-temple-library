@@ -48,17 +48,17 @@
   
   .card-wrapper.small .card-container {
     transform-origin: 0% 0%;
-    transform: scale(0.5);
+    transform: scale(0.22);
   }
   
   .card-wrapper.medium .card-container {
     transform-origin: 0% 0%;
-    transform: scale(1);
+    transform: scale(0.44);
   }
   
   .card-wrapper.large .card-container {
     transform-origin: 0% 0%;
-    transform: scale(1.5);
+    transform: scale(0.62);
   }
 
   .pagination {

@@ -2,6 +2,11 @@
 Version History
 ===============
 
+v0.0.11
+------
+* Actualización de como se renderean las cartas
+* Los textos usan símboos, hacer hover sobre ellos da detalle de lo que significan
+
 v0.0.10
 ------
 * Nuevo feature de creación de avatar para usuarios

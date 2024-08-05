@@ -3,6 +3,7 @@ import './Card.css';
 import Icons from './Icons';
 import tipoMapping from '../utils/cardJsonMapping'; // Import the mapping object
 import getImagePath from '../utils/getImagePath';
+import IconInfo from './IconInfo';
 
 const iconMapping = {
   //Tipo Carta
@@ -20,13 +21,13 @@ const iconMapping = {
 
   //Don
   'Agilidad': (<Icons type="agi" />),
-  'Bibración Molecular': (<Icons type="vib" />),
+  'Vibración Molecular': (<Icons type="vib" />),
   'Macrófago': (<Icons type="mac" />),
   'Célula': (<Icons type="cel" />),
   'Neutrófilo': (<Icons type="neu" />),
   'Empatía': (<Icons type="emp" />),
   'Predictor': (<Icons type="pre" />),
-  'Entropía': (<Icons type="emp" />),
+  'Entropía': (<Icons type="ent" />),
   'Reacción': (<Icons type="rea" />),
 
   //Facción
@@ -39,23 +40,47 @@ const iconMapping = {
   'Virtud': (<Icons type="vir" fill="red" />),
 };
 
-const Card = ({ card }) => {
-  const { Habilidad } = card;
+const Card = ({ card, size }) => {
+
+  const HabilidadSplit = ( Habilidad ) => {
+  
+    const splitHabilidad = Habilidad.split('\n');
+  
+    return (
+      <>
+        {splitHabilidad.map((line, index) => (
+          <div key={index}>{renderHabilidad(line)}</div>
+        ))}
+      </>
+    );
+  };  
 
   const renderHabilidad = (text) => {
     const regex = new RegExp(`(${Object.keys(iconMapping).join('|')})`, 'g');
     const parts = text.split(regex);
-    
+  
     return parts.map((part, index) => {
       if (iconMapping[part]) {
-        return (
-          <React.Fragment key={index}>
-            {iconMapping[part]} {part}
-          </React.Fragment>
-        );
+        return <IconInfo detail={part} />;
       }
       return <React.Fragment key={index}>{part}</React.Fragment>;
     });
+  };
+  
+
+  const renderRestriccion = (card) => {
+    
+    if (card.Restriccion==='4'){
+      return('');
+    }else if(card.Tipo==='san' || card.Tipo==='col'){
+      return('');
+    }else{
+    return (
+          <React.Fragment>
+            Restricción {card.Restriccion}.
+          </React.Fragment>
+        );
+      }
   };
 
   const renderSpheres = () => {
@@ -83,34 +108,57 @@ const Card = ({ card }) => {
     ? getImagePath('cards', `${card.Imagen}.jpg`)
     : getImagePath('cards', `${card.Edicion}${card.Numero}.jpg`);
   const cardFramePath = getImagePath('frames', `${card.Marco}/${card.Faccion}.png`);
-  // const cardFaccionPath = getImagePath('facciones', `${card.Faccion}.png`);
-
 
   const frameClass = `marco-${card.Marco}`;
 
+  const cardScale = size || 0.4;
+  const resizeContainerStyle = {
+    width: `${711 * cardScale}px`,
+    height: `${1018 * cardScale}px`
+  };
+  const cardContainerStyle = {
+    transform: `scale(${cardScale})`
+  };
+
   return (
-    <div className={`card-container ${frameClass}`}>
-      <div className="card-image" style={{ backgroundImage: `url(${cardImagePath})` }}>
-        <div className="card-frame" style={{ backgroundImage: `url(${cardFramePath})` }}>
-          <div className="card-name">
-            <h1 className="name">{card.Nombre}</h1>
+    <div className='resize-container'  style={resizeContainerStyle}>
+      <div className={`card-container ${frameClass}`} style={cardContainerStyle}>
+        <div className="card-image full-card-wrapper" style={{ backgroundImage: `url(${cardImagePath})` }}>
+        {/* style={{ backgroundImage: `url(${cardFramePath})` }} */}
+          <div className="card-frame full-card-wrapper" style={{ backgroundImage: `url(${cardFramePath})` }}>
+              <div className="card-name">
+                <h1 className="card-name-text">{card.Nombre}</h1>
+              </div>
+            <div className='card-button-column'>
+              {renderSpheres()}
+            </div>
+              <div className="card-icon">
+                <Icons type={card.Tipo} fill="white" />
+              </div>
+              <div className="card-type">
+                <h1>{(tipoMapping[card.Tipo] || card.Tipo) + (card.Subtipo ? " - " + card.Subtipo : "")}</h1>
+              </div>
+              <div className="card-text">
+                <div className="card-text-epigrafe">
+                  <p>{card.Epigrafe}</p>
+                </div>
+                <div className="card-text-habilidad">
+                  {HabilidadSplit(card.Habilidad)}
+                </div>
+                <div className="card-text-restriccion">
+                  {renderRestriccion(card)}
+                </div>
+                <div className="card-text-illus">
+                  {`Ilustrador: ${card.Ilustrador}`}
+                </div>
+                <div className="card-text-number">
+                  {card.Edicion +' '+ card.Numero}
+                </div>
+                <div className="card-text-rarity">
+                  {card.Frecuencia ? (' '+card.Frecuencia) : ''}
+                </div>
+              </div>
           </div>
-          {renderSpheres()}
-          <div className="card-icon">
-            <Icons type={card.Tipo} fill="white" />
-          </div>
-          <div className="card-type">
-            <h1>{(tipoMapping[card.Tipo] || card.Tipo) + (card.Subtipo ? " - " + card.Subtipo : "")}</h1>
-          </div>
-          <div className="card-text">
-            <p className="habilidad">{renderHabilidad(Habilidad)}</p>
-            <p className="epigrafe">{card.Epigrafe}</p>
-            <div className="card-illus">{`Ilustrador: ${card.Ilustrador}`}</div>
-            <div className="card-rarity">{(card.Frecuencia ? card.Frecuencia : '') + ' ' + card.Edicion + card.Numero}</div>
-          </div>
-          {/* <div className='card-faccion'>
-            <img src={cardFaccionPath} />
-          </div> */}
         </div>
       </div>
     </div>

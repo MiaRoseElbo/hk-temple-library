@@ -1,10 +1,4 @@
-/* Reset */
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-                
+/* Reset */                
   
   body {
       font-family: sans-serif;
@@ -55,383 +49,547 @@
     border-spacing: 0;
   }
   /* End of reset */
-  body* > {
-    box-sizing: border-box;
+
+  .resize-container{
+    width: 284.4;
+    height: 407.2;
   }
 
+  .icon-info-wrapper {
+    position: absolute;
+    transform-origin: top left;
+  }
 
-  /* ////// CARD STYLE ////// */
+  /* //////////////////////////////// */
+  /* ////// C A R D ///////////////// */
+  /* ///////// B A S I C //////////// */
+  /* //////////////// S T Y L E ///// */
+  /* //////////////////////////////// */
+
+  .inline-test{
+    display: inline-flex;
+  }
+
+  .full-card-wrapper{
+    width: 709px;
+    height: 1016px;
+  }
+
+  .test{
+    background-color: rgba(0,0,0,0.75);
+  }
   
   .card-container {
-      width: 315px;
-      height: 440px;
-      border-radius: 10px;
-      box-sizing: border-box;
-      box-shadow: -8px 9px 16px -3px black;
-      background: #000;
-      overflow: hidden;
-      font-size: 10px;
-      font-family: sans-serif;
-  }
-   .card-image {
-    height: 440px;
-      background-repeat: no-repeat;
-      background-size: cover;
-  }
-  .card-image.solid-frame {
-    background-size: 254px;
-    background-position-y: top;
-    background-position-x: right
-}
-   .card-frame {
-      height: 440px;
-      background-repeat: no-repeat;
-      background-size: cover;
-  }
-  
-  .card-name{
-      padding-top: 50%;
-  }
-  
-  .name{
-      font-family: distro;
-      color: #fff;
-      font-size: 22px;
-  }
-  
-  .card-name .name{
-      width:300px;
-      -webkit-transform-origin:90px 70px;
-      display:inline-block;
-      -webkit-transform:rotate(-90deg);
-      text-align:center;
-  }
-  
-  .card-type{
-    font-family: distro;
-      position: relative;
-      left: 87px;
-      top: -13px;
-      color: #fff;
-  }
-  
-  .card-text{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:black;
-      position: relative;
-      left: 20px;
-      top: 0px;
-      width: 240px;
-      height: 84px;
-      line-height: 1.2em;
-      font-size: 0.9em;
-  }
-
-  .epigrafe{
-    position: absolute;
-    font-style: italic;
-    bottom: 1.6em;
-    color:darkslategray;
-  }
-  
-  .card-illus{
-      position: absolute;
-      left: 10px;
-      bottom: 0px;
-  }
-  
-  .card-rarity{
-      text-align: right;
-      position: absolute;
-      right: 0px;
-      bottom: 0px;
-  }
-
-  .sphere-value{
-    position: relative;
-    top: 4px;
-  }
-
-  .card-button{
-    /* Text-Style */
-    font-family: distro;
-    font-weight: 900;
-    font-size: 16px;
-    text-align: center;
-    color: white;
-    text-shadow:
-        0px 0px 0 #000,
-      -1px -1px 0 #000,  
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
-
-    /* Button-Style */
-    width: 18px;
-    height: 18px;
-    border-radius: 100%;
-    background: -moz-linear-gradient(top, #f6e6b4 0%, #ed9017 100%); /* firefox */
-    padding:3px;
-    box-shadow:
-      inset 0 -1px 1px rgba(0,0,0,0.5),
-      inset 0 1px 1px rgba(255,255,255,0.8);
-    background-image: url(../assets/details/ridge.png);
-    background-size: cover;
+    width: 711px;
+    height: 1018px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: -8px 9px 16px -3px black;
+    background: #000;
+    overflow: hidden;
+    font-size: 10px;
+    font-family: sans-serif;
+    border: 1px solid white;
     
   }
 
-  /* SPHERE STYLES */
+  .card-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    background-position-x: right;
+  }
+
+  .card-frame {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    background-position-x: left;
+  }
+
+  .card-frame div {
+    position: absolute;
+  }
+  
+ /* //////////////////// */
+  /* /// C A R D /////// */
+  /* //////// N A M E // */
+  /* /////////////////// */
+
+  .card-name{
+    height:560px;
+    width: 146px;
+    top:130px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-name-text{
+    font-family: distro;
+    color: #fff;
+    font-size: 10vh;
+    white-space: nowrap;
+    display:inline-block;
+    -webkit-transform:rotate(-90deg);
+    text-align:center;
+}
+
+  /* /////////////////// */
+  /* /// CARD ////////// */
+  /* //////// BUTTON /// */
+  /* /////////////////// */
+
+  .card-button-column{
+    width: 100px;
+    height: 1016px;
+    right: 0px;
+  }
+  
+  .card-button{
+    /* Button-Style */
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-image: url(../assets/details/ridge.png);
+    background-size: cover;
+    box-shadow: -8px 14px 8px -2px rgba(0, 0, 0, 0.75);
+
+    /* Button Position */
+    left:0;
+  }
+
+  .sphere-value{
+    font-family: distro;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    text-shadow:
+        3px 0px 0 #000,
+        -3px 0px 0 #000,
+        0px 3px 0 #000,
+        0px -3px 0 #000,
+      -2px -2px 0 #000,  
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000;
+  }
+
+  /* /////////////////// */
+  /* CARD BUTTON DETAILS */
+  /* /////////////////// */
+
+  /* C O S T E */
+
   .coste{
-    position: relative;
-    right: -274px;
-    top: -158px;
+    top:44px;
   }
 
   .coste-sphere{
+    width: 60px;
+    height: 60px;
     background-image: url(../assets/details/yellow.png);
     background-size: cover;
-    width: 26px;
-    height: 26px;
-    position: relative;
-    top: -4px;
-    left: -4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
+  /* F U E R Z A */
 
   .fuerza{
-    position: relative;
-    right: -274px;
-    top: -148px;
+    top:142px;
   }
 
   .fuerza-sphere{
+    width: 60px;
+    height: 60px;
     background-image: url(../assets/details/green.png);
     background-size: cover;
-    width: 26px;
-    height: 26px;
-    position: relative;
-    top: -4px;
-    left: -4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
+  /* R E A N I M A C I O N */
 
   .reanim{
-    position: relative;
-    right: -274px;
-    top: 78px;
+    top:564px;
   }
 
   .reanim-sphere{
+    width: 60px;
+    height: 60px;
     background-image: url(../assets/details/purple.png);
     background-size: cover;
-    width: 26px;
-    height: 26px;
-    position: relative;
-    top: -4px;
-    left: -4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
+  /* A D I T A M E N T O */
 
   .adita{
-    position: relative;
-    right: -274px;
-    top: 88px;
+    top: 662px;
   }
 
   .adita-sphere{
+    width: 60px;
+    height: 60px;
     background-image: url(../assets/details/gray.png);
     background-size: cover;
-    width: 26px;
-    height: 26px;
-    position: relative;
-    top: -4px;
-    left: -4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
+  /* E S T R U C T U R A */
 
   .estructura{
-    position: relative;
-    right: -274px;
-    top: 98px;
+    top: 772px;
   }
-
+  
   .estructura-sphere{
+    width: 60px;
+    height: 60px;
     background-image: url(../assets/details/red.png);
     background-size: cover;
-    width: 26px;
-    height: 26px;
-    position: relative;
-    top: -4px;
-    left: -4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
+  /* V O L U N T A D */
 
   .voluntad{
-    position: relative;
-    right: -274px;
-    top: 108px;
+    top: 868px;
   }
-
+      
   .voluntad-sphere{
+    width: 60px;
+    height: 60px;
     background-image: url(../assets/details/blue.png);
     background-size: cover;
-    width: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+ 
+  /* //////////////////// */
+  /* /// C A R D //////// */
+  /* //////// T Y P E /// */
+  /* //////////////////// */
+
+  .card-icon{
+    top: 720px;
+    left: 124px;
+  }
+
+  .card-icon svg{
+    width: 34px;
+    height: 34px;
+  }
+
+  .card-type{
     height: 26px;
-    position: relative;
-    top: -4px;
-    left: -4px;
+    width: 222px;
+    top:732px;
+    left:200px;
+    font-family: distro;
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+
+  
+  /* //////////////////// */
+  /* /// C A R D //////// */
+  /* //////// T E X T /// */
+  /* //////////////////// */
+  
+  .card-text{
+    height: 208px;
+    width: 520px;
+    bottom:34px;
+    left:62px;
+  }
+
+  /* //// E P I G R A F E //// */
+
+  .card-text-epigrafe{
+    font-family: distro;
+    font-style: italic;
+    font-size: 23px;
+    color:darkslategray;
+  }
+
+  /* //// H A B I L I D A D //// */
+
+  .card-text-habilidad{
+    top:42px;
+    height: 108px;
+    width: 520px;
+
+    font-family: sans-serif;
+    font-size: 22px;
+    letter-spacing: 3.2px;
+    line-height: 26px;
+    color:black;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-text-habilidad div{
+    position:relative;
+  }
+
+  .card-text-habilidad svg{
+    width: 16px !important;
+    height: 16px !important;
+  }
+
+  /* //// R E S T R I C C I O N //// */
+
+  .card-text-restriccion{
+    font-family: 'Verdana';
+    bottom:30px;
+    font-size: 22px;
+    letter-spacing: 1.3px;
+    color:black;
+  }
+  
+  /* //// I L U S T R A D O R E //// */
+
+  .card-text-illus{
+    font-family: 'Verdana';
+    bottom:0px;
+    font-size: 17px;
+    letter-spacing: 1.3px;
+    color:black;
+  }
+
+  /* //// R A R I T Y //// */
+  
+  .card-text-rarity{
+    width: 20px;
+    bottom:0px;
+    right:0px;
+
+    font-family: 'Verdana';
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 1.3px;
+    color:black;
+    text-align: center;
+  }
+
+  /* //// N U M B E R //// */
+
+  .card-text-number{
+    width: 100px;
+    bottom:0px;
+    right:24px;
+
+    font-family: 'Verdana';
+    font-size: 17px;
+    letter-spacing: 1.3px;
+    text-transform:uppercase;
+    color:black;
+    text-align: left;
   }
 
   .hidden{
     visibility: hidden;
   }
 
-  .card-container svg {
-    width: 1em;
-    height: 1em;
-    vertical-align: middle;
-    fill: currentColor;
-  }
-
-  .card-icon{
-    position: relative;
-    left: 54.5px;
-    top: -4px;
-  }
-
-  .card-icon svg{
-    width: 1.6em;
-    height: 1.6em;
-  }
-
-  .card-faccion{
-    position: relative;
-    top: -416px;
-    left:14px;
-  }
-
-  .card-faccion img{
-    width: 3em;
-  }
-
-
-  /* FRAME ADJUSTMENTS */
-
-  /* Tradicional */
-.marco-tra .card-image {
-  height: 440px;
-  background-position-x: right;
-  background-repeat: no-repeat;
-  background-position-y: top;
-  background-size: 248px;
-}
-
-  /* Sólido */
-  .marco-sol .card-image {
-    height: 440px;
-    background-position-x: right;
-    background-repeat: no-repeat;
-    background-position-y: top;
-    background-size: 248px;
-  }
-  
-  /* Styles for Marco type 'rad' */
-.marco-rad .card-icon {
-  left: 55px;
-  top: -8px;
-}
-
-.marco-rad .card-type {
-  left: 88px;
-  top: -17px;
-}
-
-.marco-rad .card-image {
-  height: 440px;
-  background-position-x: right;
-  background-repeat: no-repeat;
-  background-position-y: top;
-  background-size: 248px;
-}
-
-  /* Styles for Marco type 'avl' */
-
-  .marco-avl .name {
-    position: relative;
-    left: -6px;
-  }
-
-  .marco-avl .card-icon {
-    left: 41px;
-    top: 8px;
-  }
-  
-  .marco-avl .card-type {
-    left: 75px;
-    top: 0px;
-  }
-  
-  .marco-avl .card-text {
-    left: 22px;
-    top: 5px;
-    width: 268px;
-
-  }
-
-  /* STYLES FOR MARCO COLOSOS col */
-
-  .marco-col .card-image{
-    box-shadow: 0 0 30px 15px #000 inset;
-  }
-
-  .marco-col .name {
+  .bolden{
     font-weight: bold;
-    text-shadow: 0px 1px black, 0px -1px black, 1px 0px black, -1px 0px black;
-  }
-  
-  .marco-col .card-type{
-    color:white !important;
-    text-shadow: 0px 1px black, 0px -1px black, 1px 0px black, -1px 0px black;
   }
 
-
-  .marco-col .card-text{
-    color:white !important;
-    text-shadow: 0px 1px black, 0px -1px black, 1px 0px black, -1px 0px black;
+  .card-container{
+    transform-origin: top left;
   }
 
-  .marco-col .card-text .epigrafe{
-    color:white !important;
-    text-shadow: 0px 1px black, 0px -1px black, 1px 0px black, -1px 0px black;
+  /* ////////////////////////// */
+  /* ////// M A R C O S /////// */
+  /* ////////////////////////// */
+
+  /* ////////////////////////// */
+  /* ////// ALTO VOLTAJE ////// */
+  /* ////////////////////////// */
+
+  /* ///// NOMBRE ///// */
+
+  .marco-avl .card-name{
+    height: 570px;
+    width: 114px;
+    top:160px;
   }
 
-  .marco-col svg{
-    fill:white !important;
-    stroke: black;
-    stroke-width: 10px;
-    paint-order: stroke;
+  /* ///// ESFERAS ///// */
+
+  .marco-avl .card-button-column{
+    width: 95px;
+  }
+  
+  .marco-avl .card-button{
+    width: 54px;
+    height: 54px;
+    border-radius: 100%;
+    box-shadow: -8px 14px 8px -2px rgba(0, 0, 0, 0.75);
+
+    left:0;
   }
 
+  .marco-avl .sphere-value{
+    font-size: 32px;
+    text-align: center;
+  }
 
-    /* STYLES FOR MARCO COLOSOS radcol */
+  .marco-avl .coste{
+    top:46px;
+  }
 
-    .marco-radcol .card-image{
-      box-shadow: 0 0 30px 15px #000 inset;
-    }
+  .marco-avl .coste-sphere{
+    width: 54px;
+    height: 54px;
+  }
+
+  .marco-avl .fuerza{
+    top:128px;
+  }
+
+  .marco-avl .fuerza-sphere{
+    width: 54px;
+    height: 54px;
+  }
+
+  .marco-avl .reanim{
+    top:588px;
+  }
+
+  .marco-avl .reanim-sphere{
+    width: 54px;
+    height: 54px;
+  }
+
+  .marco-avl .adita{
+    top:716px;
+  }
+
+  .marco-avl .adita-sphere{
+    width: 54px;
+    height: 54px;
+  }
+
+  .marco-avl .estructura{
+    top:814px;
+  }
+
+  .marco-avl .estructura-sphere{
+    width: 54px;
+    height: 54px;
+  }
+
+  .marco-avl .voluntad{
+    top:916px;
+  }
+
+  .marco-avl .voluntad-sphere{
+    width: 54px;
+    height: 54px;
+  }
+
+  /* ///// ICONO ///// */
+
+  .marco-avl .card-icon{
+    top: 753px;
+    left: 95px;
+  }
+
+  .marco-avl .card-icon svg{
+    width: 34px;
+    height: 34px;
+  }
+
+  .marco-avl .card-type{
+    height: 26px;
+    width: 222px;
+    top:764px;
+    left:179px;
+
+    font-family: distro;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+  /* ///// TEXTO ///// */
   
-    .marco-radcol .name {
-      font-weight: bold;
-      text-shadow: 0px 1px black, 0px -1px black, 1px 0px black, -1px 0px black;
-    }
-    
+  .marco-avl .card-text{
+    height: 188px;
+    width: 550px;
+    bottom:22px;
+    left:42px;
+  }
+
+  .marco-avl .card-text-epigrafe{
+    bottom:21px;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+
+    width: 510px;
+    color:darkslategray;
+  }
+
+  .marco-avl .card-text-habilidad{
+    top:2px;
+    height: 108px;
+    width: 550px;
+
+    font-family: sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.7px;
+    line-height: 21px;
+  }
+
+  .marco-avl .card-text-habilidad div{
+    position:relative;
+  }
+
+  .marco-avl .card-text-habilidad svg{
+    width: 16px !important;
+    height: 16px !important;
+  }
+
+  .marco-avl .card-text-restriccion{
+    font-family: 'Verdana';
+    bottom:30px;
+    font-size: 22px;
+    letter-spacing: 1.3px;
+    color:black;
+  }
+
+  .marco-avl .card-text-illus{
+    font-size: 16px;
+    letter-spacing: 1.2px;
+  }
   
-    .marco-radcol .card-text{
-      color:white !important;
-    }
-  
-    .marco-radcol .card-text .epigrafe{
-      color:white !important;
-    }
-  
-    .marco-radcol svg{
-      fill:white !important;
-    }
+  .marco-avl .card-text-rarity{
+    right:0px;
+  }
+
+  .marco-avl .card-text-number{
+    right:6px;
+  }

@@ -1,0 +1,32 @@
+.iconinfo-div{
+    display: inline;
+}
+
+.hovered-icon-info{
+    position: absolute;
+    background-color: white;
+    padding: 24px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.hovered-icon-info h1{
+    font-family: distro;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: normal;
+    line-height: normal;
+    color:black;
+}
+
+.hovered-icon-info .icon-info-infobox{
+    font-size: 0.9rem;
+    letter-spacing: normal;
+    line-height: normal;
+    color:black;
+}
+
+.hovered-icon-info .icon-info-infobox svg{
+    width:0.7rem;
+    height: 0.7rem;
+}

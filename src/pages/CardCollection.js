@@ -8,7 +8,7 @@ import './CardCollection.css';
 
 const CardCollection = () => {
   const [cards, setCards] = useState([]);
-  const [cardSize, setCardSize] = useState('medium');
+  const [cardSize, setCardSize] = useState(0.4);
   const [filters, setFilters] = useState({
     Edicion: [],
     Tipo: [],
@@ -46,11 +46,11 @@ const CardCollection = () => {
   };
 
   const increaseCardSize = () => {
-    setCardSize(prevSize => (prevSize === 'small' ? 'medium' : 'large'));
+    setCardSize(prevSize => (prevSize === 1 ? 1 : (prevSize+0.1)));
   };
 
   const decreaseCardSize = () => {
-    setCardSize(prevSize => (prevSize === 'large' ? 'medium' : 'small'));
+    setCardSize(prevSize => (prevSize === 0.1 ? 0.1 : prevSize-0.1));
   };
 
   const totalPages = Math.ceil(cards.length / cardsPerPage);
@@ -75,17 +75,17 @@ const CardCollection = () => {
         <button onClick={decreaseCardSize}>-</button>
         <button onClick={increaseCardSize}>+</button>
       </div>
-      <div className={`card-collection ${cardSize}`}>
+      <div className={`card-collection`}>
         {paginatedCards.length === 0 ? (
           <p>{"No hay cartas en tu búsqueda :("}</p>
         ) : (
           paginatedCards.map((card, index) => (
             <div 
               key={index}
-              className={`card-wrapper ${cardSize}`}
+              className={`card-wrapper`}
               // onClick={() => handleCardClick(card.id)}
             >
-                <Card card={card} />
+                <Card card={card} size={cardSize}/>
             </div>
           ))
         )}

@@ -20,15 +20,36 @@ const CardCollection = () => {
   const cardsPerPage = 25;
 
   const handleSearch = (query, habilidad, epigrafe, ilustrador, filters) => {
-    const filteredCards = cardsData.filter(card => 
-      card.Nombre.toLowerCase().includes(query.toLowerCase()) &&
-      card.Habilidad.toLowerCase().includes(habilidad.toLowerCase()) &&
-      card.Epigrafe.toLowerCase().includes(epigrafe.toLowerCase()) &&
-      card.Ilustrador.toLowerCase().includes(ilustrador.toLowerCase()) &&
+    // Step 1: Sort the cards by ID and Version
+    const sortedCards = [...cardsData].sort((a, b) => {
+      if (a.ID === b.ID) {
+        // Compare versions (assumes Version is in a format that supports string comparison)
+        return b.Version.localeCompare(a.Version);
+      }
+      return a.ID - b.ID;
+    });
+  
+    // Step 2: Filter to keep only the latest version for each ID
+    const uniqueCards = [];
+    const seenIds = new Set();
+    for (const card of sortedCards) {
+      if (!seenIds.has(card.ID)) {
+        uniqueCards.push(card);
+        seenIds.add(card.ID);
+      }
+    }
+  
+    // Step 3: Apply search filters
+    const filteredCards = uniqueCards.filter(card => 
+      (card.Nombre?.toLowerCase() ?? '').includes(query.toLowerCase()) &&
+      (card.Habilidad?.toLowerCase() ?? '').includes(habilidad.toLowerCase()) &&
+      (card.Epigrafe?.toLowerCase() ?? '').includes(epigrafe.toLowerCase()) &&
+      (card.Ilustrador?.toLowerCase() ?? '').includes(ilustrador.toLowerCase()) &&
       Object.keys(filters).every((key) =>
         filters[key].length === 0 || filters[key].includes(card[key])
       )
     );
+  
     setCards(filteredCards);
     setCurrentPage(1); // Reset to the first page whenever a new search is performed
   };

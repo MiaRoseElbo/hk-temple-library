@@ -1,0 +1,175 @@
+  /* //////////////////////////// */
+  /* ////// RADIX CALIXTO ////// */
+  /* ////////////////////////// */
+
+  /* ///// NOMBRE ///// */
+
+  .marco-radavl .card-name{
+    height: 570px;
+    width: 76px;
+    top:160px;
+  }
+
+  .marco-radavl .card-name-text{
+    font-size: 60px;
+  }
+
+  /* ///// ESFERAS ///// */
+
+  .marco-radavl .card-button-column{
+    width: 95px;
+  }
+  
+  .marco-radavl .card-button{
+    width: 54px;
+    height: 54px;
+    border-radius: 100%;
+    box-shadow: -8px 14px 8px -2px rgba(0, 0, 0, 0.75);
+
+    left:0;
+  }
+
+  .marco-radavl .sphere-value{
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .marco-radavl .coste{
+    top:46px;
+  }
+
+  .marco-radavl .coste-sphere{
+    width: 54px;
+    height: 54px;
+  }
+
+  .marco-radavl .fuerza{
+    top:128px;
+  }
+
+  .marco-radavl .fuerza-sphere{
+    width: 54px;
+    height: 54px;
+  }
+
+  .marco-radavl .reanim{
+    top:588px;
+  }
+
+  .marco-radavl .reanim-sphere{
+    width: 54px;
+    height: 54px;
+  }
+
+  .marco-radavl .adita{
+    top:716px;
+  }
+
+  .marco-radavl .adita-sphere{
+    width: 54px;
+    height: 54px;
+  }
+
+  .marco-radavl .estructura{
+    top:814px;
+  }
+
+  .marco-radavl .estructura-sphere{
+    width: 54px;
+    height: 54px;
+  }
+
+  .marco-radavl .voluntad{
+    top:916px;
+  }
+
+  .marco-radavl .voluntad-sphere{
+    width: 54px;
+    height: 54px;
+  }
+
+  /* ///// ICONO ///// */
+
+  .marco-radavl .card-icon{
+    top: 753px;
+    left: 95px;
+  }
+
+  .marco-radavl .card-icon svg{
+    width: 34px;
+    height: 34px;
+  }
+
+  .marco-radavl .card-type{
+    height: 26px;
+    width: 222px;
+    top: 760px;
+    left: 159px;
+    font-family: distro;
+    font-size: 22px;
+    letter-spacing: 2px;
+  }
+
+  /* ///// TEXTO ///// */
+  
+  .marco-radavl .card-text{
+    height: 205px;
+    width: 524px;
+    bottom: 22px;
+    left: 88px;
+  }
+
+  .marco-radavl .card-text-epigrafe{
+    top:144px;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    width: 510px;
+    color:white;
+  }
+
+  .marco-radavl .card-text-habilidad{
+    top: 0px;
+    width: 520px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.7px;
+    line-height: 21px;
+  }
+
+  .marco-radavl .card-text-habilidad div{
+    position:relative;
+  }
+
+  .marco-radavl .card-text-habilidad svg{
+    width: 16px !important;
+    height: 16px !important;
+  }
+
+  .marco-radavl .card-text-restriccion{
+    font-family: 'Verdana';
+    bottom:62px;
+    font-size: 22px;
+    letter-spacing: 1.3px;
+    color:white;
+  }
+
+  .marco-radavl .card-text-illus{
+    left: 22px;
+    bottom: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: white;
+  }
+  
+  .marco-radavl .card-text-rarity{
+    right:0px;
+    color:white;
+  }
+
+  .marco-radavl .card-text-number{
+    right:22px;
+    color:white;
+  }

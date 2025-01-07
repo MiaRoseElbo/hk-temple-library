@@ -1,5 +1,10 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Card.css';
+import './FrameAvl.css';
+import './FrameCol.css';
+import './FrameRad.css';
+import './FrameRadAvl.css';
+import './FrameRadCol.css';
 import Icons from './Icons';
 import tipoMapping from '../utils/cardJsonMapping'; // Import the mapping object
 import getImagePath from '../utils/getImagePath';
@@ -41,6 +46,8 @@ const iconMapping = {
 };
 
 const Card = ({ card, size }) => {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const [tiltStyle, setTiltStyle] = useState({});
 
   const HabilidadSplit = ( Habilidad ) => {
   
@@ -56,21 +63,20 @@ const Card = ({ card, size }) => {
   };  
 
   const renderHabilidad = (text) => {
-    const regex = new RegExp(`(${Object.keys(iconMapping).join('|')})`, 'g');
+    const regex = new RegExp(`:(${Object.keys(iconMapping).join('|')}):`, 'g'); // Match :key:
     const parts = text.split(regex);
   
     return parts.map((part, index) => {
       if (iconMapping[part]) {
-        return <IconInfo detail={part} />;
+        return <IconInfo key={index} detail={part} />; // Render the icon for the matched word
       }
-      return <React.Fragment key={index}>{part}</React.Fragment>;
+      return <React.Fragment key={index}>{part}</React.Fragment>; // Render plain text for unmatched parts
     });
   };
   
 
   const renderRestriccion = (card) => {
-    
-    if (card.Restriccion==='4'){
+    if (card.Restriccion===4){
       return('');
     }else if(card.Tipo==='san' || card.Tipo==='col'){
       return('');
@@ -104,30 +110,51 @@ const Card = ({ card, size }) => {
     ));
   };
 
+
   const cardImagePath = card.Imagen
     ? getImagePath('cards', `${card.Imagen}.jpg`)
     : getImagePath('cards', `${card.Edicion}${card.Numero}.jpg`);
+    console.log('cardImagePath',cardImagePath);
   const cardFramePath = getImagePath('frames', `${card.Marco}/${card.Faccion}.png`);
 
   const frameClass = `marco-${card.Marco}`;
-
   const cardScale = size || 0.4;
-  const resizeContainerStyle = {
-    width: `${711 * cardScale}px`,
-    height: `${1018 * cardScale}px`
-  };
+  const resizeContainerStyle = isExpanded
+    ? { width: '90vw', height: 'auto', zIndex: 1000 }
+    : { width: `${711 * cardScale}px`, height: `${1018 * cardScale}px` };
   const cardContainerStyle = {
-    transform: `scale(${cardScale})`
+    transform: isExpanded ? `scale(1)` : `scale(${cardScale})`,
+    ...tiltStyle,
+  };
+
+
+  const cardNameTextLength = card.Nombre.length;
+
+  let cardNameTextSize = 80;
+  
+
+  if (cardNameTextLength > 15) {
+    const excessLength = cardNameTextLength - 15;
+    const increments = Math.ceil(excessLength / 10);
+    cardNameTextSize -= increments * 22;
+  }
+
+  cardNameTextSize = Math.max(cardNameTextSize, 40);
+  
+  const cardNameTextLengthStyle = {
+    fontSize: `${cardNameTextSize}px`,
   };
 
   return (
-    <div className='resize-container'  style={resizeContainerStyle}>
-      <div className={`card-container ${frameClass}`} style={cardContainerStyle}>
+<div
+      className={`resize-container ${isExpanded ? 'expanded' : ''}`}
+      style={resizeContainerStyle}
+    >      <div className={`card-container ${frameClass}`} style={cardContainerStyle}>
         <div className="card-image full-card-wrapper" style={{ backgroundImage: `url(${cardImagePath})` }}>
         {/* style={{ backgroundImage: `url(${cardFramePath})` }} */}
           <div className="card-frame full-card-wrapper" style={{ backgroundImage: `url(${cardFramePath})` }}>
               <div className="card-name">
-                <h1 className="card-name-text">{card.Nombre}</h1>
+                <h1 className="card-name-text" style={cardNameTextLengthStyle}>{card.Nombre}</h1>
               </div>
             <div className='card-button-column'>
               {renderSpheres()}

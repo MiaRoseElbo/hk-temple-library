@@ -1,0 +1,29 @@
+  /* ////////////////////////// */
+  /* ////// RADIX ////// */
+  /* ////////////////////////// */
+
+
+  /* ///// ICONO ///// */
+
+  .marco-rad .card-icon{
+    top: 712px;
+    left: 125px;
+  }
+
+  .marco-rad .card-type{
+    top: 727px;
+  }
+
+  /* ///// TEXTO ///// */
+
+  .marco-rad .card-text-epigrafe{
+    top: 136px;
+  }
+
+  .marco-rad .card-text-habilidad{
+    top:-4px;
+  }
+
+  .marco-rad .card-text-restriccion{
+    bottom:72px;
+  }

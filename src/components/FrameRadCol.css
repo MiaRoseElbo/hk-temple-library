@@ -1,0 +1,106 @@
+  /* //////////////////////////// */
+  /* ////// RADIX COLOSOS ////// */
+  /* ////////////////////////// */
+
+  /* ///// NOMBRE ///// */
+
+  .marco-radcol .card-name{
+    height: 570px;
+    width: 134px;
+    top:160px;
+  }
+
+  .marco-radcol .card-name-text{
+    text-shadow: 3px 0px 0 #000, -3px 0px 0 #000, 0px 3px 0 #000, 0px -3px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  }
+
+  /* ///// ICONO ///// */
+
+  .marco-radcol .card-icon{
+    top: 762px;
+    left: 63px;
+  }
+
+  .marco-radcol .card-icon svg{
+    width: 34px;
+    height: 34px;
+  }
+
+  .marco-radcol .card-type{
+    height: 26px;
+    width: 222px;
+    top:766px;
+    left:129px;
+
+    font-family: distro;
+    font-size: 23px;
+    letter-spacing: 2px;
+  }
+
+  /* ///// TEXTO ///// */
+  
+  .marco-radcol .card-text{
+    height: 188px;
+    width: 550px;
+    bottom:22px;
+    left:42px;
+  }
+
+  .marco-radcol .card-text-epigrafe{
+    top: 106px;
+    left: 21px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    line-height: 21px;
+    width: 510px;
+    color: white;
+  }
+
+  .marco-radcol .card-text-habilidad{
+    top: 0px;
+    left: 21px;
+    height: 108px;
+    width: 520px;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 26px;
+  }
+
+  .marco-radcol .card-text-habilidad div{
+    position:relative;
+  }
+
+  .marco-radcol .card-text-habilidad svg{
+    width: 16px !important;
+    height: 16px !important;
+  }
+
+  .marco-radcol .card-text-restriccion{
+    font-family: 'Verdana';
+    bottom: 82px;
+    letter-spacing: 1.3px;
+    color: white;
+    left: 21px;
+  }
+
+  .marco-radcol .card-text-illus{
+    left: 21px;
+    font-size: 16px;
+    bottom: 12px;
+    letter-spacing: 1.8px;
+    color: white;
+  }
+  
+  .marco-radcol .card-text-rarity{
+    right: -81px;
+    bottom: 12px;
+    color: white;
+  }
+
+  .marco-radcol .card-text-number{
+    right: -64px;
+    bottom: 12px;
+    color: white;
+  }

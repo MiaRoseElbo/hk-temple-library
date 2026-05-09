@@ -18,6 +18,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "legacy-manifest": "node scripts/generate-legacy-manifest.js",
+    "prestart": "node scripts/generate-legacy-manifest.js",
+    "prebuild": "node scripts/generate-legacy-manifest.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

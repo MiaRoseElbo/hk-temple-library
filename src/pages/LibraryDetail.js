@@ -17,11 +17,11 @@ const FIELD_LABELS = {
   Nam: "Nombre",
   Sub: "Subtipo",
   Cos: "Coste",
-  Str: "Fuerza",
+  Fue: "Fuerza",
   Rea: "Reanim",
-  Add: "Adita",
-  Str__1: "Estructura",
-  Wil: "Voluntad",
+  Adi: "Adita",
+  Est: "Estructura",
+  Vol: "Voluntad",
   Abi: "Habilidad",
   Res: "Restricción",
   Epi: "Epígrafe",
@@ -57,7 +57,7 @@ const FREQUENCY_LABELS = {
   P: "Promo",
 };
 
-const STAT_FIELDS = ["Cos", "Wil", "Str", "Str__1", "Rea", "Add", "Res"];
+const STAT_FIELDS = ["Cos", "Vol", "Fue", "Est", "Rea", "Adi", "Res"];
 const META_FIELDS = ["Ill", "Fre", "Col"];
 const HANDLED_FIELDS = new Set([
   ...STAT_FIELDS,

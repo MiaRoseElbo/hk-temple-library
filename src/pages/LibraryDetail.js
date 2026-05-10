@@ -1,5 +1,5 @@
 // src/pages/LibraryDetail.js
-import React, { useMemo } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import database from "../data/card_database.json";
 import getLegacyImage from "../utils/getLegacyImage";
@@ -179,6 +179,23 @@ const renderAbility = (value) => {
 
 const LibraryDetail = () => {
   const { edi, num } = useParams();
+  const [lightbox, setLightbox] = useState(null);
+
+  useEffect(() => {
+    if (!lightbox) return undefined;
+    const onKey = (e) => {
+      if (e.key === "Escape") setLightbox(null);
+    };
+    window.addEventListener("keydown", onKey);
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.body.style.overflow = prevOverflow;
+    };
+  }, [lightbox]);
+
+  const openLightbox = (src, alt) => setLightbox({ src, alt });
 
   const versions = useMemo(() => {
     return database
@@ -233,7 +250,27 @@ const LibraryDetail = () => {
           const hasBadges = hasValue(v.Fac) || hasValue(v.Typ);
           return (
             <article key={v.GUID} className="library-version">
-              <div className="library-version-image">
+              <div
+                className={`library-version-image${image ? " is-zoomable" : ""}`}
+                onClick={
+                  image
+                    ? () => openLightbox(image, `${v.Nam} v${v.Ver}`)
+                    : undefined
+                }
+                onKeyDown={
+                  image
+                    ? (e) => {
+                        if (e.key === "Enter" || e.key === " ") {
+                          e.preventDefault();
+                          openLightbox(image, `${v.Nam} v${v.Ver}`);
+                        }
+                      }
+                    : undefined
+                }
+                role={image ? "button" : undefined}
+                tabIndex={image ? 0 : undefined}
+                aria-label={image ? `Ampliar ${v.Nam}` : undefined}
+              >
                 {image ? (
                   <img src={image} alt={`${v.Nam} v${v.Ver}`} />
                 ) : (
@@ -325,6 +362,31 @@ const LibraryDetail = () => {
           );
         })}
       </div>
+
+      {lightbox && (
+        <div
+          className="library-lightbox"
+          onClick={() => setLightbox(null)}
+          role="dialog"
+          aria-modal="true"
+          aria-label={lightbox.alt}
+        >
+          <img
+            src={lightbox.src}
+            alt={lightbox.alt}
+            className="library-lightbox-image"
+            onClick={(e) => e.stopPropagation()}
+          />
+          <button
+            type="button"
+            className="library-lightbox-close"
+            onClick={() => setLightbox(null)}
+            aria-label="Cerrar"
+          >
+            ×
+          </button>
+        </div>
+      )}
     </div>
   );
 };

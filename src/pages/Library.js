@@ -78,6 +78,27 @@ const FILTER_DEFS = [
 
 const EMPTY_FILTERS = { Fac: [], Typ: [], Edi: [], Fre: [] };
 
+const STAT_FILTER_DEFS = [
+  { key: "Cos", label: "Coste" },
+  { key: "Vol", label: "Voluntad" },
+  { key: "Fue", label: "Fuerza" },
+  { key: "Est", label: "Estructura" },
+  { key: "Rea", label: "Reanim" },
+  { key: "Adi", label: "Adita" },
+  { key: "Res", label: "Restricción" },
+];
+
+const EMPTY_STAT_FILTERS = STAT_FILTER_DEFS.reduce((acc, { key }) => {
+  acc[key] = { min: "", max: "" };
+  return acc;
+}, {});
+
+const parseBound = (raw) => {
+  if (raw === "" || raw === null || raw === undefined) return null;
+  const n = Number(raw);
+  return Number.isFinite(n) ? n : null;
+};
+
 const normalizeForSearch = (value) =>
   (value == null ? "" : String(value))
     .toLowerCase()
@@ -99,8 +120,11 @@ const Library = () => {
   const navigate = useNavigate();
   const [draftQuery, setDraftQuery] = useState("");
   const [draftFilters, setDraftFilters] = useState(EMPTY_FILTERS);
+  const [draftStatFilters, setDraftStatFilters] = useState(EMPTY_STAT_FILTERS);
   const [appliedQuery, setAppliedQuery] = useState("");
   const [appliedFilters, setAppliedFilters] = useState(EMPTY_FILTERS);
+  const [appliedStatFilters, setAppliedStatFilters] =
+    useState(EMPTY_STAT_FILTERS);
   const [openFilter, setOpenFilter] = useState(null);
   const [page, setPage] = useState(1);
 
@@ -117,6 +141,11 @@ const Library = () => {
 
   const filtered = useMemo(() => {
     const q = normalizeForSearch(appliedQuery.trim());
+    const statBounds = STAT_FILTER_DEFS.map(({ key }) => ({
+      key,
+      min: parseBound(appliedStatFilters[key].min),
+      max: parseBound(appliedStatFilters[key].max),
+    })).filter((b) => b.min !== null || b.max !== null);
     return latest.filter((c) => {
       for (const { key } of FILTER_DEFS) {
         const selected = appliedFilters[key];
@@ -124,18 +153,26 @@ const Library = () => {
           return false;
         }
       }
+      for (const { key, min, max } of statBounds) {
+        const raw = c[key];
+        if (raw === "" || raw === null || raw === undefined) return false;
+        const num = Number(raw);
+        if (!Number.isFinite(num)) return false;
+        if (min !== null && num < min) return false;
+        if (max !== null && num > max) return false;
+      }
       if (!q) return true;
       return [c.Nam, c.Sub, c.Abi, c.Ill, c.Edi, c.Num]
         .map(normalizeForSearch)
         .some((v) => v.includes(q));
     });
-  }, [appliedQuery, appliedFilters, latest]);
+  }, [appliedQuery, appliedFilters, appliedStatFilters, latest]);
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / CARDS_PER_PAGE));
 
   useEffect(() => {
     setPage(1);
-  }, [appliedQuery, appliedFilters]);
+  }, [appliedQuery, appliedFilters, appliedStatFilters]);
 
   useEffect(() => {
     if (page > totalPages) setPage(totalPages);
@@ -149,9 +186,23 @@ const Library = () => {
     0,
   );
 
+  const activeStatCount = STAT_FILTER_DEFS.reduce(
+    (sum, { key }) =>
+      sum +
+      (draftStatFilters[key].min !== "" || draftStatFilters[key].max !== ""
+        ? 1
+        : 0),
+    0,
+  );
+
   const hasAppliedSearch =
     appliedQuery.trim() !== "" ||
-    FILTER_DEFS.some(({ key }) => appliedFilters[key].length > 0);
+    FILTER_DEFS.some(({ key }) => appliedFilters[key].length > 0) ||
+    STAT_FILTER_DEFS.some(
+      ({ key }) =>
+        appliedStatFilters[key].min !== "" ||
+        appliedStatFilters[key].max !== "",
+    );
 
   const handleToggleFilter = (key, value) => {
     setDraftFilters((prev) => {
@@ -163,17 +214,27 @@ const Library = () => {
     });
   };
 
+  const handleStatChange = (key, bound, value) => {
+    setDraftStatFilters((prev) => ({
+      ...prev,
+      [key]: { ...prev[key], [bound]: value },
+    }));
+  };
+
   const handleSearch = () => {
     setAppliedQuery(draftQuery);
     setAppliedFilters(draftFilters);
+    setAppliedStatFilters(draftStatFilters);
     setOpenFilter(null);
   };
 
   const handleClear = () => {
     setDraftQuery("");
     setDraftFilters(EMPTY_FILTERS);
+    setDraftStatFilters(EMPTY_STAT_FILTERS);
     setAppliedQuery("");
     setAppliedFilters(EMPTY_FILTERS);
+    setAppliedStatFilters(EMPTY_STAT_FILTERS);
     setOpenFilter(null);
   };
 
@@ -290,6 +351,65 @@ const Library = () => {
               </div>
             );
           })}
+
+          {(() => {
+            const isOpen = openFilter === "__stats";
+            return (
+              <div
+                className={`library-filter ${isOpen ? "is-open" : ""}`}
+              >
+                <button
+                  type="button"
+                  className="library-filter-toggle"
+                  onClick={() => setOpenFilter(isOpen ? null : "__stats")}
+                >
+                  Estadísticas
+                  {activeStatCount > 0 && (
+                    <span className="library-filter-count">
+                      {activeStatCount}
+                    </span>
+                  )}
+                  <span
+                    className={`library-filter-arrow ${isOpen ? "is-open" : ""}`}
+                  >
+                    &#9662;
+                  </span>
+                </button>
+                {isOpen && (
+                  <div className="library-filter-panel library-filter-panel-stats">
+                    {STAT_FILTER_DEFS.map(({ key, label }) => (
+                      <div key={key} className="library-stat-range">
+                        <span className="library-stat-range-label">
+                          {label}
+                        </span>
+                        <input
+                          type="number"
+                          className="library-stat-range-input"
+                          placeholder="mín"
+                          value={draftStatFilters[key].min}
+                          onChange={(e) =>
+                            handleStatChange(key, "min", e.target.value)
+                          }
+                          onKeyDown={handleKeyDown}
+                        />
+                        <span className="library-stat-range-sep">–</span>
+                        <input
+                          type="number"
+                          className="library-stat-range-input"
+                          placeholder="máx"
+                          value={draftStatFilters[key].max}
+                          onChange={(e) =>
+                            handleStatChange(key, "max", e.target.value)
+                          }
+                          onKeyDown={handleKeyDown}
+                        />
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            );
+          })()}
         </div>
 
         <div className="library-search-meta">

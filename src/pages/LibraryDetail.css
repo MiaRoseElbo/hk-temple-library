@@ -153,6 +153,69 @@
   border-color: #34adf3;
 }
 
+.library-lightbox-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: rgba(20, 20, 28, 0.7);
+  border: 1px solid #2a2a36;
+  color: #f4f4f4;
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 0.15em;
+}
+
+.library-lightbox-nav:hover {
+  background: rgba(40, 40, 52, 0.9);
+  border-color: #34adf3;
+}
+
+.library-lightbox-prev {
+  left: 1.2rem;
+}
+
+.library-lightbox-next {
+  right: 1.2rem;
+}
+
+.library-lightbox-counter {
+  position: absolute;
+  bottom: 1.2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+  padding: 0.4rem 0.9rem;
+  background: rgba(20, 20, 28, 0.75);
+  border: 1px solid #2a2a36;
+  border-radius: 999px;
+  color: #d8d8e0;
+  font-size: 0.8rem;
+  cursor: default;
+  letter-spacing: 0.04em;
+}
+
+.library-lightbox-counter-label {
+  font-family: distro, sans-serif;
+  font-size: 0.95rem;
+  color: #f4f4f4;
+}
+
+.library-lightbox-counter-index {
+  font-size: 0.7rem;
+  color: #8a8a98;
+  letter-spacing: 0.08em;
+}
+
 .library-version-image img {
   width: 100%;
   height: 100%;
@@ -357,4 +420,50 @@
   width: auto;
   vertical-align: -0.15em;
   margin: 0 0.05em;
+}
+
+.library-charas-block {
+  margin-bottom: 1.2rem;
+}
+
+.library-charas-block h3 {
+  margin: 0 0 0.45rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8a8a98;
+  font-weight: 500;
+}
+
+.library-charas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.library-chara {
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #15151c;
+  border: 1px solid #2a2a36;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.library-chara img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.library-chara.is-missing {
+  font-size: 0.65rem;
+  color: #8a8a98;
+  text-align: center;
+  padding: 0.25rem;
+  word-break: break-all;
 }

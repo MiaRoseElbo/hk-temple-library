@@ -4,6 +4,7 @@ import { useParams, Link } from "react-router-dom";
 import database from "../data/card_database.json";
 import getLegacyImage from "../utils/getLegacyImage";
 import getCardIcon from "../utils/getCardIcon";
+import getCharaImage, { parsePer } from "../utils/getCharaImage";
 import "./LibraryDetail.css";
 
 const FIELD_LABELS = {
@@ -74,6 +75,7 @@ const HANDLED_FIELDS = new Set([
   "Epi",
   "Not",
   "GUID",
+  "Per",
 ]);
 
 const hasValue = (v) => v !== null && v !== undefined && v !== "";
@@ -179,23 +181,7 @@ const renderAbility = (value) => {
 
 const LibraryDetail = () => {
   const { edi, num } = useParams();
-  const [lightbox, setLightbox] = useState(null);
-
-  useEffect(() => {
-    if (!lightbox) return undefined;
-    const onKey = (e) => {
-      if (e.key === "Escape") setLightbox(null);
-    };
-    window.addEventListener("keydown", onKey);
-    const prevOverflow = document.body.style.overflow;
-    document.body.style.overflow = "hidden";
-    return () => {
-      window.removeEventListener("keydown", onKey);
-      document.body.style.overflow = prevOverflow;
-    };
-  }, [lightbox]);
-
-  const openLightbox = (src, alt) => setLightbox({ src, alt });
+  const [lightboxIndex, setLightboxIndex] = useState(null);
 
   const versions = useMemo(() => {
     return database
@@ -207,6 +193,70 @@ const LibraryDetail = () => {
         return String(a.Pri || "").localeCompare(String(b.Pri || ""));
       });
   }, [edi, num]);
+
+  const lightboxItems = useMemo(() => {
+    return versions
+      .map((v) => {
+        const src = getLegacyImage(v.GUID);
+        return src
+          ? { src, alt: `${v.Nam} v${v.Ver}`, version: v }
+          : null;
+      })
+      .filter(Boolean);
+  }, [versions]);
+
+  const lightbox =
+    lightboxIndex !== null && lightboxItems[lightboxIndex]
+      ? lightboxItems[lightboxIndex]
+      : null;
+
+  const closeLightbox = () => setLightboxIndex(null);
+  const showPrev = () => {
+    setLightboxIndex((idx) =>
+      idx === null || lightboxItems.length === 0
+        ? idx
+        : (idx - 1 + lightboxItems.length) % lightboxItems.length,
+    );
+  };
+  const showNext = () => {
+    setLightboxIndex((idx) =>
+      idx === null || lightboxItems.length === 0
+        ? idx
+        : (idx + 1) % lightboxItems.length,
+    );
+  };
+
+  const openLightboxForGuid = (guid) => {
+    const idx = lightboxItems.findIndex((item) => item.version.GUID === guid);
+    if (idx >= 0) setLightboxIndex(idx);
+  };
+
+  const lightboxOpen = lightbox !== null;
+  const itemCount = lightboxItems.length;
+
+  useEffect(() => {
+    if (!lightboxOpen) return undefined;
+    const onKey = (e) => {
+      if (e.key === "Escape") {
+        setLightboxIndex(null);
+      } else if (e.key === "ArrowLeft" && itemCount > 0) {
+        setLightboxIndex((idx) =>
+          idx === null ? idx : (idx - 1 + itemCount) % itemCount,
+        );
+      } else if (e.key === "ArrowRight" && itemCount > 0) {
+        setLightboxIndex((idx) =>
+          idx === null ? idx : (idx + 1) % itemCount,
+        );
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.body.style.overflow = prevOverflow;
+    };
+  }, [lightboxOpen, itemCount]);
 
   if (versions.length === 0) {
     return (
@@ -248,13 +298,14 @@ const LibraryDetail = () => {
             (k) => !HANDLED_FIELDS.has(k) && hasValue(v[k]),
           );
           const hasBadges = hasValue(v.Fac) || hasValue(v.Typ);
+          const charaIds = parsePer(v.Per);
           return (
             <article key={v.GUID} className="library-version">
               <div
                 className={`library-version-image${image ? " is-zoomable" : ""}`}
                 onClick={
                   image
-                    ? () => openLightbox(image, `${v.Nam} v${v.Ver}`)
+                    ? () => openLightboxForGuid(v.GUID)
                     : undefined
                 }
                 onKeyDown={
@@ -262,7 +313,7 @@ const LibraryDetail = () => {
                     ? (e) => {
                         if (e.key === "Enter" || e.key === " ") {
                           e.preventDefault();
-                          openLightbox(image, `${v.Nam} v${v.Ver}`);
+                          openLightboxForGuid(v.GUID);
                         }
                       }
                     : undefined
@@ -330,6 +381,30 @@ const LibraryDetail = () => {
 
                 {hasValue(v.Epi) && <p className="library-epigraph">{v.Epi}</p>}
 
+                {charaIds.length > 0 && (
+                  <section className="library-charas-block">
+                    <h3>Personajes</h3>
+                    <div className="library-charas">
+                      {charaIds.map((id) => {
+                        const src = getCharaImage(id);
+                        return (
+                          <div
+                            key={id}
+                            className={`library-chara${src ? "" : " is-missing"}`}
+                            title={id}
+                          >
+                            {src ? (
+                              <img src={src} alt={id} />
+                            ) : (
+                              <span className="library-chara-id">{id}</span>
+                            )}
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </section>
+                )}
+
                 {(meta.length > 0 || extras.length > 0) && (
                   <dl className="library-meta">
                     {meta.map((k) => (
@@ -366,7 +441,7 @@ const LibraryDetail = () => {
       {lightbox && (
         <div
           className="library-lightbox"
-          onClick={() => setLightbox(null)}
+          onClick={closeLightbox}
           role="dialog"
           aria-modal="true"
           aria-label={lightbox.alt}
@@ -377,10 +452,49 @@ const LibraryDetail = () => {
             className="library-lightbox-image"
             onClick={(e) => e.stopPropagation()}
           />
+          {lightboxItems.length > 1 && (
+            <>
+              <button
+                type="button"
+                className="library-lightbox-nav library-lightbox-prev"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  showPrev();
+                }}
+                aria-label="Versión anterior"
+              >
+                ‹
+              </button>
+              <button
+                type="button"
+                className="library-lightbox-nav library-lightbox-next"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  showNext();
+                }}
+                aria-label="Versión siguiente"
+              >
+                ›
+              </button>
+              <div
+                className="library-lightbox-counter"
+                onClick={(e) => e.stopPropagation()}
+              >
+                <span className="library-lightbox-counter-label">
+                  v{lightbox.version.Ver / 10}
+                  {hasValue(lightbox.version.Pri) &&
+                    ` · ${lightbox.version.Pri}`}
+                </span>
+                <span className="library-lightbox-counter-index">
+                  {lightboxIndex + 1} / {lightboxItems.length}
+                </span>
+              </div>
+            </>
+          )}
           <button
             type="button"
             className="library-lightbox-close"
-            onClick={() => setLightbox(null)}
+            onClick={closeLightbox}
             aria-label="Cerrar"
           >
             ×

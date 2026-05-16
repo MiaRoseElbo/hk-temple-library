@@ -83,6 +83,7 @@
 }
 
 .library-version-image {
+  position: relative;
   aspect-ratio: 711 / 1018;
   border-radius: 12px;
   overflow: hidden;
@@ -120,13 +121,23 @@
   to { opacity: 1; }
 }
 
+.library-lightbox-frame {
+  position: relative;
+  display: inline-block;
+  max-width: 92vw;
+  max-height: 92vh;
+  cursor: default;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+  line-height: 0;
+}
+
 .library-lightbox-image {
   max-width: 92vw;
   max-height: 92vh;
   object-fit: contain;
-  cursor: default;
-  border-radius: 10px;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+  display: block;
 }
 
 .library-lightbox-close {
@@ -466,4 +477,69 @@
   text-align: center;
   padding: 0.25rem;
   word-break: break-all;
+}
+
+.library-foil {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    conic-gradient(
+      from 210deg at 50% 50%,
+      #ff3ec9,
+      #ffd24a,
+      #54f5c1,
+      #4ab0ff,
+      #b574ff,
+      #ff3ec9
+    );
+  background-size: 220% 220%;
+  background-position: 0% 0%;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+  -webkit-mask-size: 100% 100%;
+          mask-size: 100% 100%;
+  mix-blend-mode: color-dodge;
+  opacity: 0.85;
+  animation: library-foil-shimmer 6s linear infinite;
+  filter: saturate(1.4) contrast(1.05);
+}
+
+.library-foil::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    115deg,
+    transparent 35%,
+    rgba(255, 255, 255, 0.55) 50%,
+    transparent 65%
+  );
+  mix-blend-mode: overlay;
+  animation: library-foil-sweep 4s linear infinite;
+  pointer-events: none;
+}
+
+.library-foil-lightbox {
+  border-radius: inherit;
+}
+
+@keyframes library-foil-shimmer {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 100% 100%; }
+  100% { background-position: 0% 0%; }
+}
+
+@keyframes library-foil-sweep {
+  0% { transform: translateX(-60%); }
+  100% { transform: translateX(60%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .library-foil,
+  .library-foil::after {
+    animation: none;
+  }
 }

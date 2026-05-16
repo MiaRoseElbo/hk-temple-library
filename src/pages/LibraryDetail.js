@@ -2,7 +2,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import database from "../data/card_database.json";
-import getLegacyImage from "../utils/getLegacyImage";
+import getLegacyImage, { getLegacyFoil } from "../utils/getLegacyImage";
 import getCardIcon from "../utils/getCardIcon";
 import getCharaImage, { parsePer } from "../utils/getCharaImage";
 import "./LibraryDetail.css";
@@ -76,7 +76,11 @@ const HANDLED_FIELDS = new Set([
   "Not",
   "GUID",
   "Per",
+  "Foi",
 ]);
+
+const isFoil = (v) =>
+  v === true || (typeof v === "string" && v.toLowerCase() === "true");
 
 const hasValue = (v) => v !== null && v !== undefined && v !== "";
 
@@ -198,9 +202,9 @@ const LibraryDetail = () => {
     return versions
       .map((v) => {
         const src = getLegacyImage(v.GUID);
-        return src
-          ? { src, alt: `${v.Nam} v${v.Ver}`, version: v }
-          : null;
+        if (!src) return null;
+        const foil = isFoil(v.Foi) ? getLegacyFoil(v.GUID) : null;
+        return { src, alt: `${v.Nam} v${v.Ver}`, version: v, foil };
       })
       .filter(Boolean);
   }, [versions]);
@@ -292,6 +296,7 @@ const LibraryDetail = () => {
       <div className="library-versions">
         {versions.map((v) => {
           const image = getLegacyImage(v.GUID);
+          const foilSrc = isFoil(v.Foi) ? getLegacyFoil(v.GUID) : null;
           const stats = STAT_FIELDS.filter((k) => hasValue(v[k]));
           const meta = META_FIELDS.filter((k) => hasValue(v[k]));
           const extras = Object.keys(v).filter(
@@ -323,7 +328,19 @@ const LibraryDetail = () => {
                 aria-label={image ? `Ampliar ${v.Nam}` : undefined}
               >
                 {image ? (
-                  <img src={image} alt={`${v.Nam} v${v.Ver}`} />
+                  <>
+                    <img src={image} alt={`${v.Nam} v${v.Ver}`} />
+                    {foilSrc && (
+                      <span
+                        className="library-foil"
+                        style={{
+                          WebkitMaskImage: `url(${foilSrc})`,
+                          maskImage: `url(${foilSrc})`,
+                        }}
+                        aria-hidden="true"
+                      />
+                    )}
+                  </>
                 ) : (
                   <div className="library-version-placeholder">
                     <span>Sin imagen</span>
@@ -446,12 +463,26 @@ const LibraryDetail = () => {
           aria-modal="true"
           aria-label={lightbox.alt}
         >
-          <img
-            src={lightbox.src}
-            alt={lightbox.alt}
-            className="library-lightbox-image"
+          <div
+            className="library-lightbox-frame"
             onClick={(e) => e.stopPropagation()}
-          />
+          >
+            <img
+              src={lightbox.src}
+              alt={lightbox.alt}
+              className="library-lightbox-image"
+            />
+            {lightbox.foil && (
+              <span
+                className="library-foil library-foil-lightbox"
+                style={{
+                  WebkitMaskImage: `url(${lightbox.foil})`,
+                  maskImage: `url(${lightbox.foil})`,
+                }}
+                aria-hidden="true"
+              />
+            )}
+          </div>
           {lightboxItems.length > 1 && (
             <>
               <button

@@ -94,7 +94,9 @@
 .library-version-image.is-zoomable {
   cursor: zoom-in;
   outline: none;
-  transition: transform 0.18s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.2s ease;
 }
 
 .library-version-image.is-zoomable:hover,
@@ -117,8 +119,12 @@
 }
 
 @keyframes library-lightbox-fade {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .library-lightbox-frame {
@@ -455,6 +461,8 @@
 .library-chara {
   width: 64px;
   height: 64px;
+  padding: 0;
+  margin: 0;
   border-radius: 8px;
   overflow: hidden;
   background: #15151c;
@@ -462,6 +470,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.15s ease, border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.library-chara:hover:not(:disabled),
+.library-chara:focus-visible {
+  transform: translateY(-2px);
+  border-color: #34adf3;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.55);
+}
+
+.library-chara:disabled {
+  cursor: default;
 }
 
 .library-chara img {
@@ -480,27 +505,27 @@
 }
 
 .library-foil {
+  mask-type: luminance;
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background:
-    conic-gradient(
-      from 210deg at 50% 50%,
-      #ff3ec9,
-      #ffd24a,
-      #54f5c1,
-      #4ab0ff,
-      #b574ff,
-      #ff3ec9
-    );
+  background: conic-gradient(
+    from 210deg at 50% 50%,
+    #ff3ec9,
+    #ffd24a,
+    #54f5c1,
+    #4ab0ff,
+    #b574ff,
+    #ff3ec9
+  );
   background-size: 220% 220%;
   background-position: 0% 0%;
   -webkit-mask-repeat: no-repeat;
-          mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
   -webkit-mask-position: center;
-          mask-position: center;
+  mask-position: center;
   -webkit-mask-size: 100% 100%;
-          mask-size: 100% 100%;
+  mask-size: 100% 100%;
   mix-blend-mode: color-dodge;
   opacity: 0.85;
   animation: library-foil-shimmer 6s linear infinite;
@@ -527,14 +552,24 @@
 }
 
 @keyframes library-foil-shimmer {
-  0% { background-position: 0% 0%; }
-  50% { background-position: 100% 100%; }
-  100% { background-position: 0% 0%; }
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
 }
 
 @keyframes library-foil-sweep {
-  0% { transform: translateX(-60%); }
-  100% { transform: translateX(60%); }
+  0% {
+    transform: translateX(-60%);
+  }
+  100% {
+    transform: translateX(60%);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

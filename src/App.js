@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Library from "./pages/Library";
 import LibraryDetail from "./pages/LibraryDetail";
+import CharaDetail from "./pages/CharaDetail";
 import DeckBuilder from "./pages/DeckBuilder";
 import DeckList from "./pages/DeckList";
 import CardCreator from "./pages/CardCreator";
@@ -24,6 +25,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Library />} />
         <Route path="/library/:edi/:num" element={<LibraryDetail />} />
+        <Route path="/chara/:id" element={<CharaDetail />} />
         <Route path="/home" element={<Home />} />
         <Route path="/deck-builder" element={<DeckBuilder />} />
         <Route path="/deck-list" element={<DeckList />} />

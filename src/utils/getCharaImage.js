@@ -19,6 +19,19 @@ export const parsePer = (per) => {
     .filter(Boolean);
 };
 
+// Normalize a "char_001" reference (or a bare "1" / "0001") to the 4-digit
+// padded id used as the primary key in chara_database.json.
+export const normalizeCharaId = (id) => {
+  if (id === null || id === undefined) return null;
+  const raw = String(id).trim();
+  if (!raw) return null;
+  const match = raw.match(/^\s*char_(.+?)\s*$/i);
+  const body = (match ? match[1] : raw).trim();
+  const digits = body.match(/^(\d+)([a-z]?)$/i);
+  if (digits) return digits[1].padStart(4, '0') + (digits[2] || '').toLowerCase();
+  return body.toLowerCase();
+};
+
 const getCharaImage = (id) => {
   if (!id) return null;
   const match = String(id).match(/^\s*char_(.+?)\s*$/i);

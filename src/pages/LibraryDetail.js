@@ -1,10 +1,13 @@
 // src/pages/LibraryDetail.js
 import React, { useEffect, useMemo, useState } from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useNavigate } from "react-router-dom";
 import database from "../data/card_database.json";
 import getLegacyImage, { getLegacyFoil } from "../utils/getLegacyImage";
 import getCardIcon from "../utils/getCardIcon";
-import getCharaImage, { parsePer } from "../utils/getCharaImage";
+import getCharaImage, {
+  parsePer,
+  normalizeCharaId,
+} from "../utils/getCharaImage";
 import "./LibraryDetail.css";
 
 const FIELD_LABELS = {
@@ -185,6 +188,7 @@ const renderAbility = (value) => {
 
 const LibraryDetail = () => {
   const { edi, num } = useParams();
+  const navigate = useNavigate();
   const [lightboxIndex, setLightboxIndex] = useState(null);
 
   const versions = useMemo(() => {
@@ -203,8 +207,8 @@ const LibraryDetail = () => {
       .map((v) => {
         const src = getLegacyImage(v.GUID);
         if (!src) return null;
-        const foil = isFoil(v.Foi) ? getLegacyFoil(v.GUID) : null;
-        return { src, alt: `${v.Nam} v${v.Ver}`, version: v, foil };
+        //const foil = isFoil(v.Foi) ? getLegacyFoil(v.GUID) : null;
+        return { src, alt: `${v.Nam} v${v.Ver}`, version: v /*, foil*/ };
       })
       .filter(Boolean);
   }, [versions]);
@@ -248,9 +252,7 @@ const LibraryDetail = () => {
           idx === null ? idx : (idx - 1 + itemCount) % itemCount,
         );
       } else if (e.key === "ArrowRight" && itemCount > 0) {
-        setLightboxIndex((idx) =>
-          idx === null ? idx : (idx + 1) % itemCount,
-        );
+        setLightboxIndex((idx) => (idx === null ? idx : (idx + 1) % itemCount));
       }
     };
     window.addEventListener("keydown", onKey);
@@ -296,7 +298,8 @@ const LibraryDetail = () => {
       <div className="library-versions">
         {versions.map((v) => {
           const image = getLegacyImage(v.GUID);
-          const foilSrc = isFoil(v.Foi) ? getLegacyFoil(v.GUID) : null;
+          //const foilSrc = isFoil(v.Foi) ? getLegacyFoil(v.GUID) : null;
+          const foilSrc = null;
           const stats = STAT_FIELDS.filter((k) => hasValue(v[k]));
           const meta = META_FIELDS.filter((k) => hasValue(v[k]));
           const extras = Object.keys(v).filter(
@@ -308,11 +311,7 @@ const LibraryDetail = () => {
             <article key={v.GUID} className="library-version">
               <div
                 className={`library-version-image${image ? " is-zoomable" : ""}`}
-                onClick={
-                  image
-                    ? () => openLightboxForGuid(v.GUID)
-                    : undefined
-                }
+                onClick={image ? () => openLightboxForGuid(v.GUID) : undefined}
                 onKeyDown={
                   image
                     ? (e) => {
@@ -404,18 +403,25 @@ const LibraryDetail = () => {
                     <div className="library-charas">
                       {charaIds.map((id) => {
                         const src = getCharaImage(id);
+                        const normalized = normalizeCharaId(id);
+                        const go = () => {
+                          if (normalized) navigate(`/chara/${normalized}`);
+                        };
                         return (
-                          <div
+                          <button
                             key={id}
+                            type="button"
                             className={`library-chara${src ? "" : " is-missing"}`}
                             title={id}
+                            onClick={go}
+                            disabled={!normalized}
                           >
                             {src ? (
                               <img src={src} alt={id} />
                             ) : (
                               <span className="library-chara-id">{id}</span>
                             )}
-                          </div>
+                          </button>
                         );
                       })}
                     </div>

@@ -25,7 +25,7 @@
     "Not": 2005,
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -54,7 +54,7 @@
     "Not": 2020,
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -141,7 +141,7 @@
     "Not": 2005,
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -170,7 +170,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -199,7 +199,7 @@
     "Not": 2005,
     "Sta": "B",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -228,7 +228,7 @@
     "Not": "12 Nov 2023 Banlist",
     "Sta": "B",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -257,7 +257,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -286,7 +286,7 @@
     "Not": "",
     "Sta": "B",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -314,8 +314,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
-    "Foi": "",
+    "Per": "[char_0011]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -344,7 +344,7 @@
     "Not": "",
     "Sta": "B",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -373,7 +373,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -402,7 +402,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -430,8 +430,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
-    "Foi": "",
+    "Per": "[char_0011]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -460,7 +460,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -489,7 +489,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -518,7 +518,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -547,7 +547,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -576,7 +576,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -605,7 +605,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -634,7 +634,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -663,7 +663,7 @@
     "Not": "",
     "Sta": "B",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -692,7 +692,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -721,7 +721,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -749,8 +749,8 @@
     "Col": "v1.1 EV-21/255 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_001]",
-    "Foi": "",
+    "Per": "[char_0001]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -778,8 +778,8 @@
     "Col": "EV 21255 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_001]",
-    "Foi": "",
+    "Per": "[char_0001]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -807,8 +807,8 @@
     "Col": "SHK 86/250 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_001]",
-    "Foi": "",
+    "Per": "[char_0001]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -836,8 +836,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_002]",
-    "Foi": "",
+    "Per": "[char_0002]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -865,8 +865,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_003]",
-    "Foi": "",
+    "Per": "[char_0003]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -894,8 +894,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_004]",
-    "Foi": "",
+    "Per": "[char_0004]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -923,8 +923,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_005]",
-    "Foi": "",
+    "Per": "[char_0005]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -952,8 +952,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_006]",
-    "Foi": "",
+    "Per": "[char_0006]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -981,8 +981,8 @@
     "Col": "",
     "Not": "Nov 06 2023.\nSubtipo, coste, y Virtud.",
     "Sta": "",
-    "Per": "[char_006]",
-    "Foi": "",
+    "Per": "[char_0006]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1010,8 +1010,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_007]",
-    "Foi": "",
+    "Per": "[char_0007]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1039,8 +1039,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_008]",
-    "Foi": "",
+    "Per": "[char_0008]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1068,8 +1068,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_009]",
-    "Foi": "",
+    "Per": "[char_0009]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1097,8 +1097,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_010]",
-    "Foi": "",
+    "Per": "[char_0010]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1126,8 +1126,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_011]",
-    "Foi": "",
+    "Per": "[char_0011]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1155,8 +1155,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_012]",
-    "Foi": "",
+    "Per": "[char_0012]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1184,8 +1184,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_013]",
-    "Foi": "",
+    "Per": "[char_0013]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1213,8 +1213,8 @@
     "Col": "v1.1 EV-34/255 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_014]",
-    "Foi": "",
+    "Per": "[char_0014]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1242,8 +1242,8 @@
     "Col": "EV-34/255 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_014]",
-    "Foi": "",
+    "Per": "[char_0014]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1271,8 +1271,8 @@
     "Col": "HK 43-2021",
     "Not": "",
     "Sta": "",
-    "Per": "[char_014]",
-    "Foi": "",
+    "Per": "[char_0014]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1300,8 +1300,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_015]",
-    "Foi": "",
+    "Per": "[char_0015]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1329,8 +1329,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_016]",
-    "Foi": "",
+    "Per": "[char_0016]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1358,8 +1358,8 @@
     "Col": "",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_017]",
-    "Foi": "",
+    "Per": "[char_0017]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1387,8 +1387,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_018]",
-    "Foi": "",
+    "Per": "[char_0018]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1416,8 +1416,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_019]",
-    "Foi": "",
+    "Per": "[char_0019]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1445,8 +1445,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_020]",
-    "Foi": "",
+    "Per": "[char_0020]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1474,8 +1474,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_021]",
-    "Foi": "",
+    "Per": "[char_0021]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1503,8 +1503,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_022]",
-    "Foi": "",
+    "Per": "[char_0022]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1532,8 +1532,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_023]",
-    "Foi": "",
+    "Per": "[char_0023]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1561,8 +1561,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_024]",
-    "Foi": "",
+    "Per": "[char_0024]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1590,8 +1590,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_025]",
-    "Foi": "",
+    "Per": "[char_0025]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1619,8 +1619,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_026]",
-    "Foi": "",
+    "Per": "[char_0026]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1648,8 +1648,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_027]",
-    "Foi": "",
+    "Per": "[char_0027]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1677,8 +1677,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_028]",
-    "Foi": "",
+    "Per": "[char_0028]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1706,8 +1706,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_029]",
-    "Foi": "",
+    "Per": "[char_0029]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1735,8 +1735,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_030]",
-    "Foi": "",
+    "Per": "[char_0030]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1764,8 +1764,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_031]",
-    "Foi": "",
+    "Per": "[char_0031]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1793,8 +1793,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_032]",
-    "Foi": "",
+    "Per": "[char_0032]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1822,8 +1822,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_033]",
-    "Foi": "",
+    "Per": "[char_0033]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1851,8 +1851,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_034]",
-    "Foi": "",
+    "Per": "[char_0034]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1880,8 +1880,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_035]",
-    "Foi": "",
+    "Per": "[char_0035]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1909,8 +1909,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_036]",
-    "Foi": "",
+    "Per": "[char_0036]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1938,8 +1938,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_037]",
-    "Foi": "",
+    "Per": "[char_0037]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1967,8 +1967,8 @@
     "Col": "EV-58/255 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_038]",
-    "Foi": "",
+    "Per": "[char_0038]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -1996,8 +1996,8 @@
     "Col": "EV 58/255 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_038]",
-    "Foi": "",
+    "Per": "[char_0038]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2025,8 +2025,8 @@
     "Col": "SHK 50/250 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_038]",
-    "Foi": "",
+    "Per": "[char_0038]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2054,8 +2054,8 @@
     "Col": "HK 47-2021",
     "Not": "",
     "Sta": "",
-    "Per": "[char_038]",
-    "Foi": "",
+    "Per": "[char_0038]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2083,8 +2083,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_039]",
-    "Foi": "",
+    "Per": "[char_0039]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2112,8 +2112,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_040]",
-    "Foi": "",
+    "Per": "[char_0040]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2141,8 +2141,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_002]",
-    "Foi": "",
+    "Per": "[char_0002]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2170,8 +2170,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
-    "Foi": "",
+    "Per": "[char_0011]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2199,8 +2199,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_002]",
-    "Foi": "",
+    "Per": "[char_0002]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2228,8 +2228,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
-    "Foi": "",
+    "Per": "[char_0031]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2257,8 +2257,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
-    "Foi": "",
+    "Per": "[char_0024]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2287,7 +2287,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2316,7 +2316,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2344,8 +2344,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
-    "Foi": "",
+    "Per": "[char_0011]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2373,8 +2373,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
-    "Foi": "",
+    "Per": "[char_0011]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2403,7 +2403,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2431,8 +2431,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_001]",
-    "Foi": "",
+    "Per": "[char_0001]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2460,8 +2460,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_002]",
-    "Foi": "",
+    "Per": "[char_0002, char_0008]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2489,8 +2489,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
-    "Foi": "",
+    "Per": "[char_0031, char_0032]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2518,8 +2518,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
-    "Foi": "",
+    "Per": "[char_0011]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2547,8 +2547,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_002]",
-    "Foi": "",
+    "Per": "[char_0002]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2577,7 +2577,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2606,7 +2606,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2635,7 +2635,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2664,7 +2664,7 @@
     "Not": "",
     "Sta": "B",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2693,7 +2693,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2721,8 +2721,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
-    "Foi": "",
+    "Per": "[char_0008]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2751,7 +2751,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2780,7 +2780,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2809,7 +2809,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2830,7 +2830,7 @@
     "Est": 1,
     "Vol": 2,
     "Abi": "Cuando entra en juego, el oponente objetivo juega con su Mano descubierta hasta la Contemplación.",
-    "Res": 4,
+    "Res": 1,
     "Epi": "Detectan hasta un suspiro.",
     "Ill": "Sergio Lantadilla",
     "Fre": "R",
@@ -2838,7 +2838,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2867,7 +2867,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2896,7 +2896,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2925,7 +2925,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2954,7 +2954,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -2983,7 +2983,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -3012,7 +3012,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -3041,7 +3041,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -3070,7 +3070,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -3099,7 +3099,7 @@
     "Not": "",
     "Sta": "",
     "Per": "",
-    "Foi": "",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -3127,8 +3127,8 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
-    "Foi": "",
+    "Per": "[char_0011]",
+    "Foi": "TRUE",
     "Fra": "tra"
   },
   {
@@ -3156,7 +3156,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_041]",
+    "Per": "[char_0041]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3185,7 +3185,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_042]",
+    "Per": "[char_0042]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3214,7 +3214,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_043]",
+    "Per": "[char_0043]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3243,7 +3243,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_044]",
+    "Per": "[char_0044]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3272,7 +3272,7 @@
     "Col": "",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_045]",
+    "Per": "[char_0045]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3301,7 +3301,7 @@
     "Col": "v1.1 EV-101/255 <b>I</b>",
     "Not": "v1.1",
     "Sta": "",
-    "Per": "[char_046]",
+    "Per": "[char_0046]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3330,7 +3330,7 @@
     "Col": "SHK 152/250 <b>I</b>",
     "Not": "SHK",
     "Sta": "",
-    "Per": "[char_046]",
+    "Per": "[char_0046]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3359,7 +3359,7 @@
     "Col": "EV 101/255 <b>I</b>",
     "Not": "R1 Nov 02 2024",
     "Sta": "",
-    "Per": "[char_046]",
+    "Per": "[char_0046]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3388,7 +3388,7 @@
     "Col": "HK 04-2023",
     "Not": "",
     "Sta": "",
-    "Per": "[char_046]",
+    "Per": "[char_0046]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3417,7 +3417,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_047]",
+    "Per": "[char_0047]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3446,7 +3446,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_048]",
+    "Per": "[char_0048]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3475,7 +3475,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_049]",
+    "Per": "[char_0049]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3504,7 +3504,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_050]",
+    "Per": "[char_0050]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3533,7 +3533,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_051]",
+    "Per": "[char_0051]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3562,7 +3562,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_052]",
+    "Per": "[char_0052]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3591,7 +3591,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_053]",
+    "Per": "[char_0053]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3620,7 +3620,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_054]",
+    "Per": "[char_0054]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3649,7 +3649,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_055]",
+    "Per": "[char_0055]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3678,7 +3678,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_056]",
+    "Per": "[char_0056]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3707,7 +3707,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_057]",
+    "Per": "[char_0057]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3736,7 +3736,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_058]",
+    "Per": "[char_0058]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3765,7 +3765,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_059]",
+    "Per": "[char_0059]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3794,7 +3794,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_060]",
+    "Per": "[char_0060]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3823,7 +3823,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_061]",
+    "Per": "[char_0061]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3852,7 +3852,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_062]",
+    "Per": "[char_0062]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3881,7 +3881,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_063]",
+    "Per": "[char_0063]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3910,7 +3910,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_064]",
+    "Per": "[char_0064]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3939,7 +3939,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_065]",
+    "Per": "[char_0065]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3968,7 +3968,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_066]",
+    "Per": "[char_0066]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -3997,7 +3997,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_067]",
+    "Per": "[char_0067]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -4026,7 +4026,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_068]",
+    "Per": "[char_0068]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -4055,7 +4055,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_069]",
+    "Per": "[char_0069]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -4084,7 +4084,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_070]",
+    "Per": "[char_0070]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -4113,7 +4113,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_071]",
+    "Per": "[char_0071]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -4142,7 +4142,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_072]",
+    "Per": "[char_0072]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -4171,7 +4171,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_073]",
+    "Per": "[char_0073]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -4200,7 +4200,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_074]",
+    "Per": "[char_0074]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -4229,7 +4229,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_075]",
+    "Per": "[char_0075]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -4258,7 +4258,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_076]",
+    "Per": "[char_0076]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -4287,7 +4287,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_077]",
+    "Per": "[char_0077]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -4316,7 +4316,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_078]",
+    "Per": "[char_0078]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -4345,7 +4345,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_079]",
+    "Per": "[char_0079]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -4374,7 +4374,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_080]",
+    "Per": "[char_0080]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -4403,7 +4403,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0032]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -4432,7 +4432,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -4490,7 +4490,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_002]",
+    "Per": "[char_0002, char_0031]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -4519,7 +4519,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0003]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -4577,7 +4577,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -4606,7 +4606,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0013]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -4635,7 +4635,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -4722,7 +4722,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0031]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -4780,7 +4780,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0007]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -4983,7 +4983,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_001]",
+    "Per": "[char_0001]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -5621,7 +5621,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_081]",
+    "Per": "[char_0081]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -5650,7 +5650,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_082]",
+    "Per": "[char_0082]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -5679,7 +5679,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_083]",
+    "Per": "[char_0083]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -5708,7 +5708,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_084]",
+    "Per": "[char_0084]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -5737,7 +5737,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_085]",
+    "Per": "[char_0085]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -5766,7 +5766,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_086]",
+    "Per": "[char_0086]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -5795,7 +5795,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_087]",
+    "Per": "[char_0087]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -5824,7 +5824,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_088]",
+    "Per": "[char_0088]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -5853,7 +5853,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_089]",
+    "Per": "[char_0089]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -5882,7 +5882,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_090]",
+    "Per": "[char_0090]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -5911,7 +5911,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_091]",
+    "Per": "[char_0091]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -5940,7 +5940,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_092]",
+    "Per": "[char_0092]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -5969,7 +5969,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_093]",
+    "Per": "[char_0093]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -5998,7 +5998,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_094]",
+    "Per": "[char_0094]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6027,7 +6027,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_095]",
+    "Per": "[char_0095]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6056,7 +6056,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_096]",
+    "Per": "[char_0096]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6085,7 +6085,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_097]",
+    "Per": "[char_0097]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6114,7 +6114,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_098]",
+    "Per": "[char_0098]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6143,7 +6143,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_099]",
+    "Per": "[char_0099]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6172,7 +6172,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_100]",
+    "Per": "[char_0100]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6201,7 +6201,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_101]",
+    "Per": "[char_0101]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6230,7 +6230,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_102]",
+    "Per": "[char_0102]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6259,7 +6259,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_103]",
+    "Per": "[char_0103]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6288,7 +6288,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_104]",
+    "Per": "[char_0104]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6317,7 +6317,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_105]",
+    "Per": "[char_0105]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6346,7 +6346,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_106]",
+    "Per": "[char_0106]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6375,7 +6375,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_107]",
+    "Per": "[char_0107]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6404,7 +6404,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_108]",
+    "Per": "[char_0108]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6433,7 +6433,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_109]",
+    "Per": "[char_0109]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6462,7 +6462,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_110]",
+    "Per": "[char_0110]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6491,7 +6491,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_111]",
+    "Per": "[char_0111]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6520,7 +6520,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_112]",
+    "Per": "[char_0112]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6549,7 +6549,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_113]",
+    "Per": "[char_0113]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6578,7 +6578,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_114]",
+    "Per": "[char_0114]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6607,7 +6607,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_115]",
+    "Per": "[char_0115]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6636,7 +6636,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_116]",
+    "Per": "[char_0116]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6665,7 +6665,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_117]",
+    "Per": "[char_0117]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6694,7 +6694,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_118, char_119]",
+    "Per": "[char_0118, char_0119]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6723,7 +6723,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_120]",
+    "Per": "[char_0120]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6752,7 +6752,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_121]",
+    "Per": "[char_0121]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6781,7 +6781,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0013]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6810,7 +6810,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_002]",
+    "Per": "[char_0002]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6868,7 +6868,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0032]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6926,7 +6926,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_002]",
+    "Per": "[char_0002]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6955,7 +6955,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -6984,7 +6984,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0007]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -7100,7 +7100,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_001]",
+    "Per": "[char_0001]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -7129,7 +7129,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_001]",
+    "Per": "[char_0001]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -7187,7 +7187,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0032]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -7274,7 +7274,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_001]",
+    "Per": "[char_0001]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -7332,7 +7332,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_001, char_002]",
+    "Per": "[char_0001, char_0002]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -7854,7 +7854,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -8086,7 +8086,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0008]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -8115,7 +8115,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_002]",
+    "Per": "[char_0002]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -8376,7 +8376,7 @@
     "Col": "DV-4/280 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_001]",
+    "Per": "[char_0001]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -8405,7 +8405,7 @@
     "Col": "DV 4 /280",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_001]",
+    "Per": "[char_0001]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -8434,7 +8434,7 @@
     "Col": "SHK 40/250 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_001]",
+    "Per": "[char_0001]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -8455,7 +8455,7 @@
     "Adi": 4,
     "Est": 11,
     "Vol": 4,
-    "Abi": "Reduce en 1 el Coste de Voluntad de los :adi: :qui:. YYY :vi:(:qui:): Todos los jugadores deben descartar 1 carta",
+    "Abi": "Reduce en 1 el Coste de Voluntad de los :adi: :qui:. YYY :vib:(:qui:): Todos los jugadores deben descartar 1 carta",
     "Res": 1,
     "Epi": "La libertad es un regalo de la luz.",
     "Ill": "Cristián Gonzáles",
@@ -8956,7 +8956,7 @@
     "Col": "DV-13/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_122]",
+    "Per": "[char_0122]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -9188,7 +9188,7 @@
     "Col": "DV-16/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0021]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -9391,7 +9391,7 @@
     "Col": "DV-19/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0031]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -9797,7 +9797,7 @@
     "Col": "DV-25/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_123]",
+    "Per": "[char_0123]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -9826,7 +9826,7 @@
     "Col": "DV 25 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_123]",
+    "Per": "[char_0123]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -9855,7 +9855,7 @@
     "Col": "DV-26/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_124]",
+    "Per": "[char_0124]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -9884,7 +9884,7 @@
     "Col": "DV 26 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_124]",
+    "Per": "[char_0124]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -9913,7 +9913,7 @@
     "Col": "SHK 79/250 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_124]",
+    "Per": "[char_0124]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -9942,7 +9942,7 @@
     "Col": "DV-27/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_125]",
+    "Per": "[char_0125]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -9971,7 +9971,7 @@
     "Col": "DV 27 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_125]",
+    "Per": "[char_0125]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10000,7 +10000,7 @@
     "Col": "DV-28/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_126]",
+    "Per": "[char_0126]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10029,7 +10029,7 @@
     "Col": "DV 28 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_126]",
+    "Per": "[char_0126]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10058,7 +10058,7 @@
     "Col": "DV-29/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_127]",
+    "Per": "[char_0127]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10087,7 +10087,7 @@
     "Col": "DV 29 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_127]",
+    "Per": "[char_0127]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10116,7 +10116,7 @@
     "Col": "SHK 82/250 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_127]",
+    "Per": "[char_0127]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10145,7 +10145,7 @@
     "Col": "DV-30/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_128]",
+    "Per": "[char_0128]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10174,7 +10174,7 @@
     "Col": "DV 30 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_128]",
+    "Per": "[char_0128]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10203,7 +10203,7 @@
     "Col": "SHK 008/250",
     "Not": "",
     "Sta": "",
-    "Per": "[char_128]",
+    "Per": "[char_0128]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -10232,7 +10232,7 @@
     "Col": "DV-31/280<b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_129]",
+    "Per": "[char_0129]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10261,7 +10261,7 @@
     "Col": "DV 31 /280",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_129]",
+    "Per": "[char_0129]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10290,7 +10290,7 @@
     "Col": "SHK 74/250 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_129]",
+    "Per": "[char_0129]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10319,7 +10319,7 @@
     "Col": "DV-32/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_130]",
+    "Per": "[char_0130]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10348,7 +10348,7 @@
     "Col": "DV 32 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_130]",
+    "Per": "[char_0130]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10377,7 +10377,7 @@
     "Col": "SHK 76/250 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_130]",
+    "Per": "[char_0130]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10406,7 +10406,7 @@
     "Col": "HK 41-2021",
     "Not": "",
     "Sta": "",
-    "Per": "[char_130]",
+    "Per": "[char_0130]",
     "Foi": "",
     "Fra": "-"
   },
@@ -10435,7 +10435,7 @@
     "Col": "DV-33/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_131]",
+    "Per": "[char_0131]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10464,7 +10464,7 @@
     "Col": "DV 33 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_131]",
+    "Per": "[char_0131]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10493,7 +10493,7 @@
     "Col": "DV-34/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_132]",
+    "Per": "[char_0132]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10522,7 +10522,7 @@
     "Col": "DV 34 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_132]",
+    "Per": "[char_0132]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10551,7 +10551,7 @@
     "Col": "SHK 84/250 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_132]",
+    "Per": "[char_0132]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10580,7 +10580,7 @@
     "Col": "DV-35/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_133]",
+    "Per": "[char_0133]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10609,7 +10609,7 @@
     "Col": "DV 35 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_133]",
+    "Per": "[char_0133]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10638,7 +10638,7 @@
     "Col": "SHK 47/250 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_133]",
+    "Per": "[char_0133]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10667,7 +10667,7 @@
     "Col": "DV-36/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_134]",
+    "Per": "[char_0134]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10696,7 +10696,7 @@
     "Col": "DV 36 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_134]",
+    "Per": "[char_0134]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10725,7 +10725,7 @@
     "Col": "SHK 131/250 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_134]",
+    "Per": "[char_0134]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10754,7 +10754,7 @@
     "Col": "DV-37/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_135]",
+    "Per": "[char_0135]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10783,7 +10783,7 @@
     "Col": "DV 37 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_135]",
+    "Per": "[char_0135]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10812,7 +10812,7 @@
     "Col": "SHK 41/250 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_135]",
+    "Per": "[char_0135]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10841,7 +10841,7 @@
     "Col": "DV-38/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_136]",
+    "Per": "[char_0136]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10870,7 +10870,7 @@
     "Col": "DV 38 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_136]",
+    "Per": "[char_0136]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10899,7 +10899,7 @@
     "Col": "DV-39/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_137]",
+    "Per": "[char_0137]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10928,7 +10928,7 @@
     "Col": "DV 39 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_137]",
+    "Per": "[char_0137]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10957,7 +10957,7 @@
     "Col": "SHK 201/250 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_137]",
+    "Per": "[char_0137]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -10978,7 +10978,7 @@
     "Adi": "",
     "Est": "",
     "Vol": "",
-    "Abi": ":em:. YYY :vir: (:abi:): Evita que Espectrae salga del juego.",
+    "Abi": ":emp:. YYY :vir: (:abi:): Evita que Espectrae salga del juego.",
     "Res": 4,
     "Epi": "No puedo morir y tú no has de vivir.",
     "Ill": "Mauricio Herrera",
@@ -10986,7 +10986,7 @@
     "Col": "DV 40 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_138]",
+    "Per": "[char_0138]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11015,7 +11015,7 @@
     "Col": "DV 40 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_138]",
+    "Per": "[char_0138]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11044,7 +11044,7 @@
     "Col": "DV-41/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_139]",
+    "Per": "[char_0139]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11073,7 +11073,7 @@
     "Col": "DV 41 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_139]",
+    "Per": "[char_0139]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11102,7 +11102,7 @@
     "Col": "DV-42/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_140]",
+    "Per": "[char_0140]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11131,7 +11131,7 @@
     "Col": "DV 42 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_140]",
+    "Per": "[char_0140]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11160,7 +11160,7 @@
     "Col": "SHK 44/250 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_140]",
+    "Per": "[char_0140]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11189,7 +11189,7 @@
     "Col": "DV-43/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_141]",
+    "Per": "[char_0141]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11218,7 +11218,7 @@
     "Col": "DV 43 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_141]",
+    "Per": "[char_0141]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11247,7 +11247,7 @@
     "Col": "SHK 49/250 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_141]",
+    "Per": "[char_0141]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11276,7 +11276,7 @@
     "Col": "DV-44/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_142]",
+    "Per": "[char_0142]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11305,7 +11305,7 @@
     "Col": "DV 44 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_142]",
+    "Per": "[char_0142]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11334,7 +11334,7 @@
     "Col": "DV-45/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_143]",
+    "Per": "[char_0143]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11363,7 +11363,7 @@
     "Col": "DV 45 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_143]",
+    "Per": "[char_0143]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11392,7 +11392,7 @@
     "Col": "DV-46/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_144]",
+    "Per": "[char_0144]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11421,7 +11421,7 @@
     "Col": "DV 46 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_144]",
+    "Per": "[char_0144]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11450,7 +11450,7 @@
     "Col": "DV-47/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_145]",
+    "Per": "[char_0145]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11479,7 +11479,7 @@
     "Col": "DV 47 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_145]",
+    "Per": "[char_0145]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11508,7 +11508,7 @@
     "Col": "SHK 63/250 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_145]",
+    "Per": "[char_0145]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11537,7 +11537,7 @@
     "Col": "DV-48/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_146]",
+    "Per": "[char_0146]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11566,7 +11566,7 @@
     "Col": "DV 48 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_146]",
+    "Per": "[char_0146]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11595,7 +11595,7 @@
     "Col": "SHK 66/250 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_146]",
+    "Per": "[char_0146]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11624,7 +11624,7 @@
     "Col": "DV-49/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_147]",
+    "Per": "[char_0147]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11653,7 +11653,7 @@
     "Col": "DV 49 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_147]",
+    "Per": "[char_0147]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11682,7 +11682,7 @@
     "Col": "DV-50/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_148]",
+    "Per": "[char_0148]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11711,7 +11711,7 @@
     "Col": "DV 50 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_148]",
+    "Per": "[char_0148]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11740,7 +11740,7 @@
     "Col": "SHK 67/250 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_148]",
+    "Per": "[char_0148]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11769,7 +11769,7 @@
     "Col": "DV-51/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_149]",
+    "Per": "[char_0149]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11798,7 +11798,7 @@
     "Col": "DV 51 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_149]",
+    "Per": "[char_0149]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11827,7 +11827,7 @@
     "Col": "HK 45-2021",
     "Not": "",
     "Sta": "",
-    "Per": "[char_149]",
+    "Per": "[char_0149]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11856,7 +11856,7 @@
     "Col": "DV-52/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_150]",
+    "Per": "[char_0150]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11885,7 +11885,7 @@
     "Col": "DV 52 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_150]",
+    "Per": "[char_0150]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11914,7 +11914,7 @@
     "Col": "SHK 64/250 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_150]",
+    "Per": "[char_0150]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11943,7 +11943,7 @@
     "Col": "DV-53/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_151]",
+    "Per": "[char_0151]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -11972,7 +11972,7 @@
     "Col": "DV 53 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_151]",
+    "Per": "[char_0151]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12001,7 +12001,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_151]",
+    "Per": "[char_0151]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12030,7 +12030,7 @@
     "Col": "DV-54/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_152]",
+    "Per": "[char_0152]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12059,7 +12059,7 @@
     "Col": "DV 54 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_152]",
+    "Per": "[char_0152]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12088,7 +12088,7 @@
     "Col": "DV-55/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_153]",
+    "Per": "[char_0153]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12117,7 +12117,7 @@
     "Col": "DV 55 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_153]",
+    "Per": "[char_0153]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12146,7 +12146,7 @@
     "Col": "SHK 004/250",
     "Not": "",
     "Sta": "",
-    "Per": "[char_153]",
+    "Per": "[char_0153]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12175,7 +12175,7 @@
     "Col": "DV-56/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_154]",
+    "Per": "[char_0154]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12204,7 +12204,7 @@
     "Col": "DV 56 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_154]",
+    "Per": "[char_0154]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12233,7 +12233,7 @@
     "Col": "SHK 54/250 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_154]",
+    "Per": "[char_0154]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12262,7 +12262,7 @@
     "Col": "DV-57/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_155]",
+    "Per": "[char_0155]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12291,7 +12291,7 @@
     "Col": "DV 57 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_155]",
+    "Per": "[char_0155]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12320,7 +12320,7 @@
     "Col": "DV-58/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_156]",
+    "Per": "[char_0156]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12349,7 +12349,7 @@
     "Col": "DV 58 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_156]",
+    "Per": "[char_0156]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12378,7 +12378,7 @@
     "Col": "SHK 56/250 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_156]",
+    "Per": "[char_0156]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12407,7 +12407,7 @@
     "Col": "DV-59/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_157]",
+    "Per": "[char_0157]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12436,7 +12436,7 @@
     "Col": "DV 59 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_157]",
+    "Per": "[char_0157]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12465,7 +12465,7 @@
     "Col": "DV 60 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_158]",
+    "Per": "[char_0158]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12494,7 +12494,7 @@
     "Col": "DV 60 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_158]",
+    "Per": "[char_0158]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12523,7 +12523,7 @@
     "Col": "SHK 53/250 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_158]",
+    "Per": "[char_0158]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12552,7 +12552,7 @@
     "Col": "DV-61/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_159]",
+    "Per": "[char_0159]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12581,7 +12581,7 @@
     "Col": "DV 61 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_159]",
+    "Per": "[char_0159]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12610,7 +12610,7 @@
     "Col": "DV-62/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_160]",
+    "Per": "[char_0160]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12639,7 +12639,7 @@
     "Col": "DV 62 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_160]",
+    "Per": "[char_0160]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12668,7 +12668,7 @@
     "Col": "DV-63/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_161]",
+    "Per": "[char_0161]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12697,7 +12697,7 @@
     "Col": "DV 63 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_161]",
+    "Per": "[char_0161]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12726,7 +12726,7 @@
     "Col": "DV-64/280 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_162]",
+    "Per": "[char_0162]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12755,7 +12755,7 @@
     "Col": "DV 64 /280",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_162]",
+    "Per": "[char_0162]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12784,7 +12784,7 @@
     "Col": "DV-65/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0010]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -12900,7 +12900,7 @@
     "Col": "DV-67/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_002]",
+    "Per": "[char_0002]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -13016,7 +13016,7 @@
     "Col": "DV-69/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -13045,7 +13045,7 @@
     "Col": "DV 69 /280",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -13074,7 +13074,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -13161,7 +13161,7 @@
     "Col": "DV-71/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0003, char_0027]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -13190,7 +13190,7 @@
     "Col": "DV 71 /280",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0003, char_0027]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -13422,7 +13422,7 @@
     "Col": "DV-75/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0032]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -13451,7 +13451,7 @@
     "Col": "DV 75 /280",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0032]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -14698,7 +14698,7 @@
     "Col": "DV-95/280 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -14727,7 +14727,7 @@
     "Col": "DV 95 /280",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -14756,7 +14756,7 @@
     "Col": "SHK 111/250 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -14785,7 +14785,7 @@
     "Col": "HK 17-2023",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15162,7 +15162,7 @@
     "Col": "DV-101/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_163]",
+    "Per": "[char_0163]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15191,7 +15191,7 @@
     "Col": "DV 101 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_163]",
+    "Per": "[char_0163]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15220,7 +15220,7 @@
     "Col": "DV-102/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_164]",
+    "Per": "[char_0164]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15249,7 +15249,7 @@
     "Col": "DV 102 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_164]",
+    "Per": "[char_0164]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15278,7 +15278,7 @@
     "Col": "DV-103/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_165]",
+    "Per": "[char_0165]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15307,7 +15307,7 @@
     "Col": "DV 103 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_165]",
+    "Per": "[char_0165]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15336,7 +15336,7 @@
     "Col": "DV-104/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_166]",
+    "Per": "[char_0166]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15365,7 +15365,7 @@
     "Col": "DV 104 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_166]",
+    "Per": "[char_0166]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15394,7 +15394,7 @@
     "Col": "DV-105/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_167]",
+    "Per": "[char_0167]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15423,7 +15423,7 @@
     "Col": "DV 105 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_167]",
+    "Per": "[char_0167]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15452,7 +15452,7 @@
     "Col": "DV-106/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_168]",
+    "Per": "[char_0168]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15481,7 +15481,7 @@
     "Col": "DV 106 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_168]",
+    "Per": "[char_0168]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15510,7 +15510,7 @@
     "Col": "DV-107/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_169]",
+    "Per": "[char_0169]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15539,7 +15539,7 @@
     "Col": "DV 107 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_169]",
+    "Per": "[char_0169]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15568,7 +15568,7 @@
     "Col": "DV-108/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_170]",
+    "Per": "[char_0170]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15597,7 +15597,7 @@
     "Col": "DV 108 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_170]",
+    "Per": "[char_0170]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15626,7 +15626,7 @@
     "Col": "HK 11-2020",
     "Not": "",
     "Sta": "",
-    "Per": "[char_170]",
+    "Per": "[char_0170]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -15655,7 +15655,7 @@
     "Col": "SHK 149/250 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_170]",
+    "Per": "[char_0170]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15684,7 +15684,7 @@
     "Col": "DV-109/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_171]",
+    "Per": "[char_0171]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15713,7 +15713,7 @@
     "Col": "DV 109 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_171]",
+    "Per": "[char_0171]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15742,7 +15742,7 @@
     "Col": "SHK 155/250 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_171]",
+    "Per": "[char_0171]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15771,7 +15771,7 @@
     "Col": "DV-110/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_172]",
+    "Per": "[char_0172]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15800,7 +15800,7 @@
     "Col": "DV 110 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_172]",
+    "Per": "[char_0172]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15829,7 +15829,7 @@
     "Col": "DV-111/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_173]",
+    "Per": "[char_0173]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15858,7 +15858,7 @@
     "Col": "DV 111 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_173]",
+    "Per": "[char_0173]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15887,7 +15887,7 @@
     "Col": "DV-112/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_174]",
+    "Per": "[char_0174]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15916,7 +15916,7 @@
     "Col": "DV 112 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_174]",
+    "Per": "[char_0174]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15945,7 +15945,7 @@
     "Col": "DV-113/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_175]",
+    "Per": "[char_0175]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -15974,7 +15974,7 @@
     "Col": "DV 113 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_175]",
+    "Per": "[char_0175]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16003,7 +16003,7 @@
     "Col": "DV-114/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_176]",
+    "Per": "[char_0176]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16032,7 +16032,7 @@
     "Col": "DV 114 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_176]",
+    "Per": "[char_0176]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16061,7 +16061,7 @@
     "Col": "SHK 128/250 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_176]",
+    "Per": "[char_0176]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16090,7 +16090,7 @@
     "Col": "DV-115/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_177]",
+    "Per": "[char_0177]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16119,7 +16119,7 @@
     "Col": "DV 115 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_177]",
+    "Per": "[char_0177]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16148,7 +16148,7 @@
     "Col": "DV-116/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_178]",
+    "Per": "[char_0178]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16177,7 +16177,7 @@
     "Col": "DV 116 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_178]",
+    "Per": "[char_0178]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16206,7 +16206,7 @@
     "Col": "DV-117/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_179]",
+    "Per": "[char_0179]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16235,7 +16235,7 @@
     "Col": "DV 117 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_179]",
+    "Per": "[char_0179]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16264,7 +16264,7 @@
     "Col": "DV-118/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_180]",
+    "Per": "[char_0180]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16293,7 +16293,7 @@
     "Col": "DV 118 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_180]",
+    "Per": "[char_0180]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16322,7 +16322,7 @@
     "Col": "DV-119/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_181]",
+    "Per": "[char_0181]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16351,7 +16351,7 @@
     "Col": "DV 119 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_181]",
+    "Per": "[char_0181]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16380,7 +16380,7 @@
     "Col": "DV-120/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_182]",
+    "Per": "[char_0182]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16409,7 +16409,7 @@
     "Col": "DV 120 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_182]",
+    "Per": "[char_0182]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16438,7 +16438,7 @@
     "Col": "DV-121/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_183]",
+    "Per": "[char_0183]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16467,7 +16467,7 @@
     "Col": "HK 14-2020",
     "Not": "",
     "Sta": "",
-    "Per": "[char_183]",
+    "Per": "[char_0183]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -16496,7 +16496,7 @@
     "Col": "DV 121 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_183]",
+    "Per": "[char_0183]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16525,7 +16525,7 @@
     "Col": "SHK 123/250 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_183]",
+    "Per": "[char_0183]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16554,7 +16554,7 @@
     "Col": "DV-122/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_184]",
+    "Per": "[char_0184]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16583,7 +16583,7 @@
     "Col": "DV 122 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_184]",
+    "Per": "[char_0184]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16612,7 +16612,7 @@
     "Col": "DV-123/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_185, char_186]",
+    "Per": "[char_0185, char_0186]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16641,7 +16641,7 @@
     "Col": "DV 123 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_185, char_186]",
+    "Per": "[char_0185, char_0186]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16670,7 +16670,7 @@
     "Col": "SHK 199/250 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_185, char_186]",
+    "Per": "[char_0185, char_0186]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16699,7 +16699,7 @@
     "Col": "DV-124/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_187]",
+    "Per": "[char_0187]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16728,7 +16728,7 @@
     "Col": "DV 124 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_187]",
+    "Per": "[char_0187]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16757,7 +16757,7 @@
     "Col": "SHK 126/250 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_187]",
+    "Per": "[char_0187]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16786,7 +16786,7 @@
     "Col": "DV-125/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_188]",
+    "Per": "[char_0188]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16815,7 +16815,7 @@
     "Col": "DV 125 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_188]",
+    "Per": "[char_0188]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16844,7 +16844,7 @@
     "Col": "SHK 143/250 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_188]",
+    "Per": "[char_0188]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16873,7 +16873,7 @@
     "Col": "DV-126/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_189]",
+    "Per": "[char_0189]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16902,7 +16902,7 @@
     "Col": "DV 126 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_189]",
+    "Per": "[char_0189]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16931,7 +16931,7 @@
     "Col": "SHK 141/250 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_189]",
+    "Per": "[char_0189]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16960,7 +16960,7 @@
     "Col": "DV-127/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_190]",
+    "Per": "[char_0190]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -16989,7 +16989,7 @@
     "Col": "DV 127 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_190]",
+    "Per": "[char_0190]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17018,7 +17018,7 @@
     "Col": "DV 128 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_191]",
+    "Per": "[char_0191]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17047,7 +17047,7 @@
     "Col": "HK 04-2020",
     "Not": "",
     "Sta": "",
-    "Per": "[char_191]",
+    "Per": "[char_0191]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17076,7 +17076,7 @@
     "Col": "DV 128 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_191]",
+    "Per": "[char_0191]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17105,7 +17105,7 @@
     "Col": "SHK 140/250 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_191]",
+    "Per": "[char_0191]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17134,7 +17134,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_191]",
+    "Per": "[char_0191]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17163,7 +17163,7 @@
     "Col": "DV-129/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_192]",
+    "Per": "[char_0192]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17192,7 +17192,7 @@
     "Col": "DV 129 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_192]",
+    "Per": "[char_0192]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17221,7 +17221,7 @@
     "Col": "DV-130/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_193]",
+    "Per": "[char_0193]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17250,7 +17250,7 @@
     "Col": "DV 130 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_193]",
+    "Per": "[char_0193]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17279,7 +17279,7 @@
     "Col": "HK 12-2023",
     "Not": "",
     "Sta": "",
-    "Per": "[char_193]",
+    "Per": "[char_0193]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17308,7 +17308,7 @@
     "Col": "HK 24-2023",
     "Not": "",
     "Sta": "",
-    "Per": "[char_193]",
+    "Per": "[char_0193]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17337,7 +17337,7 @@
     "Col": "DV-131/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_194]",
+    "Per": "[char_0194]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17366,7 +17366,7 @@
     "Col": "DV 131 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_194]",
+    "Per": "[char_0194]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17395,7 +17395,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_194]",
+    "Per": "[char_0194]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17416,7 +17416,7 @@
     "Adi": "",
     "Est": "",
     "Vol": "",
-    "Abi": ":en:. YYY :vir: (:cor:): Gana :vib:.",
+    "Abi": ":ent:. YYY :vir: (:cor:): Gana :vib:.",
     "Res": 4,
     "Epi": "Los pilotos más exitosos que tenemos.",
     "Ill": "Carlos Herrera",
@@ -17424,7 +17424,7 @@
     "Col": "DV-132/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_195]",
+    "Per": "[char_0195]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17453,7 +17453,7 @@
     "Col": "DV 132 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_195]",
+    "Per": "[char_0195]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17482,7 +17482,7 @@
     "Col": "SHK 144/250 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_195]",
+    "Per": "[char_0195]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17511,7 +17511,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_195]",
+    "Per": "[char_0195]",
     "Foi": "",
     "Fra": ""
   },
@@ -17540,7 +17540,7 @@
     "Col": "HK 22-2023",
     "Not": "",
     "Sta": "",
-    "Per": "[char_195]",
+    "Per": "[char_0195]",
     "Foi": "",
     "Fra": ""
   },
@@ -17569,7 +17569,7 @@
     "Col": "DV-133/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_196]",
+    "Per": "[char_0196]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17598,7 +17598,7 @@
     "Col": "DV 133 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_196]",
+    "Per": "[char_0196]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17619,7 +17619,7 @@
     "Adi": "",
     "Est": "",
     "Vol": "",
-    "Abi": ":em:. YYY Si controlas 4 o más copias de Contadores, gana 2 a la fuerza.",
+    "Abi": ":emp:. YYY Si controlas 4 o más copias de Contadores, gana 2 a la fuerza.",
     "Res": 4,
     "Epi": "Te haremos quebrar.",
     "Ill": "Carlos Herrera",
@@ -17627,7 +17627,7 @@
     "Col": "DV-134/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_197]",
+    "Per": "[char_0197]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17656,7 +17656,7 @@
     "Col": "DV 134 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_197]",
+    "Per": "[char_0197]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17685,7 +17685,7 @@
     "Col": "DV-135/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_198]",
+    "Per": "[char_0198]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17714,7 +17714,7 @@
     "Col": "HK 12-2020",
     "Not": "",
     "Sta": "",
-    "Per": "[char_198]",
+    "Per": "[char_0198]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17743,7 +17743,7 @@
     "Col": "DV 135 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_198]",
+    "Per": "[char_0198]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17772,7 +17772,7 @@
     "Col": "SHK 142/250 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_198]",
+    "Per": "[char_0198]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17801,7 +17801,7 @@
     "Col": "DV 135 /280",
     "Not": "Restricción 2.",
     "Sta": "",
-    "Per": "[char_198]",
+    "Per": "[char_0198]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17830,7 +17830,7 @@
     "Col": "DV-136/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_199]",
+    "Per": "[char_0199]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17851,7 +17851,7 @@
     "Adi": "",
     "Est": "",
     "Vol": "",
-    "Abi": ":vi:(-X): El Personaje en Duelo objetivo pierde X al daño de Combate hasta finalizar el Duelo.",
+    "Abi": ":vib:(-X): El Personaje en Duelo objetivo pierde X al daño de Combate hasta finalizar el Duelo.",
     "Res": 4,
     "Epi": "Nossssotrosss sssomosss la sssserpiente y el veneno.",
     "Ill": "Giye",
@@ -17859,7 +17859,7 @@
     "Col": "DV 136 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_199]",
+    "Per": "[char_0199]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17888,7 +17888,7 @@
     "Col": "DV-137/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_200]",
+    "Per": "[char_0200]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17917,7 +17917,7 @@
     "Col": "DV 137 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_200]",
+    "Per": "[char_0200]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17946,7 +17946,7 @@
     "Col": "DV-138/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_201]",
+    "Per": "[char_0201]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -17975,7 +17975,7 @@
     "Col": "DV 138 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_201]",
+    "Per": "[char_0201]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18004,7 +18004,7 @@
     "Col": "DV-139/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_202]",
+    "Per": "[char_0202]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18033,7 +18033,7 @@
     "Col": "DV 139 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_202]",
+    "Per": "[char_0202]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18062,7 +18062,7 @@
     "Col": "DV-140/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_203]",
+    "Per": "[char_0203]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18091,7 +18091,7 @@
     "Col": "DV 140 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_203]",
+    "Per": "[char_0203]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18120,7 +18120,7 @@
     "Col": "SHK 132/250 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_203]",
+    "Per": "[char_0203]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18149,7 +18149,7 @@
     "Col": "DV-141/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_204]",
+    "Per": "[char_0204]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18178,7 +18178,7 @@
     "Col": "DV 141 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_204]",
+    "Per": "[char_0204]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18207,7 +18207,7 @@
     "Col": "DV-142/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_205]",
+    "Per": "[char_0205]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18236,7 +18236,7 @@
     "Col": "DV 142 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_205]",
+    "Per": "[char_0205]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18265,7 +18265,7 @@
     "Col": "DV-143/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_206]",
+    "Per": "[char_0206]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18294,7 +18294,7 @@
     "Col": "DV 143 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_206]",
+    "Per": "[char_0206]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18323,7 +18323,7 @@
     "Col": "DV-144/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_207]",
+    "Per": "[char_0207]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18352,7 +18352,7 @@
     "Col": "DV 144 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_207]",
+    "Per": "[char_0207]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18381,7 +18381,7 @@
     "Col": "DV-145/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_208]",
+    "Per": "[char_0208]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18410,7 +18410,7 @@
     "Col": "DV 145 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_208]",
+    "Per": "[char_0208]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18439,7 +18439,7 @@
     "Col": "DV-146/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_209]",
+    "Per": "[char_0209]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18468,7 +18468,7 @@
     "Col": "DV 146 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_209]",
+    "Per": "[char_0209]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18497,7 +18497,7 @@
     "Col": "DV-147/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_210]",
+    "Per": "[char_0210]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18526,7 +18526,7 @@
     "Col": "DV 147 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_210]",
+    "Per": "[char_0210]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18555,7 +18555,7 @@
     "Col": "DV-148/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_211]",
+    "Per": "[char_0211]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18584,7 +18584,7 @@
     "Col": "DV 148 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_211]",
+    "Per": "[char_0211]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18613,7 +18613,7 @@
     "Col": "SHK 135/250 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_211]",
+    "Per": "[char_0211]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18932,7 +18932,7 @@
     "Col": "DV-154/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18961,7 +18961,7 @@
     "Col": "DV 154 /280",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -18990,7 +18990,7 @@
     "Col": "DV-155/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -19019,7 +19019,7 @@
     "Col": "DV 155 /280",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -19193,7 +19193,7 @@
     "Col": "DV-158/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0003]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -19222,7 +19222,7 @@
     "Col": "DV 158 /280",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0003]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -19367,7 +19367,7 @@
     "Col": "DV-161/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_002]",
+    "Per": "[char_0002, char_0032]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -19396,7 +19396,7 @@
     "Col": "DV 161 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_002]",
+    "Per": "[char_0002, char_0032]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -19425,7 +19425,7 @@
     "Col": "DV-162/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0032]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -19454,7 +19454,7 @@
     "Col": "DV 162 /280",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0032]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -19483,7 +19483,7 @@
     "Col": "SHK 227/250 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0032]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -19628,7 +19628,7 @@
     "Col": "DV-165/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_211]",
+    "Per": "[char_0211]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -19657,7 +19657,7 @@
     "Col": "DV 165 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_211]",
+    "Per": "[char_0211]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -19686,7 +19686,7 @@
     "Col": "SHK 174/250 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_211]",
+    "Per": "[char_0211]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -20208,7 +20208,7 @@
     "Col": "DV-172/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0031]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -20237,7 +20237,7 @@
     "Col": "DV 172 /280",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0031]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -20788,7 +20788,7 @@
     "Col": "DV-180/280 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0097]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -20817,7 +20817,7 @@
     "Col": "DV 180 /280",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0097]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -21455,7 +21455,7 @@
     "Col": "DV-191/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_213]",
+    "Per": "[char_0213]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -21484,7 +21484,7 @@
     "Col": "DV 191 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_213]",
+    "Per": "[char_0213]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -21513,7 +21513,7 @@
     "Col": "DV-192/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_214]",
+    "Per": "[char_0214]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -21542,7 +21542,7 @@
     "Col": "DV 192 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_214]",
+    "Per": "[char_0214]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -21571,7 +21571,7 @@
     "Col": "DV-193/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_215]",
+    "Per": "[char_0215]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -21600,7 +21600,7 @@
     "Col": "DV 193 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_215]",
+    "Per": "[char_0215]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -21629,7 +21629,7 @@
     "Col": "DV-194/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_216]",
+    "Per": "[char_0216]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -21658,7 +21658,7 @@
     "Col": "DV 194 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_216]",
+    "Per": "[char_0216]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -21687,7 +21687,7 @@
     "Col": "SHK 215/250 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_216]",
+    "Per": "[char_0216]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -21716,7 +21716,7 @@
     "Col": "DV-195/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_217]",
+    "Per": "[char_0217]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -21745,7 +21745,7 @@
     "Col": "DV 195 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_217]",
+    "Per": "[char_0217]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -21774,7 +21774,7 @@
     "Col": "DV-196/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_218]",
+    "Per": "[char_0218]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -21803,7 +21803,7 @@
     "Col": "DV 196 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_218]",
+    "Per": "[char_0218]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -21832,7 +21832,7 @@
     "Col": "DV-197/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_219]",
+    "Per": "[char_0219]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -21861,7 +21861,7 @@
     "Col": "DV 197 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_219]",
+    "Per": "[char_0219]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -21890,7 +21890,7 @@
     "Col": "DV-198/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_220]",
+    "Per": "[char_0220]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -21919,7 +21919,7 @@
     "Col": "DV 198 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_220]",
+    "Per": "[char_0220]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -21948,7 +21948,7 @@
     "Col": "DV-199/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_221]",
+    "Per": "[char_0221]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -21977,7 +21977,7 @@
     "Col": "DV 199 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_221]",
+    "Per": "[char_0221]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22006,7 +22006,7 @@
     "Col": "DV-200/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_222]",
+    "Per": "[char_0222]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22035,7 +22035,7 @@
     "Col": "DV 200 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_222]",
+    "Per": "[char_0222]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22064,7 +22064,7 @@
     "Col": "DV-201/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_223]",
+    "Per": "[char_0223]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22093,7 +22093,7 @@
     "Col": "DV 201 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_223]",
+    "Per": "[char_0223]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22122,7 +22122,7 @@
     "Col": "DV-202/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_224]",
+    "Per": "[char_0224]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22151,7 +22151,7 @@
     "Col": "DV 202 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_224]",
+    "Per": "[char_0224]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22180,7 +22180,7 @@
     "Col": "DV-203/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_225]",
+    "Per": "[char_0225]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22209,7 +22209,7 @@
     "Col": "DV 203 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_225]",
+    "Per": "[char_0225]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22238,7 +22238,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_225]",
+    "Per": "[char_0225]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22267,7 +22267,7 @@
     "Col": "DV-204/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_226]",
+    "Per": "[char_0226]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22296,7 +22296,7 @@
     "Col": "DV 204 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_226]",
+    "Per": "[char_0226]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22325,7 +22325,7 @@
     "Col": "SHK 195/250 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_226]",
+    "Per": "[char_0226]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22354,7 +22354,7 @@
     "Col": "DV-205/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_227]",
+    "Per": "[char_0227]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22383,7 +22383,7 @@
     "Col": "DV 205 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_227]",
+    "Per": "[char_0227]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22412,7 +22412,7 @@
     "Col": "DV-206/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_228]",
+    "Per": "[char_0228]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22441,7 +22441,7 @@
     "Col": "DV 206 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_228]",
+    "Per": "[char_0228]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22470,7 +22470,7 @@
     "Col": "SHK 193/250 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_228]",
+    "Per": "[char_0228]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22499,7 +22499,7 @@
     "Col": "DV-207/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_229]",
+    "Per": "[char_0229]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22528,7 +22528,7 @@
     "Col": "DV 207 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_229]",
+    "Per": "[char_0229]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22557,7 +22557,7 @@
     "Col": "DV-208/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_230]",
+    "Per": "[char_0230]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22586,7 +22586,7 @@
     "Col": "DV 208 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_230]",
+    "Per": "[char_0230]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22615,7 +22615,7 @@
     "Col": "DV-209/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_231]",
+    "Per": "[char_0231]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22644,7 +22644,7 @@
     "Col": "DV 209 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_231]",
+    "Per": "[char_0231]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22673,7 +22673,7 @@
     "Col": "DV-210/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_232]",
+    "Per": "[char_0232]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22702,7 +22702,7 @@
     "Col": "DV 210 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_232]",
+    "Per": "[char_0232]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22731,7 +22731,7 @@
     "Col": "DV-211/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_233]",
+    "Per": "[char_0233]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22760,7 +22760,7 @@
     "Col": "DV 211 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_233]",
+    "Per": "[char_0233]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22789,7 +22789,7 @@
     "Col": "DV-212/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_234]",
+    "Per": "[char_0234]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22818,7 +22818,7 @@
     "Col": "DV 212 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_234]",
+    "Per": "[char_0234]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22847,7 +22847,7 @@
     "Col": "DV-213/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_235]",
+    "Per": "[char_0235]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22876,7 +22876,7 @@
     "Col": "DV 213 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_235]",
+    "Per": "[char_0235]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22905,7 +22905,7 @@
     "Col": "SHK 197/250 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_235]",
+    "Per": "[char_0235]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22934,7 +22934,7 @@
     "Col": "DV-214/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_236]",
+    "Per": "[char_0236]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22963,7 +22963,7 @@
     "Col": "DV 214 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_236]",
+    "Per": "[char_0236]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -22992,7 +22992,7 @@
     "Col": "SHK 196/250 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_236]",
+    "Per": "[char_0236]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23021,7 +23021,7 @@
     "Col": "DV-215/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_237]",
+    "Per": "[char_0237]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23050,7 +23050,7 @@
     "Col": "DV 215 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_237]",
+    "Per": "[char_0237]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23079,7 +23079,7 @@
     "Col": "DV-216/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_238]",
+    "Per": "[char_0238]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23108,7 +23108,7 @@
     "Col": "DV 216 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_238]",
+    "Per": "[char_0238]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23137,7 +23137,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_238]",
+    "Per": "[char_0238]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23166,7 +23166,7 @@
     "Col": "DV-217/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_239]",
+    "Per": "[char_0239]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23195,7 +23195,7 @@
     "Col": "DV 217 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_239]",
+    "Per": "[char_0239]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23216,7 +23216,7 @@
     "Adi": "",
     "Est": "",
     "Vol": "",
-    "Abi": ":em:. YYY :vir: (0): Destruye a Agente Libre G-1 para buscar un :per: con :emp: en tu Limbo y enviarlo a tu Mano.",
+    "Abi": ":emp:. YYY :vir: (0): Destruye a Agente Libre G-1 para buscar un :per: con :emp: en tu Limbo y enviarlo a tu Mano.",
     "Res": 4,
     "Epi": "¡Copiado señor! Acabemos con este infierno.",
     "Ill": "Giye",
@@ -23224,7 +23224,7 @@
     "Col": "DV-218/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_240]",
+    "Per": "[char_0240]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23253,7 +23253,7 @@
     "Col": "DV 218 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_240]",
+    "Per": "[char_0240]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23282,7 +23282,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_240]",
+    "Per": "[char_0240]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23369,7 +23369,7 @@
     "Col": "DV-220/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_241]",
+    "Per": "[char_0241]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23398,7 +23398,7 @@
     "Col": "DV 220 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_241]",
+    "Per": "[char_0241]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23427,7 +23427,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_241]",
+    "Per": "[char_0241]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23456,7 +23456,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_242]",
+    "Per": "[char_0242]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23485,7 +23485,7 @@
     "Col": "DV 221 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_242]",
+    "Per": "[char_0242]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23514,7 +23514,7 @@
     "Col": "SHK 207/250 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_242]",
+    "Per": "[char_0242]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23543,7 +23543,7 @@
     "Col": "HK 44-2021",
     "Not": "",
     "Sta": "",
-    "Per": "[char_242]",
+    "Per": "[char_0242]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23572,7 +23572,7 @@
     "Col": "DV-221/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_243]",
+    "Per": "[char_0243]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23601,7 +23601,7 @@
     "Col": "DV 222 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_243]",
+    "Per": "[char_0243]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23630,7 +23630,7 @@
     "Col": "DV-221/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_244]",
+    "Per": "[char_0244]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23659,7 +23659,7 @@
     "Col": "DV 223 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_244]",
+    "Per": "[char_0244]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23688,7 +23688,7 @@
     "Col": "SHK 209/250 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_244]",
+    "Per": "[char_0244]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23717,7 +23717,7 @@
     "Col": "DV-222/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_245, char_246]",
+    "Per": "[char_0245, char_0246]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23746,7 +23746,7 @@
     "Col": "DV 224 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_245, char_246]",
+    "Per": "[char_0245, char_0246]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23775,7 +23775,7 @@
     "Col": "DV-223/280 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_247]",
+    "Per": "[char_0247]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23804,7 +23804,7 @@
     "Col": "DV 225 /280",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_247]",
+    "Per": "[char_0247]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23833,7 +23833,7 @@
     "Col": "SHK 211/250 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_247]",
+    "Per": "[char_0247]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23862,7 +23862,7 @@
     "Col": "HK 23-2023",
     "Not": 2023,
     "Sta": "",
-    "Per": "[char_247]",
+    "Per": "[char_0247]",
     "Foi": "",
     "Fra": "radavl"
   },
@@ -23891,7 +23891,7 @@
     "Col": "DV-225/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_248]",
+    "Per": "[char_0248]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23920,7 +23920,7 @@
     "Col": "DV 226 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_248]",
+    "Per": "[char_0248]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23949,7 +23949,7 @@
     "Col": "SHK 210/250 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_248]",
+    "Per": "[char_0248]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -23978,7 +23978,7 @@
     "Col": "DV-225/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_249]",
+    "Per": "[char_0249]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -24007,7 +24007,7 @@
     "Col": "DV 227 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_249]",
+    "Per": "[char_0249]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -24036,7 +24036,7 @@
     "Col": "DV-226/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_250]",
+    "Per": "[char_0250]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -24065,7 +24065,7 @@
     "Col": "DV 228 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_250]",
+    "Per": "[char_0250]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -24094,7 +24094,7 @@
     "Col": "DV-227/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_251]",
+    "Per": "[char_0251]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -24123,7 +24123,7 @@
     "Col": "DV 229 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_251]",
+    "Per": "[char_0251]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -24152,7 +24152,7 @@
     "Col": "DV-228/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_252]",
+    "Per": "[char_0252]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -24181,7 +24181,7 @@
     "Col": "DV 230 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_252]",
+    "Per": "[char_0252]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -24210,7 +24210,7 @@
     "Col": "HK 31-2023",
     "Not": "",
     "Sta": "",
-    "Per": "[char_252]",
+    "Per": "[char_0252]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -24239,7 +24239,7 @@
     "Col": "HK 16-2023",
     "Not": "",
     "Sta": "",
-    "Per": "[char_252]",
+    "Per": "[char_0252]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -24268,7 +24268,7 @@
     "Col": "DV-230/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_253]",
+    "Per": "[char_0253]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -24297,7 +24297,7 @@
     "Col": "DV 231 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_253]",
+    "Per": "[char_0253]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -24318,6 +24318,35 @@
     "Adi": "",
     "Est": "",
     "Vol": "",
+    "Abi": "Cuando Jean Baptiste entra en juego, puedes buscar 2 :per: :acr: en tu Limbo y barajarlos.",
+    "Res": 4,
+    "Epi": "Veo aquello que olvidas.",
+    "Ill": "Venus Astudillo",
+    "Fre": "C",
+    "Col": "DV-230/280 <b>C</b>",
+    "Not": "",
+    "Sta": "",
+    "Per": "[char_0254]",
+    "Foi": "",
+    "Fra": "tra"
+  },
+  {
+    "GUID": "DEV232ACRPER11ESP001",
+    "Edi": "dev",
+    "Num": 232,
+    "Fac": "acr",
+    "Typ": "per",
+    "Ver": 11,
+    "Lan": "Esp",
+    "Pri": "001",
+    "Nam": "Jean Baptiste",
+    "Sub": "",
+    "Cos": 3,
+    "Fue": 1,
+    "Rea": "",
+    "Adi": "",
+    "Est": "",
+    "Vol": "",
     "Abi": "Cuando entra en juego, puedes barajar 2 cartas de Personajes :acr: de tu Limbo en tu Mazo.",
     "Res": 4,
     "Epi": "Veo aquello que olvidas.",
@@ -24326,7 +24355,7 @@
     "Col": "DV 232 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_254]",
+    "Per": "[char_0254]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -24347,7 +24376,36 @@
     "Adi": "",
     "Est": "",
     "Vol": "",
-    "Abi": "Agilidad.\nNo puede cargar Tecnologías. No recibe daño de Combate.",
+    "Abi": ":agi: YYY No puede portar :tec:. YYY No recibe daño de Combate.",
+    "Res": 4,
+    "Epi": "Los primeros seres simbióticos.",
+    "Ill": "Sergio Quijada",
+    "Fre": "C",
+    "Col": "DV-231/280 <b>C</b>",
+    "Not": "",
+    "Sta": "",
+    "Per": "[char_0255, char_0256]",
+    "Foi": "",
+    "Fra": "tra"
+  },
+  {
+    "GUID": "DEV233ACRPER11ESP001",
+    "Edi": "dev",
+    "Num": 233,
+    "Fac": "acr",
+    "Typ": "per",
+    "Ver": 11,
+    "Lan": "Esp",
+    "Pri": "001",
+    "Nam": "Héctor y Lidia",
+    "Sub": "",
+    "Cos": 3,
+    "Fue": 1,
+    "Rea": "",
+    "Adi": "",
+    "Est": "",
+    "Vol": "",
+    "Abi": "<b>Agilidad.</b> YYY No puede cargar Tecnologías. No recibe daño de Combate.",
     "Res": 4,
     "Epi": "Los primeros seres simbióticos.",
     "Ill": "Sergio Quijada",
@@ -24355,7 +24413,7 @@
     "Col": "DV 233 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_255, char_256]",
+    "Per": "[char_0255, char_0256]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -24376,6 +24434,35 @@
     "Adi": "",
     "Est": "",
     "Vol": "",
+    "Abi": "Si Puño Negro es el único :per: declarado atacante, no se pueden jugar :man:.",
+    "Res": 4,
+    "Epi": "Soy leal a mi camarada Jean.",
+    "Ill": "Giye",
+    "Fre": "C",
+    "Col": "DV-232/280 <b>C</b>",
+    "Not": "",
+    "Sta": "",
+    "Per": "[char_0257]",
+    "Foi": "",
+    "Fra": "tra"
+  },
+  {
+    "GUID": "DEV234ACRPER11ESP001",
+    "Edi": "dev",
+    "Num": 234,
+    "Fac": "acr",
+    "Typ": "per",
+    "Ver": 11,
+    "Lan": "Esp",
+    "Pri": "001",
+    "Nam": "Puño Negro",
+    "Sub": "",
+    "Cos": 5,
+    "Fue": 2,
+    "Rea": "",
+    "Adi": "",
+    "Est": "",
+    "Vol": "",
     "Abi": "Si es tu único Personaje declarado atacante, no se pueden jugar Manipulaciones hasta la Contemplación.",
     "Res": 4,
     "Epi": "Soy leal a mi camarada Jean.",
@@ -24384,7 +24471,7 @@
     "Col": "DV 234 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_257]",
+    "Per": "[char_0257]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -24405,7 +24492,36 @@
     "Adi": "",
     "Est": "",
     "Vol": "",
-    "Abi": ":vir::acr:: Baraja 1 Personaje :acr: de tu Limbo en tu Mazo.\n:vir::+:: Destruye esta carta para barajar hasta 3 Personajes :acr: de tu Limbo en tu Mazo.",
+    "Abi": ":vir: (:acr:): Baraja un :per: :acr: en tu Limbo y barájalo. YYY :vir: (+): Destruye a Fly T. para buscar hasta 3 :per: :acr: en tu Limbo y barajalos.",
+    "Res": 4,
+    "Epi": "Soy el bajo mundo en persona.",
+    "Ill": "Sergio Lantadilla",
+    "Fre": "C",
+    "Col": "DV-233/280 <b>C</b>",
+    "Not": "",
+    "Sta": "",
+    "Per": "[char_0258]",
+    "Foi": "",
+    "Fra": "tra"
+  },
+  {
+    "GUID": "DEV235ACRPER11ESP001",
+    "Edi": "dev",
+    "Num": 235,
+    "Fac": "acr",
+    "Typ": "per",
+    "Ver": 11,
+    "Lan": "Esp",
+    "Pri": "001",
+    "Nam": "Fly T.",
+    "Sub": "",
+    "Cos": 2,
+    "Fue": 2,
+    "Rea": "",
+    "Adi": "",
+    "Est": "",
+    "Vol": "",
+    "Abi": ":vir:(:acr:): Baraja 1 Personaje :acr: de tu Limbo en tu Mazo. YYY :vir:(+): Destruye esta carta para barajar hasta 3 Personajes :acr: de tu Limbo en tu Mazo.",
     "Res": 4,
     "Epi": "Soy el bajo mundo en persona.",
     "Ill": "Sergio Lantadilla",
@@ -24413,7 +24529,36 @@
     "Col": "DV 235 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_258]",
+    "Per": "[char_0258]",
+    "Foi": "",
+    "Fra": "tra"
+  },
+  {
+    "GUID": "DEV235ACRPER11ESP002",
+    "Edi": "dev",
+    "Num": 235,
+    "Fac": "acr",
+    "Typ": "per",
+    "Ver": 11,
+    "Lan": "Esp",
+    "Pri": "002",
+    "Nam": "Fly T.",
+    "Sub": "",
+    "Cos": 2,
+    "Fue": 2,
+    "Rea": "",
+    "Adi": "",
+    "Est": "",
+    "Vol": "",
+    "Abi": ":vir:(:acr:): Baraja 1 Personaje :acr: de tu Limbo en tu Mazo. YYY :vir:(+): Destruye esta carta para barajar hasta 3 Personajes :acr: de tu Limbo en tu Mazo.",
+    "Res": 4,
+    "Epi": "Soy el bajo mundo en persona.",
+    "Ill": "Sergio Lantadilla",
+    "Fre": "C",
+    "Col": "SHK 206/250 <b>C</b>",
+    "Not": "",
+    "Sta": "",
+    "Per": "[char_0258]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -24434,7 +24579,36 @@
     "Adi": "",
     "Est": "",
     "Vol": "",
-    "Abi": "Condición: Controlar 3 o más Personajes :acr:.\nEn Batalla, puedes destruir esta carta para que el Personaje :acr: objetivo gane 1 al daño a Santuario hasta la Contemplación.",
+    "Abi": "Para jugar a Cazador de Hombres debes controlar 3 o más :per: :acr:. YYY En Batalla, puedes destruir a Cazador de Hombres para que un :per: :acr: objetivo gane 1 al daño a :san:.",
+    "Res": 4,
+    "Epi": "Lo traigo a ti, por una recompensa.",
+    "Ill": "Sergio Quijada",
+    "Fre": "C",
+    "Col": "DV-234/280 <b>C</b>",
+    "Not": "",
+    "Sta": "",
+    "Per": "[char_0259]",
+    "Foi": "",
+    "Fra": "tra"
+  },
+  {
+    "GUID": "DEV236ACRPER11ESP001",
+    "Edi": "dev",
+    "Num": 236,
+    "Fac": "acr",
+    "Typ": "per",
+    "Ver": 11,
+    "Lan": "Esp",
+    "Pri": "001",
+    "Nam": "Cazador de Hombres",
+    "Sub": "",
+    "Cos": 3,
+    "Fue": 2,
+    "Rea": "",
+    "Adi": "",
+    "Est": "",
+    "Vol": "",
+    "Abi": "Condición: Controlar 3 o más Personajes :acr:. YYY En Batalla, puedes destruir esta carta para que el Personaje :acr: objetivo gane 1 al daño a Santuario hasta la Contemplación.",
     "Res": 4,
     "Epi": "Lo traigo a ti, por una recompensa.",
     "Ill": "Sergio Quijada",
@@ -24442,7 +24616,7 @@
     "Col": "DV 236 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_259]",
+    "Per": "[char_0259]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -24463,7 +24637,36 @@
     "Adi": "",
     "Est": "",
     "Vol": "",
-    "Abi": ":vir::-2:: Juega una Manipulación desde tu Limbo.",
+    "Abi": ":vir: (-2): Juega una :man: de tu Limbo.",
+    "Res": 4,
+    "Epi": "Nadie vive para siempre, pero algunos regresamos por venganza.",
+    "Ill": "Giye",
+    "Fre": "C",
+    "Col": "DV-235/280 <b>C</b>",
+    "Not": "",
+    "Sta": "",
+    "Per": "[char_0260]",
+    "Foi": "",
+    "Fra": "tra"
+  },
+  {
+    "GUID": "DEV237ACRPER11ESP001",
+    "Edi": "dev",
+    "Num": 237,
+    "Fac": "acr",
+    "Typ": "per",
+    "Ver": 11,
+    "Lan": "Esp",
+    "Pri": "001",
+    "Nam": "Isabella",
+    "Sub": "",
+    "Cos": 3,
+    "Fue": 1,
+    "Rea": "",
+    "Adi": "",
+    "Est": "",
+    "Vol": "",
+    "Abi": ":vir:(-2): Juega una Manipulación desde tu Limbo.",
     "Res": 4,
     "Epi": "Nadie vive para siempre, pero algunos regresamos por venganza.",
     "Ill": "Giye",
@@ -24471,7 +24674,7 @@
     "Col": "DV 237 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_260]",
+    "Per": "[char_0260]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -24492,7 +24695,36 @@
     "Adi": "",
     "Est": "",
     "Vol": "",
-    "Abi": ":vir::acr:: Busca una Manipulación en tu Mazo y envíala a tu Mano.",
+    "Abi": ":vir: (:acr:): Busca una :man: en tu Mazo y envíala a tu Mano.",
+    "Res": 4,
+    "Epi": "Si eres valiente, pelea usando tus piernas y puños.",
+    "Ill": "Dieter Brandau",
+    "Fre": "C",
+    "Col": "DV-236/280 <b>C</b>",
+    "Not": "",
+    "Sta": "",
+    "Per": "[char_0261]",
+    "Foi": "",
+    "Fra": "tra"
+  },
+  {
+    "GUID": "DEV238ACRPER11ESP001",
+    "Edi": "dev",
+    "Num": 238,
+    "Fac": "acr",
+    "Typ": "per",
+    "Ver": 11,
+    "Lan": "Esp",
+    "Pri": "001",
+    "Nam": "Kiao",
+    "Sub": "",
+    "Cos": 3,
+    "Fue": 1,
+    "Rea": "",
+    "Adi": "",
+    "Est": "",
+    "Vol": "",
+    "Abi": ":vir:(:acr:): Busca una Manipulación en tu Mazo y envíala a tu Mano.",
     "Res": 4,
     "Epi": "Si eres valiente, pelea usando tus piernas y puños.",
     "Ill": "Dieter Brandau",
@@ -24500,7 +24732,7 @@
     "Col": "DV 238 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_261]",
+    "Per": "[char_0261]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -24521,7 +24753,36 @@
     "Adi": "",
     "Est": "",
     "Vol": "",
-    "Abi": ":vir::+:: Destruye el Personaje objetivo.",
+    "Abi": ":vir:(+): El :per: objetivo debe ser destruido.",
+    "Res": 4,
+    "Epi": "Si la besas el dolor se va, quedando solo la sombra.",
+    "Ill": "Cristián Gonzáles",
+    "Fre": "C",
+    "Col": "DV-237/280 <b>C</b>",
+    "Not": "",
+    "Sta": "",
+    "Per": "",
+    "Foi": "",
+    "Fra": "tra"
+  },
+  {
+    "GUID": "DEV239SINMAN11ESP001",
+    "Edi": "dev",
+    "Num": 239,
+    "Fac": "sin",
+    "Typ": "man",
+    "Ver": 11,
+    "Lan": "Esp",
+    "Pri": "001",
+    "Nam": "El Beso de Antonia",
+    "Sub": "",
+    "Cos": 3,
+    "Fue": "",
+    "Rea": "",
+    "Adi": "",
+    "Est": "",
+    "Vol": "",
+    "Abi": ":vir:(+): Destruye el Personaje objetivo.",
     "Res": 4,
     "Epi": "Si la besas el dolor se va, quedando solo la sombra.",
     "Ill": "Cristián Gonzáles",
@@ -24550,7 +24811,36 @@
     "Adi": "",
     "Est": "",
     "Vol": "",
-    "Abi": "2 Personajes objetivo ganan Empatía hasta la Contemplación.",
+    "Abi": "2 :per: objetivo ganan :emp:.",
+    "Res": 4,
+    "Epi": "Sin huesos, tu enemigo es un costal de papas.",
+    "Ill": "Andrés Silva",
+    "Fre": "C",
+    "Col": "DV-238/280 <b>C</b>",
+    "Not": "",
+    "Sta": "",
+    "Per": "[char_0011]",
+    "Foi": "",
+    "Fra": "tra"
+  },
+  {
+    "GUID": "DEV240SINMAN11ESP001",
+    "Edi": "dev",
+    "Num": 240,
+    "Fac": "sin",
+    "Typ": "man",
+    "Ver": 11,
+    "Lan": "Esp",
+    "Pri": "001",
+    "Nam": "Huesos en Polvo",
+    "Sub": "",
+    "Cos": 3,
+    "Fue": "",
+    "Rea": "",
+    "Adi": "",
+    "Est": "",
+    "Vol": "",
+    "Abi": "2 Personajes objetivo ganan <b>Empatía</b> hasta la Contemplación.",
     "Res": 4,
     "Epi": "Sin huesos, tu enemigo es un costal de papas.",
     "Ill": "Andrés Silva",
@@ -24558,7 +24848,7 @@
     "Col": "DV 240 /280",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -24579,7 +24869,36 @@
     "Adi": "",
     "Est": "",
     "Vol": "",
-    "Abi": "El Personaje objetivo con Vibración Molecular se considera bloqueado y no hace daño a Santuario este turno.",
+    "Abi": "Un :per: con :vib: objetivo se considera bloqueado por un :per: con :pre: de igual fuerza que no hace daño de Combate.",
+    "Res": 4,
+    "Epi": "Soy la criatura primigenia, la verdad corre por tus venas.",
+    "Ill": "Venus Astudillo",
+    "Fre": "C",
+    "Col": "DV-239/280 <b>C</b>",
+    "Not": "",
+    "Sta": "",
+    "Per": "",
+    "Foi": "",
+    "Fra": "tra"
+  },
+  {
+    "GUID": "DEV241SINMAN11ESP001",
+    "Edi": "dev",
+    "Num": 241,
+    "Fac": "sin",
+    "Typ": "man",
+    "Ver": 11,
+    "Lan": "Esp",
+    "Pri": "001",
+    "Nam": "Llamar al Primero",
+    "Sub": "",
+    "Cos": 2,
+    "Fue": "",
+    "Rea": "",
+    "Adi": "",
+    "Est": "",
+    "Vol": "",
+    "Abi": "El Personaje objetivo con <b>Vibración Molecular</b> se considera bloqueado y no hace daño a Santuario este turno.",
     "Res": 4,
     "Epi": "Soy la criatura primigenia, la verdad corre por tus venas.",
     "Ill": "Venus Astudillo",
@@ -24608,7 +24927,36 @@
     "Adi": "",
     "Est": "",
     "Vol": "",
-    "Abi": "Condición: Bota 2 cartas.\nEl oponente objetivo bota 4 cartas.\n:vir::cor:: Baraja 2 cartas de tu Limbo en tu Mazo.",
+    "Abi": "Para jugar Visión de Calor debes botar 2 cartas. YYY Tu oponente bota 4 cartas. YYY :vir: (:cor:): Baraja 2 cartas de tu Limbo.",
+    "Res": 4,
+    "Epi": "Yo puedo seguirte en cualquier lugar.",
+    "Ill": "Carlos Herrera",
+    "Fre": "C",
+    "Col": "DV-240/280 <b>C</b>",
+    "Not": "",
+    "Sta": "",
+    "Per": "",
+    "Foi": "",
+    "Fra": "tra"
+  },
+  {
+    "GUID": "DEV242SINMAN11ESP001",
+    "Edi": "dev",
+    "Num": 242,
+    "Fac": "sin",
+    "Typ": "man",
+    "Ver": 11,
+    "Lan": "Esp",
+    "Pri": "001",
+    "Nam": "Visión de Calor",
+    "Sub": "",
+    "Cos": 3,
+    "Fue": "",
+    "Rea": "",
+    "Adi": "",
+    "Est": "",
+    "Vol": "",
+    "Abi": "Condición: Bota 2 cartas. YYY El oponente objetivo bota 4 cartas. YYY :vir:(:cor:): Baraja 2 cartas de tu Limbo en tu Mazo.",
     "Res": 4,
     "Epi": "Yo puedo seguirte en cualquier lugar.",
     "Ill": "Carlos Herrera",
@@ -24674,7 +25022,7 @@
     "Col": "DV 244 /280",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -24906,7 +25254,7 @@
     "Col": "DV 252 /280",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0008]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -25254,7 +25602,7 @@
     "Col": "DV 264 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_001]",
+    "Per": "[char_0001]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -25341,7 +25689,7 @@
     "Col": "DV 267 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_001]",
+    "Per": "[char_0001]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -25428,7 +25776,7 @@
     "Col": "DV-270/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_002]",
+    "Per": "[char_0002, char_0004]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -25457,7 +25805,7 @@
     "Col": "DV 270 /280",
     "Not": "",
     "Sta": "",
-    "Per": "[char_002]",
+    "Per": "[char_0002]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -25486,7 +25834,7 @@
     "Col": "SHK 236/250 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_002]",
+    "Per": "[char_0002]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -25921,7 +26269,7 @@
     "Col": "DV-278/280 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0004]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -25950,7 +26298,7 @@
     "Col": "DV 278 /280",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0004]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -25979,7 +26327,7 @@
     "Col": "HK 40-2023",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0004]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -26153,7 +26501,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_263]",
+    "Per": "[char_0263]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -26240,7 +26588,7 @@
     "Col": "",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_265]",
+    "Per": "[char_0265]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -26327,7 +26675,7 @@
     "Col": "",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_264]",
+    "Per": "[char_0264]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -26414,7 +26762,7 @@
     "Col": "",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_262]",
+    "Per": "[char_0262]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -26443,7 +26791,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_001]",
+    "Per": "[char_0001]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -26530,7 +26878,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_001]",
+    "Per": "[char_0001]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -26791,7 +27139,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0021]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -26907,7 +27255,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_002]",
+    "Per": "[char_0002]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -26936,7 +27284,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0003]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -26965,7 +27313,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_266]",
+    "Per": "[char_0266]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -26994,7 +27342,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_267]",
+    "Per": "[char_0267]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -27023,7 +27371,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_268]",
+    "Per": "[char_0268]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -27052,7 +27400,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_269]",
+    "Per": "[char_0269]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -27139,7 +27487,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -27168,7 +27516,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0012]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -27197,7 +27545,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_270]",
+    "Per": "[char_0270]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -27226,7 +27574,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_271]",
+    "Per": "[char_0271]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -27255,7 +27603,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_272]",
+    "Per": "[char_0272]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -27284,7 +27632,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_273]",
+    "Per": "[char_0273]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -27342,7 +27690,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_274]",
+    "Per": "[char_0274]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -27371,7 +27719,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0021]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -27400,7 +27748,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_275]",
+    "Per": "[char_0029]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -27429,7 +27777,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_276]",
+    "Per": "[char_0276]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -27458,7 +27806,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_277]",
+    "Per": "[char_0277]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -27487,7 +27835,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_278]",
+    "Per": "[char_0278]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -27516,7 +27864,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_279]",
+    "Per": "[char_0279]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -27574,7 +27922,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0024]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -27603,7 +27951,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0032]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -27661,7 +28009,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_280]",
+    "Per": "[char_0280]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -27690,7 +28038,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_281]",
+    "Per": "[char_0281]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -27719,7 +28067,7 @@
     "Col": "",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_282]",
+    "Per": "[char_0282]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -27748,7 +28096,7 @@
     "Col": "",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_283]",
+    "Per": "[char_0283]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -27777,7 +28125,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0031]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -28850,7 +29198,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_284]",
+    "Per": "[char_0284]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -28879,7 +29227,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_285]",
+    "Per": "[char_0285]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -28908,7 +29256,7 @@
     "Col": "",
     "Not": "18 Mayo 2020\nRestricción tec objetivo",
     "Sta": "",
-    "Per": "[char_285]",
+    "Per": "[char_0285]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -28937,7 +29285,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_286]",
+    "Per": "[char_0286]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -28966,7 +29314,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_287]",
+    "Per": "[char_0287]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -28995,7 +29343,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_288]",
+    "Per": "[char_0288]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -29053,7 +29401,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_289]",
+    "Per": "[char_0289]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -29082,7 +29430,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_290]",
+    "Per": "[char_0290]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -29111,7 +29459,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_291]",
+    "Per": "[char_0291]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -29140,7 +29488,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_292]",
+    "Per": "[char_0292]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -29169,7 +29517,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_293]",
+    "Per": "[char_0293]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -29198,7 +29546,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_295]",
+    "Per": "[char_0295]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -29227,7 +29575,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_294]",
+    "Per": "[char_0294]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -29285,7 +29633,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_296]",
+    "Per": "[char_0296]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -29314,7 +29662,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_297]",
+    "Per": "[char_0297]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -29343,7 +29691,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_298]",
+    "Per": "[char_0298]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -29372,7 +29720,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_299]",
+    "Per": "[char_0299]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -29401,7 +29749,7 @@
     "Col": "",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_300]",
+    "Per": "[char_0300]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -29430,7 +29778,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_301]",
+    "Per": "[char_0301]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -29459,7 +29807,7 @@
     "Col": "",
     "Not": "24 Ago 2020\nObtiene Predictor",
     "Sta": "",
-    "Per": "[char_301]",
+    "Per": "[char_0301]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -29488,7 +29836,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_302]",
+    "Per": "[char_0302]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -29546,7 +29894,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_303]",
+    "Per": "[char_0303]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -29575,7 +29923,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_304]",
+    "Per": "[char_0304]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -29604,7 +29952,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_305]",
+    "Per": "[char_0305]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -29633,7 +29981,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_306]",
+    "Per": "[char_0306]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -29662,7 +30010,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_307]",
+    "Per": "[char_0307]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -29691,7 +30039,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_308]",
+    "Per": "[char_0308]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -29720,7 +30068,7 @@
     "Col": "",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_309]",
+    "Per": "[char_0309]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -29778,7 +30126,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_310]",
+    "Per": "[char_0310]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -29807,7 +30155,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_311]",
+    "Per": "[char_0311]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -30764,7 +31112,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_312]",
+    "Per": "[char_0312]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -30793,7 +31141,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_313]",
+    "Per": "[char_0313]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -30822,7 +31170,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_314]",
+    "Per": "[char_0314]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -30851,7 +31199,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_315]",
+    "Per": "[char_0315]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -30880,7 +31228,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_316]",
+    "Per": "[char_0316]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -30909,7 +31257,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_317]",
+    "Per": "[char_0317]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -30938,7 +31286,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_318]",
+    "Per": "[char_0318]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -30967,7 +31315,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_319]",
+    "Per": "[char_0319]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -30996,7 +31344,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_320]",
+    "Per": "[char_0320]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -31025,7 +31373,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_321]",
+    "Per": "[char_0321]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -31054,7 +31402,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_322]",
+    "Per": "[char_0322]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -31083,7 +31431,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_323]",
+    "Per": "[char_0323]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -31112,7 +31460,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_324]",
+    "Per": "[char_0324]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -31141,7 +31489,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_325]",
+    "Per": "[char_0325]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -31170,7 +31518,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_326]",
+    "Per": "[char_0326]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -31199,7 +31547,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_327]",
+    "Per": "[char_0327]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -31228,7 +31576,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_328]",
+    "Per": "[char_0328]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -31257,7 +31605,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_329]",
+    "Per": "[char_0329]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -31286,7 +31634,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_330]",
+    "Per": "[char_0330]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -31315,7 +31663,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_331]",
+    "Per": "[char_0331]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -31344,7 +31692,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_332]",
+    "Per": "[char_0332]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -31373,7 +31721,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_333]",
+    "Per": "[char_0333]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -31402,7 +31750,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_334]",
+    "Per": "[char_0334]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -31431,7 +31779,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_335]",
+    "Per": "[char_0335]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -31460,7 +31808,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_336]",
+    "Per": "[char_0336]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -31489,7 +31837,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_337]",
+    "Per": "[char_0337]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -31518,7 +31866,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_338]",
+    "Per": "[char_0338]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -31547,7 +31895,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_339]",
+    "Per": "[char_0339]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -31576,7 +31924,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_340]",
+    "Per": "[char_0340]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -31605,7 +31953,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_341]",
+    "Per": "[char_0341]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -31634,7 +31982,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_342]",
+    "Per": "[char_0342]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -32475,7 +32823,7 @@
     "Col": "SU-199/200 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_0066]",
+    "Per": "[char_00066]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -32504,7 +32852,7 @@
     "Col": "SU 199/200 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_0066]",
+    "Per": "[char_00066]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -32533,7 +32881,7 @@
     "Col": "SHK 249/250 <b>C</b>",
     "Not": "Reduce su coste en 2",
     "Sta": "",
-    "Per": "[char_0066]",
+    "Per": "[char_00066]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -32591,7 +32939,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0009]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -32736,7 +33084,7 @@
     "Col": "SU-PROMO <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0025]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -32765,7 +33113,7 @@
     "Col": "SU-PROMO <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0025]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -32794,7 +33142,7 @@
     "Col": "HK 27-2023",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0025]",
     "Foi": "",
     "Fra": "tra"
   },
@@ -32939,7 +33287,7 @@
     "Col": "RA-3/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_343]",
+    "Per": "[char_0343]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -32968,7 +33316,7 @@
     "Col": "RA-4/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_344]",
+    "Per": "[char_0344]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -32997,7 +33345,7 @@
     "Col": "RA-5/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_345]",
+    "Per": "[char_0345]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -33026,7 +33374,7 @@
     "Col": "RA-6/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_346]",
+    "Per": "[char_0346]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -33055,7 +33403,7 @@
     "Col": "RA-7/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_347]",
+    "Per": "[char_0347]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -33084,7 +33432,7 @@
     "Col": "RA-8/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_348]",
+    "Per": "[char_0348]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -33113,7 +33461,7 @@
     "Col": "RA-9/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_349]",
+    "Per": "[char_0349]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -33432,7 +33780,7 @@
     "Col": "RA-20/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_350]",
+    "Per": "[char_0350]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -33461,7 +33809,7 @@
     "Col": "RA-21/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_351]",
+    "Per": "[char_0351]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -33490,7 +33838,7 @@
     "Col": "RA-22/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_352]",
+    "Per": "[char_0352]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -33519,7 +33867,7 @@
     "Col": "RA-23/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_353]",
+    "Per": "[char_0353]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -33548,7 +33896,7 @@
     "Col": "RA-24/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_354]",
+    "Per": "[char_0354]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -33577,7 +33925,7 @@
     "Col": "RA-25/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_355]",
+    "Per": "[char_0355]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -33606,7 +33954,7 @@
     "Col": "RA-26/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_356]",
+    "Per": "[char_0356]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -33925,7 +34273,7 @@
     "Col": "RA-37/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_357]",
+    "Per": "[char_0357]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -33954,7 +34302,7 @@
     "Col": "RA-38/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_358]",
+    "Per": "[char_0358]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -33983,7 +34331,7 @@
     "Col": "RA-39/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_359]",
+    "Per": "[char_0359]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -34012,7 +34360,7 @@
     "Col": "RA-40/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_360]",
+    "Per": "[char_0360]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -34041,7 +34389,7 @@
     "Col": "RA-41/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_361]",
+    "Per": "[char_0361]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -34070,7 +34418,7 @@
     "Col": "RA-42/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_362]",
+    "Per": "[char_0362]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -34099,7 +34447,7 @@
     "Col": "RA-43/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_363]",
+    "Per": "[char_0363]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -34418,7 +34766,7 @@
     "Col": "RA-54/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_364]",
+    "Per": "[char_0364]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -34447,7 +34795,7 @@
     "Col": "RA-55/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_365]",
+    "Per": "[char_0365]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -34476,7 +34824,7 @@
     "Col": "RA-56/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_366]",
+    "Per": "[char_0366]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -34534,7 +34882,7 @@
     "Col": "RA-58/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_367]",
+    "Per": "[char_0367]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -34563,7 +34911,7 @@
     "Col": "RA-59/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_368]",
+    "Per": "[char_0368]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -34592,7 +34940,7 @@
     "Col": "RA-60/230 <b>R</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_369]",
+    "Per": "[char_0369]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -34969,7 +35317,7 @@
     "Col": "RA-73/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_370]",
+    "Per": "[char_0370]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -34998,7 +35346,7 @@
     "Col": "RA-74/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_371]",
+    "Per": "[char_0371]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -35027,7 +35375,7 @@
     "Col": "RA-75/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_372]",
+    "Per": "[char_0372]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -35056,7 +35404,7 @@
     "Col": "RA-76/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_373]",
+    "Per": "[char_0373]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -35085,7 +35433,7 @@
     "Col": "RA-77/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_374]",
+    "Per": "[char_0374]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -35114,7 +35462,7 @@
     "Col": "RA-78/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_375]",
+    "Per": "[char_0375]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -35143,7 +35491,7 @@
     "Col": "RA-79/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_376]",
+    "Per": "[char_0376]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -35172,7 +35520,7 @@
     "Col": "RA-80/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_377]",
+    "Per": "[char_0377]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -35201,7 +35549,7 @@
     "Col": "RA-81/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_378]",
+    "Per": "[char_0378]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -35549,7 +35897,7 @@
     "Col": "RA-93/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_379]",
+    "Per": "[char_0379]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -35578,7 +35926,7 @@
     "Col": "RA-94/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_380]",
+    "Per": "[char_0380]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -35636,7 +35984,7 @@
     "Col": "RA-96/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_381]",
+    "Per": "[char_0381]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -35665,7 +36013,7 @@
     "Col": "RA-97/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_382]",
+    "Per": "[char_0382]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -35694,7 +36042,7 @@
     "Col": "RA-98/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_383]",
+    "Per": "[char_0383]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -35723,7 +36071,7 @@
     "Col": "RA-99/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_384]",
+    "Per": "[char_0384]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -35752,7 +36100,7 @@
     "Col": "RA-100/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_385]",
+    "Per": "[char_0385]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -35781,7 +36129,7 @@
     "Col": "RA-101/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_386]",
+    "Per": "[char_0386]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -36129,7 +36477,7 @@
     "Col": "RA-113/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_387]",
+    "Per": "[char_0387]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -36158,7 +36506,7 @@
     "Col": "RA-114/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_388]",
+    "Per": "[char_0388]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -36187,7 +36535,7 @@
     "Col": "RA-115/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_389]",
+    "Per": "[char_0389]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -36216,7 +36564,7 @@
     "Col": "RA-116/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_390]",
+    "Per": "[char_0390]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -36245,7 +36593,7 @@
     "Col": "RA-117/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_391]",
+    "Per": "[char_0391]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -36274,7 +36622,7 @@
     "Col": "RA-118/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_392]",
+    "Per": "[char_0392]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -36303,7 +36651,7 @@
     "Col": "RA-119/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_393]",
+    "Per": "[char_0393]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -36332,7 +36680,7 @@
     "Col": "RA-120/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_394]",
+    "Per": "[char_0394]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -36361,7 +36709,7 @@
     "Col": "RA-121/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_395]",
+    "Per": "[char_0395]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -36390,7 +36738,7 @@
     "Col": "RA-122/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_396]",
+    "Per": "[char_0396]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -36709,7 +37057,7 @@
     "Col": "RA-133/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_397]",
+    "Per": "[char_0397]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -36738,7 +37086,7 @@
     "Col": "RA-134/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_398]",
+    "Per": "[char_0398]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -36767,7 +37115,7 @@
     "Col": "RA-135/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_399]",
+    "Per": "[char_0399]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -36796,7 +37144,7 @@
     "Col": "RA-136/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_400]",
+    "Per": "[char_0400]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -36825,7 +37173,7 @@
     "Col": "RA-137/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_401]",
+    "Per": "[char_0401]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -36854,7 +37202,7 @@
     "Col": "RA-138/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_402]",
+    "Per": "[char_0402]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -36883,7 +37231,7 @@
     "Col": "RA-139/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_403]",
+    "Per": "[char_0403]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -36912,7 +37260,7 @@
     "Col": "RA-140/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_404]",
+    "Per": "[char_0404]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -36941,7 +37289,7 @@
     "Col": "RA-141/230 <b>I</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_405]",
+    "Per": "[char_0405]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -37289,7 +37637,7 @@
     "Col": "RA-153/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_406]",
+    "Per": "[char_0406]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -37318,7 +37666,7 @@
     "Col": "RA-154/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_407]",
+    "Per": "[char_0407]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -37347,7 +37695,7 @@
     "Col": "RA-155/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_408]",
+    "Per": "[char_0408]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -37376,7 +37724,7 @@
     "Col": "RA-156/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_409]",
+    "Per": "[char_0409]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -37405,7 +37753,7 @@
     "Col": "RA-157/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_410]",
+    "Per": "[char_0410]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -37434,7 +37782,7 @@
     "Col": "RA-158/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_411]",
+    "Per": "[char_0411]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -37463,7 +37811,7 @@
     "Col": "RA-159/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_412]",
+    "Per": "[char_0412]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -37492,7 +37840,7 @@
     "Col": "RA-160/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_413]",
+    "Per": "[char_0413]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -37521,7 +37869,7 @@
     "Col": "RA-161/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_414]",
+    "Per": "[char_0414]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -37550,7 +37898,7 @@
     "Col": "RA-162/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "",
+    "Per": "[char_0007]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -37869,7 +38217,7 @@
     "Col": "RA-173/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_415]",
+    "Per": "[char_0415]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -37898,7 +38246,7 @@
     "Col": "RA-174/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_416]",
+    "Per": "[char_0416]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -37927,7 +38275,7 @@
     "Col": "RA-175/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_417]",
+    "Per": "[char_0417]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -37956,7 +38304,7 @@
     "Col": "RA-176/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_418]",
+    "Per": "[char_0418]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -37985,7 +38333,7 @@
     "Col": "RA-177/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_419]",
+    "Per": "[char_0419]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -38014,7 +38362,7 @@
     "Col": "RA-178/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_420]",
+    "Per": "[char_0420]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -38043,7 +38391,7 @@
     "Col": "RA-179/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_421]",
+    "Per": "[char_0421]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -38072,7 +38420,7 @@
     "Col": "RA-180/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_422]",
+    "Per": "[char_0422]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -38101,7 +38449,7 @@
     "Col": "RA-181/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_423]",
+    "Per": "[char_0423]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -38449,7 +38797,7 @@
     "Col": "RA-193/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_424]",
+    "Per": "[char_0424]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -38478,7 +38826,7 @@
     "Col": "RA-194/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_425]",
+    "Per": "[char_0425]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -38507,7 +38855,7 @@
     "Col": "RA-195/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_426]",
+    "Per": "[char_0426]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -38536,7 +38884,7 @@
     "Col": "RA-196/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_427]",
+    "Per": "[char_0427]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -38565,7 +38913,7 @@
     "Col": "RA-197/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_428]",
+    "Per": "[char_0428]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -38594,7 +38942,7 @@
     "Col": "RA-198/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_429]",
+    "Per": "[char_0429]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -38623,7 +38971,7 @@
     "Col": "RA-199/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_430]",
+    "Per": "[char_0430]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -38652,7 +39000,7 @@
     "Col": "RA-200/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_431]",
+    "Per": "[char_0431]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -38681,7 +39029,7 @@
     "Col": "RA-201/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_432]",
+    "Per": "[char_0432]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -39029,7 +39377,7 @@
     "Col": "RA-213/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_433]",
+    "Per": "[char_0433]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -39058,7 +39406,7 @@
     "Col": "RA-214/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_434]",
+    "Per": "[char_0434]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -39087,7 +39435,7 @@
     "Col": "RA-215/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_435]",
+    "Per": "[char_0435]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -39116,7 +39464,7 @@
     "Col": "RA-216/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_436]",
+    "Per": "[char_0436]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -39145,7 +39493,7 @@
     "Col": "RA-217/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_437]",
+    "Per": "[char_0437]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -39174,7 +39522,7 @@
     "Col": "RA-218/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_438]",
+    "Per": "[char_0438]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -39203,7 +39551,7 @@
     "Col": "RA-219/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_439]",
+    "Per": "[char_0439]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -39232,7 +39580,7 @@
     "Col": "RA-220/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_440]",
+    "Per": "[char_0440]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -39261,7 +39609,7 @@
     "Col": "RA-221/230 <b>C</b>",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_441]",
+    "Per": "[char_0441]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -39580,7 +39928,7 @@
     "Col": "",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_442]",
+    "Per": "[char_0442]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -39696,7 +40044,7 @@
     "Col": "",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_443]",
+    "Per": "[char_0443]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -39725,7 +40073,7 @@
     "Col": "",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_444]",
+    "Per": "[char_0444]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -39754,7 +40102,7 @@
     "Col": "",
     "Not": "",
     "Sta": "B",
-    "Per": "[char_444]",
+    "Per": "[char_0444]",
     "Foi": "",
     "Fra": "rad"
   },
@@ -39783,7 +40131,7 @@
     "Col": "HK 06-2020",
     "Not": 2020,
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0007]",
     "Foi": "",
     "Fra": "avl"
   },
@@ -40015,7 +40363,7 @@
     "Col": "HK 01-2021 <b>P</b>",
     "Not": 2021,
     "Sta": "",
-    "Per": "[char_001]",
+    "Per": "[char_0001]",
     "Foi": "",
     "Fra": "avl"
   },
@@ -40624,7 +40972,7 @@
     "Col": "COL-013/216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_001]",
+    "Per": "[char_0001]",
     "Foi": "",
     "Fra": "col"
   },
@@ -40711,7 +41059,7 @@
     "Col": "COL-015/216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0010]",
     "Foi": "",
     "Fra": "col"
   },
@@ -40798,7 +41146,7 @@
     "Col": "COL-018/216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_458]",
+    "Per": "[char_0458]",
     "Foi": "",
     "Fra": "col"
   },
@@ -40827,7 +41175,7 @@
     "Col": "COL-019/216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_459]",
+    "Per": "[char_0459]",
     "Foi": "",
     "Fra": "col"
   },
@@ -40856,7 +41204,7 @@
     "Col": "COL-200/216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_460]",
+    "Per": "[char_0460]",
     "Foi": "",
     "Fra": "col"
   },
@@ -40885,7 +41233,7 @@
     "Col": "COL-210/216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_461]",
+    "Per": "[char_0461]",
     "Foi": "",
     "Fra": "col"
   },
@@ -40914,7 +41262,7 @@
     "Col": "COL-220/216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_462]",
+    "Per": "[char_0462]",
     "Foi": "",
     "Fra": "col"
   },
@@ -40943,7 +41291,7 @@
     "Col": "COL-230/216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_453]",
+    "Per": "[char_0453]",
     "Foi": "",
     "Fra": "radcol"
   },
@@ -41001,7 +41349,7 @@
     "Col": "COL-250/216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_463]",
+    "Per": "[char_0463]",
     "Foi": "",
     "Fra": "radcol"
   },
@@ -41088,7 +41436,7 @@
     "Col": "COL-027/216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_464]",
+    "Per": "[char_0464]",
     "Foi": "",
     "Fra": "col"
   },
@@ -41146,7 +41494,7 @@
     "Col": "COL-029/216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_465]",
+    "Per": "[char_0465]",
     "Foi": "",
     "Fra": "col"
   },
@@ -41175,7 +41523,7 @@
     "Col": "COL-030/216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_466]",
+    "Per": "[char_0466]",
     "Foi": "",
     "Fra": "col"
   },
@@ -41204,7 +41552,7 @@
     "Col": "COL-031/216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0022]",
     "Foi": "",
     "Fra": "col"
   },
@@ -41233,7 +41581,7 @@
     "Col": "COL-032/216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_467]",
+    "Per": "[char_0467]",
     "Foi": "",
     "Fra": "col"
   },
@@ -41291,7 +41639,7 @@
     "Col": "HK 21-2020",
     "Not": "",
     "Sta": "",
-    "Per": "[char_468]",
+    "Per": "[char_0468]",
     "Foi": "",
     "Fra": "col"
   },
@@ -41320,7 +41668,7 @@
     "Col": "COL-034/216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_468]",
+    "Per": "[char_0468]",
     "Foi": "",
     "Fra": "col"
   },
@@ -41349,7 +41697,7 @@
     "Col": "COL-035/216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_469]",
+    "Per": "[char_0469]",
     "Foi": "",
     "Fra": "col"
   },
@@ -41378,7 +41726,7 @@
     "Col": "COL-036/216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_470]",
+    "Per": "[char_0470]",
     "Foi": "",
     "Fra": "col"
   },
@@ -41407,7 +41755,7 @@
     "Col": "COL-037/216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_471]",
+    "Per": "[char_0471]",
     "Foi": "",
     "Fra": "col"
   },
@@ -41436,7 +41784,7 @@
     "Col": "COL-038/216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_472]",
+    "Per": "[char_0472]",
     "Foi": "",
     "Fra": "col"
   },
@@ -41465,7 +41813,7 @@
     "Col": "COL-039/216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_473]",
+    "Per": "[char_0473]",
     "Foi": "",
     "Fra": "col"
   },
@@ -41610,7 +41958,7 @@
     "Col": "COL-043/216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_474]",
+    "Per": "[char_0474]",
     "Foi": "",
     "Fra": "col"
   },
@@ -41639,7 +41987,7 @@
     "Col": "COL-044/216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_475]",
+    "Per": "[char_0475]",
     "Foi": "",
     "Fra": "col"
   },
@@ -41668,7 +42016,7 @@
     "Col": "COL-045/216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_476]",
+    "Per": "[char_0476]",
     "Foi": "",
     "Fra": "col"
   },
@@ -41697,7 +42045,7 @@
     "Col": "COL-046/216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_477]",
+    "Per": "[char_0477]",
     "Foi": "",
     "Fra": "col"
   },
@@ -41784,7 +42132,7 @@
     "Col": "COL-048 /216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_478]",
+    "Per": "[char_0478]",
     "Foi": "",
     "Fra": "col"
   },
@@ -41842,7 +42190,7 @@
     "Col": "COL-050 /216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0003]",
     "Foi": "",
     "Fra": "radcol"
   },
@@ -41987,7 +42335,7 @@
     "Col": "COL-055 /216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0032]",
     "Foi": "",
     "Fra": "col"
   },
@@ -42016,7 +42364,7 @@
     "Col": "COL-056 /216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0031]",
     "Foi": "",
     "Fra": "radcol"
   },
@@ -42074,7 +42422,7 @@
     "Col": "COL-058 /216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0007]",
     "Foi": "",
     "Fra": "col"
   },
@@ -42103,7 +42451,7 @@
     "Col": "COL-059 /216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "col"
   },
@@ -42161,7 +42509,7 @@
     "Col": "HK 23-2020",
     "Not": "",
     "Sta": "",
-    "Per": "[char_002]",
+    "Per": "[char_0002]",
     "Foi": "",
     "Fra": "col"
   },
@@ -42190,7 +42538,7 @@
     "Col": "COL-061 /216 <b>R</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_002]",
+    "Per": "[char_0002]",
     "Foi": "",
     "Fra": "col"
   },
@@ -42886,7 +43234,7 @@
     "Col": "COL-084 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_479]",
+    "Per": "[char_0479]",
     "Foi": "",
     "Fra": "col"
   },
@@ -42944,7 +43292,7 @@
     "Col": "COL-086 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_480]",
+    "Per": "[char_0480]",
     "Foi": "",
     "Fra": "col"
   },
@@ -42973,7 +43321,7 @@
     "Col": "COL-087 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_481]",
+    "Per": "[char_0481]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43002,7 +43350,7 @@
     "Col": "COL-088 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_482]",
+    "Per": "[char_0482]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43031,7 +43379,7 @@
     "Col": "COL-089 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_483]",
+    "Per": "[char_0483]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43060,7 +43408,7 @@
     "Col": "COL-090 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_484]",
+    "Per": "[char_0484]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43089,7 +43437,7 @@
     "Col": "COL-091 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_485]",
+    "Per": "[char_0485]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43118,7 +43466,7 @@
     "Col": "COL-092 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_486]",
+    "Per": "[char_0486]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43147,7 +43495,7 @@
     "Col": "COL-093 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_487]",
+    "Per": "[char_0487]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43176,7 +43524,7 @@
     "Col": "COL-094 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_488]",
+    "Per": "[char_0488]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43205,7 +43553,7 @@
     "Col": "COL-095 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_489]",
+    "Per": "[char_0489]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43234,7 +43582,7 @@
     "Col": "COL-096 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_490]",
+    "Per": "[char_0490]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43263,7 +43611,7 @@
     "Col": "COL-097 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_491]",
+    "Per": "[char_0491]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43292,7 +43640,7 @@
     "Col": "COL-098 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_492]",
+    "Per": "[char_0492]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43321,7 +43669,7 @@
     "Col": "COL-099 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_493]",
+    "Per": "[char_0493]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43350,7 +43698,7 @@
     "Col": "COL-100 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_494]",
+    "Per": "[char_0494]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43379,7 +43727,7 @@
     "Col": "COL-101 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_495]",
+    "Per": "[char_0495]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43437,7 +43785,7 @@
     "Col": "COL-103 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_496]",
+    "Per": "[char_0496]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43466,7 +43814,7 @@
     "Col": "COL-104 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_497]",
+    "Per": "[char_0497]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43495,7 +43843,7 @@
     "Col": "COL-105 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_498]",
+    "Per": "[char_0498]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43524,7 +43872,7 @@
     "Col": "HK 33-2020",
     "Not": "",
     "Sta": "",
-    "Per": "[char_498]",
+    "Per": "[char_0498]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43553,7 +43901,7 @@
     "Col": "HK 17-2020",
     "Not": "",
     "Sta": "",
-    "Per": "[char_498]",
+    "Per": "[char_0498]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43582,7 +43930,7 @@
     "Col": "COL-106 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_499]",
+    "Per": "[char_0499]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43611,7 +43959,7 @@
     "Col": "COL-107 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_500]",
+    "Per": "[char_0500]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43640,7 +43988,7 @@
     "Col": "HK 24-2020",
     "Not": "",
     "Sta": "",
-    "Per": "[char_002]",
+    "Per": "[char_0002]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43669,7 +44017,7 @@
     "Col": "COL-108 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_002]",
+    "Per": "[char_0002]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43727,7 +44075,7 @@
     "Col": "COL-110 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43814,7 +44162,7 @@
     "Col": "COL-112 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0021]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43843,7 +44191,7 @@
     "Col": "HK 26-2020",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0021]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43959,7 +44307,7 @@
     "Col": "COL-115 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0031, char_0032]",
     "Foi": "",
     "Fra": "col"
   },
@@ -43988,7 +44336,7 @@
     "Col": "COL-116 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_002]",
+    "Per": "[char_0002]",
     "Foi": "",
     "Fra": "col"
   },
@@ -44046,7 +44394,7 @@
     "Col": "COL-118 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0022]",
     "Foi": "",
     "Fra": "col"
   },
@@ -44104,7 +44452,7 @@
     "Col": "COL-120 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_002]",
+    "Per": "[char_0002, char_0032]",
     "Foi": "",
     "Fra": "col"
   },
@@ -44133,7 +44481,7 @@
     "Col": "COL-121 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "col"
   },
@@ -44336,7 +44684,7 @@
     "Col": "COL-128 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0003]",
     "Foi": "",
     "Fra": "col"
   },
@@ -44568,7 +44916,7 @@
     "Col": "COL-135 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0008]",
     "Foi": "",
     "Fra": "col"
   },
@@ -44626,7 +44974,7 @@
     "Col": "COL-137 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "col"
   },
@@ -44742,7 +45090,7 @@
     "Col": "COL-141 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0032]",
     "Foi": "",
     "Fra": "col"
   },
@@ -44800,7 +45148,7 @@
     "Col": "COL-143 /216 <b>I</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0004]",
     "Foi": "",
     "Fra": "col"
   },
@@ -44829,7 +45177,7 @@
     "Col": "COL-144 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_002]",
+    "Per": "[char_0002]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45003,7 +45351,7 @@
     "Col": "COL-148 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_501]",
+    "Per": "[char_0501]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45032,7 +45380,7 @@
     "Col": "COL-149 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_502]",
+    "Per": "[char_0502]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45061,7 +45409,7 @@
     "Col": "COL-150 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_503]",
+    "Per": "[char_0503]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45090,7 +45438,7 @@
     "Col": "COL-151 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_504]",
+    "Per": "[char_0504]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45119,7 +45467,7 @@
     "Col": "COL-152 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_505]",
+    "Per": "[char_0505]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45148,7 +45496,7 @@
     "Col": "COL-153 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_506]",
+    "Per": "[char_0506]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45177,7 +45525,7 @@
     "Col": "COL-154 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_507]",
+    "Per": "[char_0507]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45206,7 +45554,7 @@
     "Col": "COL-155 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_508]",
+    "Per": "[char_0508]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45235,7 +45583,7 @@
     "Col": "COL-156 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_509]",
+    "Per": "[char_0509]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45264,7 +45612,7 @@
     "Col": "COL-157 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_510]",
+    "Per": "[char_0510]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45293,7 +45641,7 @@
     "Col": "COL-158 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_511]",
+    "Per": "[char_0511]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45322,7 +45670,7 @@
     "Col": "COL-159 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_512]",
+    "Per": "[char_0512]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45351,7 +45699,7 @@
     "Col": "COL-160 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_513]",
+    "Per": "[char_0513]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45380,7 +45728,7 @@
     "Col": "COL-161 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_514]",
+    "Per": "[char_0514]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45409,7 +45757,7 @@
     "Col": "COL-162 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_515]",
+    "Per": "[char_0515]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45438,7 +45786,7 @@
     "Col": "COL-163 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_516]",
+    "Per": "[char_0516]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45467,7 +45815,7 @@
     "Col": "COL-164 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_517]",
+    "Per": "[char_0517]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45496,7 +45844,7 @@
     "Col": "COL-165 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_518]",
+    "Per": "[char_0518]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45525,7 +45873,7 @@
     "Col": "COL-166 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_519]",
+    "Per": "[char_0519]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45554,7 +45902,7 @@
     "Col": "COL-167 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_520]",
+    "Per": "[char_0520]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45583,7 +45931,7 @@
     "Col": "COL-168 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_521]",
+    "Per": "[char_0521]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45612,7 +45960,7 @@
     "Col": "COL-169 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_522]",
+    "Per": "[char_0522]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45641,7 +45989,7 @@
     "Col": "COL-170 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_523]",
+    "Per": "[char_0523]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45670,7 +46018,7 @@
     "Col": "COL-171 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_524]",
+    "Per": "[char_0524]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45699,7 +46047,7 @@
     "Col": "COL-172 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_525]",
+    "Per": "[char_0525]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45757,7 +46105,7 @@
     "Col": "COL-174 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_526]",
+    "Per": "[char_0526]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45815,7 +46163,7 @@
     "Col": "COL-176 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_527]",
+    "Per": "[char_0527]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45844,7 +46192,7 @@
     "Col": "COL-177 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_528]",
+    "Per": "[char_0528]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45873,7 +46221,7 @@
     "Col": "COL-178 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_529]",
+    "Per": "[char_0529]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45902,7 +46250,7 @@
     "Col": "COL-179 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_530]",
+    "Per": "[char_0530]",
     "Foi": "",
     "Fra": "col"
   },
@@ -45960,7 +46308,7 @@
     "Col": "COL-181 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0010]",
     "Foi": "",
     "Fra": "col"
   },
@@ -46018,7 +46366,7 @@
     "Col": "COL-183 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_002]",
+    "Per": "[char_0002]",
     "Foi": "",
     "Fra": "col"
   },
@@ -46047,7 +46395,7 @@
     "Col": "COL-184 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "col"
   },
@@ -46105,7 +46453,7 @@
     "Col": "COL-186 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0016]",
     "Foi": "",
     "Fra": "col"
   },
@@ -46192,7 +46540,7 @@
     "Col": "COL-189 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0021]",
     "Foi": "",
     "Fra": "col"
   },
@@ -46221,7 +46569,7 @@
     "Col": "COL-190 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0022]",
     "Foi": "",
     "Fra": "col"
   },
@@ -46250,7 +46598,7 @@
     "Col": "COL-191 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0028]",
     "Foi": "",
     "Fra": "col"
   },
@@ -46279,7 +46627,7 @@
     "Col": "COL-192 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0032]",
     "Foi": "",
     "Fra": "col"
   },
@@ -46337,7 +46685,7 @@
     "Col": "COL-194 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0032]",
     "Foi": "",
     "Fra": "col"
   },
@@ -46395,7 +46743,7 @@
     "Col": "COL-196 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_001]",
+    "Per": "[char_0001]",
     "Foi": "",
     "Fra": "col"
   },
@@ -46888,7 +47236,7 @@
     "Col": "COL-213 /216 <b>C</b>",
     "Not": "",
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0032]",
     "Foi": "",
     "Fra": "col"
   },
@@ -47033,7 +47381,7 @@
     "Col": "HK 06-2021 <b>P</b>",
     "Not": 2021,
     "Sta": "",
-    "Per": "[char_531]",
+    "Per": "[char_0531]",
     "Foi": "",
     "Fra": "avl"
   },
@@ -47062,7 +47410,7 @@
     "Col": "HK 07-2021 <b>P</b>",
     "Not": 2021,
     "Sta": "",
-    "Per": "[char_532]",
+    "Per": "[char_0532]",
     "Foi": "",
     "Fra": "avl"
   },
@@ -47149,7 +47497,7 @@
     "Col": "HK 10-2021 <b>P</b>",
     "Not": 2021,
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "avl"
   },
@@ -47178,7 +47526,7 @@
     "Col": "HK 11-2021 <b>P</b>",
     "Not": 2021,
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0011]",
     "Foi": "",
     "Fra": "avl"
   },
@@ -47294,7 +47642,7 @@
     "Col": "HK 15-2021 <b>P</b>",
     "Not": 2021,
     "Sta": "",
-    "Per": "[char_533]",
+    "Per": "[char_0533]",
     "Foi": "",
     "Fra": "avl"
   },
@@ -47323,7 +47671,7 @@
     "Col": "HK 38-2023",
     "Not": 2023,
     "Sta": "",
-    "Per": "[char_533]",
+    "Per": "[char_0533]",
     "Foi": "",
     "Fra": "avl"
   },
@@ -47352,7 +47700,7 @@
     "Col": "HK 19-2023",
     "Not": 2023,
     "Sta": "",
-    "Per": "[char_533]",
+    "Per": "[char_0533]",
     "Foi": "",
     "Fra": "avl"
   },
@@ -47381,7 +47729,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_534]",
+    "Per": "[char_0534]",
     "Foi": "",
     "Fra": "avl"
   },
@@ -47410,7 +47758,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_535]",
+    "Per": "[char_0535]",
     "Foi": "",
     "Fra": "avl"
   },
@@ -47439,7 +47787,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_452]",
+    "Per": "[char_0452]",
     "Foi": "",
     "Fra": "avl"
   },
@@ -47468,7 +47816,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_451]",
+    "Per": "[char_0451]",
     "Foi": "",
     "Fra": "avl"
   },
@@ -47497,7 +47845,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_447]",
+    "Per": "[char_0447]",
     "Foi": "",
     "Fra": "avl"
   },
@@ -47526,7 +47874,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_448]",
+    "Per": "[char_0448]",
     "Foi": "",
     "Fra": "avl"
   },
@@ -47555,7 +47903,7 @@
     "Col": "HK 23-2021 <b>P</b>",
     "Not": "",
     "Sta": "",
-    "Per": "[char_449]",
+    "Per": "[char_0449]",
     "Foi": "",
     "Fra": "avl"
   },
@@ -47584,7 +47932,7 @@
     "Col": "HK 13-2023",
     "Not": "06 Nov 23\nObtiene subtipo héroe",
     "Sta": "",
-    "Per": "[char_449]",
+    "Per": "[char_0449]",
     "Foi": "",
     "Fra": "avl"
   },
@@ -47613,7 +47961,7 @@
     "Col": "HK 25-2023",
     "Not": "Reprint con otro número de colección",
     "Sta": "",
-    "Per": "[char_449]",
+    "Per": "[char_0449]",
     "Foi": "",
     "Fra": "avl"
   },
@@ -47642,7 +47990,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_450]",
+    "Per": "[char_0450]",
     "Foi": "",
     "Fra": "avl"
   },
@@ -47671,7 +48019,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_445]",
+    "Per": "[char_0445]",
     "Foi": "",
     "Fra": "avl"
   },
@@ -47700,7 +48048,7 @@
     "Col": "",
     "Not": "",
     "Sta": "",
-    "Per": "[char_446]",
+    "Per": "[char_0446]",
     "Foi": "",
     "Fra": "avl"
   },
@@ -48164,7 +48512,7 @@
     "Col": "AVL-02/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "",
+    "Per": "[char_00046]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -48193,7 +48541,7 @@
     "Col": "AVL-03/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0009]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -48222,7 +48570,7 @@
     "Col": "AVL-04/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "",
+    "Per": "[char_00314]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -48251,7 +48599,7 @@
     "Col": "AVL-05/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "[char_536]",
+    "Per": "[char_00536]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -48280,7 +48628,7 @@
     "Col": "AVL-06/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "",
+    "Per": "[char_00285]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -48309,7 +48657,7 @@
     "Col": "AVL-07/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "",
+    "Per": "[char_00286]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -48338,7 +48686,7 @@
     "Col": "AVL-08/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0004]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -48367,7 +48715,7 @@
     "Col": "AVL-09/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "",
+    "Per": "[char_00046]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -48396,7 +48744,7 @@
     "Col": "AVL-10/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0004]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -48425,7 +48773,7 @@
     "Col": "AVL-11/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "",
+    "Per": "[char_00046, char_00314]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -48454,7 +48802,7 @@
     "Col": "AVL-12/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "",
+    "Per": "[char_00536]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -48541,7 +48889,7 @@
     "Col": "AVL-15/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0009]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -48570,7 +48918,7 @@
     "Col": "AVL-16/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0015]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -48599,7 +48947,7 @@
     "Col": "AVL-17/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0015]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -48657,7 +49005,7 @@
     "Col": "AVL-19/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "",
+    "Per": "[char_00537]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -48686,7 +49034,7 @@
     "Col": "AVL-20/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "[char_537]",
+    "Per": "[char_00538]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -48715,7 +49063,7 @@
     "Col": "AVL-21/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "[char_538]",
+    "Per": "[char_00539]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -48744,7 +49092,7 @@
     "Col": "AVL-22/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "[char_539]",
+    "Per": "[char_00540]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -48773,7 +49121,7 @@
     "Col": "AVL-23/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "[char_540]",
+    "Per": "[char_0015]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -48831,7 +49179,7 @@
     "Col": "AVL-25/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "",
+    "Per": "[char_0015]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -49034,7 +49382,7 @@
     "Col": "AVL-31/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "[char_541]",
+    "Per": "[char_0541]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -49063,7 +49411,7 @@
     "Col": "AVL-32/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "[char_542]",
+    "Per": "[char_0542]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -49092,7 +49440,7 @@
     "Col": "AVL-33/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "[char_541]",
+    "Per": "[char_0541]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -49121,7 +49469,7 @@
     "Col": "AVL-34/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "[char_543]",
+    "Per": "[char_0543]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -49150,7 +49498,7 @@
     "Col": "AVL-35/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "[char_544]",
+    "Per": "[char_0544]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -49179,7 +49527,7 @@
     "Col": "AVL-36/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "[char_545]",
+    "Per": "[char_0545]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -49208,7 +49556,7 @@
     "Col": "AVL-37/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "[char_546]",
+    "Per": "[char_0546]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -49237,7 +49585,7 @@
     "Col": "AVL-38/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "[char_546]",
+    "Per": "[char_0546]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -49614,7 +49962,7 @@
     "Col": "AVL-51/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "[char_547]",
+    "Per": "[char_0547]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -49643,7 +49991,7 @@
     "Col": "AVL-52/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "[char_548]",
+    "Per": "[char_0548]",
     "Foi": "TRUE",
     "Fra": "avl"
   },
@@ -49701,7 +50049,7 @@
     "Col": "AVL-54/60",
     "Not": 2021,
     "Sta": "",
-    "Per": "[char_547]",
+    "Per": "[char_0547]",
     "Foi": "TRUE",
     "Fra": "avl"
   },

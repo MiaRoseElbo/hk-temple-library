@@ -1761,7 +1761,7 @@
   },
   {
     "id": "0089",
-    "name": "Zeverino",
+    "name": "Zervino",
     "full name": "",
     "alias": "",
     "faction": "Quimera",
@@ -6861,7 +6861,7 @@
   },
   {
     "id": "0345",
-    "name": "Lázaro Deya Bautista",
+    "name": "Khuneo",
     "full name": "",
     "alias": "",
     "faction": "Quimera",
@@ -7541,7 +7541,7 @@
   },
   {
     "id": "0379",
-    "name": "Hurok",
+    "name": "Kurok",
     "full name": "",
     "alias": "",
     "faction": "Abismales",
@@ -7900,11 +7900,11 @@
     "trivia": ""
   },
   {
-    "id": "0397",
-    "name": "Agustina",
+    "id": "",
+    "name": "",
     "full name": "",
     "alias": "",
-    "faction": "Acracia",
+    "faction": "",
     "group": "",
     "family": "",
     "allies": "",
@@ -11641,7 +11641,7 @@
   },
   {
     "id": "0585",
-    "name": "",
+    "name": "Cronopio",
     "full name": "",
     "alias": "",
     "faction": "",
@@ -11661,7 +11661,7 @@
   },
   {
     "id": "0586",
-    "name": "",
+    "name": "El Primero",
     "full name": "",
     "alias": "",
     "faction": "",
@@ -11681,7 +11681,7 @@
   },
   {
     "id": "0587",
-    "name": "",
+    "name": "Muerte",
     "full name": "",
     "alias": "",
     "faction": "",
@@ -11701,7 +11701,7 @@
   },
   {
     "id": "0588",
-    "name": "",
+    "name": "Justicia",
     "full name": "",
     "alias": "",
     "faction": "",
@@ -11721,7 +11721,7 @@
   },
   {
     "id": "0589",
-    "name": "",
+    "name": "Destino",
     "full name": "",
     "alias": "",
     "faction": "",
@@ -11741,7 +11741,7 @@
   },
   {
     "id": "0590",
-    "name": "",
+    "name": "Venganza",
     "full name": "",
     "alias": "",
     "faction": "",
@@ -11761,7 +11761,7 @@
   },
   {
     "id": "0591",
-    "name": "",
+    "name": "Lep",
     "full name": "",
     "alias": "",
     "faction": "",
@@ -11781,7 +11781,7 @@
   },
   {
     "id": "0592",
-    "name": "",
+    "name": "Pogo Bogo",
     "full name": "",
     "alias": "",
     "faction": "",
